@@ -15,14 +15,23 @@ kc = json.load(open(kpath, encoding="utf-8")) if os.path.exists(kpath) else {}
 print(f"官方板块日K缓存: {len(kc)}/{len(boards)}")
 
 # ── 行业聚合 ──
-by_board = defaultdict(list)
+# 重要：东财 RPT_VALUEANALYSIS_DET 的 ORIGINALCODE 字段并非每日都有（部分交易日为 None），
+# 不能依赖它把个股归到行业，否则行业榜会整块为空。改用快照里的 BOARD_NAME（行业名）与行业
+# 清单匹配——该字段稳定，且与 RPT_VALUEINDUSTRY_DET 的 BOARD_NAME 完全一致（已验证 1500/1500 命中）。
+def _norm(n):
+    return (n or "").strip().replace("Ⅱ", "").replace(" ", "")
+
+by_name, by_name_n = defaultdict(list), defaultdict(list)
 for s in snap.values():
-    if s["board_code"]:
-        by_board[s["board_code"]].append(s)
+    bn = (s.get("board_name") or "").strip()
+    if bn:
+        by_name[bn].append(s)
+        by_name_n[_norm(bn)].append(s)
 
 inds = []
 for b in boards:
-    ms = by_board.get(b["board_code"], [])
+    nb = b["name"].strip()
+    ms = by_name.get(nb) or by_name_n.get(_norm(nb)) or []
     if not ms:
         continue
     hit = kc.get(b["bk"])
