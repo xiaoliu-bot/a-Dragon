@@ -30,9 +30,18 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: 计算报告日期（Asia/Shanghai）
+      - name: 计算报告日期（北京时间 UTC+8，不依赖系统时区库）
         id: date
-        run: echo "DATE=$(TZ=Asia/Shanghai date +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import sys
+          from datetime import datetime, timezone, timedelta
+          utc = datetime.now(timezone.utc)
+          bj = utc.astimezone(timezone(timedelta(hours=8)))
+          print(f"UTC 现在 : {utc:%Y-%m-%d %H:%M:%S}", file=sys.stderr)
+          print(f"北京现在: {bj:%Y-%m-%d %H:%M:%S}", file=sys.stderr)
+          print(f"DATE={bj:%Y-%m-%d}")
+          PY
 
       - name: ① 抓取数据（东财 datacenter + 同花顺）
         run: python fetch_data.py ${{ steps.date.outputs.DATE }}
