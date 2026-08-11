@@ -1,0 +1,60 @@
+name: A股情绪日报 · 每日更新
+
+on:
+  schedule:
+    # 北京时间 16:30（周一至周五，A股收盘后数据已落地）。GitHub cron 为 UTC，16:30 北京 = 08:30 UTC。
+    # 如需更早/更晚，调整此处即可（如 17:00 北京 = '0 9 * * 1-5'）。
+    - cron: '30 8 * * 1-5'
+  workflow_dispatch: {}   # 允许在 Actions 页面手动触发（首次配置/调试用）
+
+permissions:
+  contents: write        # 用内置 GITHUB_TOKEN 提交报告，无需把 PAT 放进 Secrets
+
+concurrency:
+  group: daily-sentiment
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: 计算报告日期（Asia/Shanghai）
+        id: date
+        run: echo "DATE=$(TZ=Asia/Shanghai date +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+
+      - name: ① 抓取数据（东财 datacenter + 同花顺）
+        run: python fetch_data.py ${{ steps.date.outputs.DATE }}
+
+      - name: ② 抓取行业官方日K（可选增强，push2 不可达时自动跳过）
+        continue-on-error: true
+        run: python fetch_klines.py ${{ steps.date.outputs.DATE }}
+
+      - name: ③ 聚合 → data.json
+        run: python finalize.py ${{ steps.date.outputs.DATE }}
+
+      - name: ④ 生成报告并提交（非交易日自动跳过）
+        run: |
+          # 非交易日 / 数据缺失：全市场样本过少则跳过提交，避免产生空报告
+          python -c "import json,sys; m=json.load(open('data.json'))['market']; sys.exit(0 if m['total']>=50 else 1)" \
+            || { echo '非交易日或数据缺失，跳过本次提交'; exit 0; }
+
+          python build_report.py data.json
+          cp "output/A股市场情绪日报_${{ steps.date.outputs.DATE }}.html" index.html
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f output/ index.html data.json
+          git commit -m "chore: 每日更新 ${{ steps.date.outputs.DATE }}" || echo "无变更"
+          git push origin HEAD:"$GITHUB_REF_NAME"

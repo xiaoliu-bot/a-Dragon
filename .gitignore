@@ -1,0 +1,23 @@
+# 抓取缓存（每次运行重新生成，不入库）
+.cache/
+
+# Python
+__pycache__/
+*.pyc
+
+# 日志
+*.log
+SKIP
+
+# 本地调试/兜底脚本（非 CI 必需）
+wait_push2.py
+probe.py
+probe2.py
+
+# 生成的产物（由 CI / 本地运行生成，不入库；CI 用 `git add -f` 强制纳入）
+data.json
+output/
+index.html
+
+# 本地工作区记忆（非项目交付物）
+.workbuddy/
