@@ -1,0 +1,5964 @@
+{
+ "date": "2026-08-11",
+ "generated_at": "2026-08-11 11:28",
+ "ind_src": "computed",
+ "ind_official_cnt": 0,
+ "market": {
+  "total": 5542,
+  "up": 1615,
+  "down": 3777,
+  "flat": 150,
+  "limit_up": 76,
+  "limit_down": 6
+ },
+ "lhb_records": [
+  {
+   "code": "301717",
+   "name": "超纯应材",
+   "close": 503,
+   "change_pct": 662.24,
+   "net_buy": 1079526943.26,
+   "buy_amt": 1242581445.13,
+   "sell_amt": 163054501.87,
+   "deal_amt": 1405635947.0,
+   "amount": 7040170350.0,
+   "turnover_pct": 85.73,
+   "deal_ratio": 19.97,
+   "reason": "无价格涨跌幅限制的证券",
+   "explain": "3家机构买入，成功率44.94%",
+   "free_cap": 8765462098.0,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "600664",
+   "name": "哈药股份",
+   "close": 8.27,
+   "change_pct": 9.97,
+   "net_buy": 318378167.34,
+   "buy_amt": 995423700.99,
+   "sell_amt": 677045533.65,
+   "deal_amt": 1672469234.64,
+   "amount": 6484941284.0,
+   "turnover_pct": 26.95,
+   "deal_ratio": 25.79,
+   "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+   "explain": "买一主买，成功率46.18%",
+   "free_cap": 20828076674.52,
+   "market": "SH",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "600664",
+   "name": "哈药股份",
+   "close": 8.27,
+   "change_pct": 9.97,
+   "net_buy": 304122952.46,
+   "buy_amt": 966978543.99,
+   "sell_amt": 662855591.53,
+   "deal_amt": 1629834135.52,
+   "amount": 5494869237.0,
+   "turnover_pct": 26.95,
+   "deal_ratio": 29.66,
+   "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券",
+   "explain": "普通席位买入，成功率46.18%",
+   "free_cap": 20828076674.52,
+   "market": "SH",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "600667",
+   "name": "太极实业",
+   "close": 21.2,
+   "change_pct": 10.02,
+   "net_buy": 283556485.07,
+   "buy_amt": 910385168.75,
+   "sell_amt": 626828683.68,
+   "deal_amt": 1537213852.43,
+   "amount": 6466750500.0,
+   "turnover_pct": 15.29,
+   "deal_ratio": 23.77,
+   "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
+   "explain": "普通席位买入，成功率48.55%",
+   "free_cap": 44340694173.6,
+   "market": "SH",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "001258",
+   "name": "立新能源",
+   "close": 15.93,
+   "change_pct": 10.01,
+   "net_buy": 212210442.77,
+   "buy_amt": 700573638.83,
+   "sell_amt": 488363196.06,
+   "deal_amt": 1188936834.89,
+   "amount": 6148815165.0,
+   "turnover_pct": 26.11,
+   "deal_ratio": 19.34,
+   "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+   "explain": "1家机构买入，成功率40.01%",
+   "free_cap": 14867813231.37,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "301520",
+   "name": "万邦医药",
+   "close": 70.39,
+   "change_pct": 20.0,
+   "net_buy": 186850048.47,
+   "buy_amt": 300280304.27,
+   "sell_amt": 113430255.8,
+   "deal_amt": 413710560.07,
+   "amount": 1404170947.0,
+   "turnover_pct": 64.83,
+   "deal_ratio": 29.46,
+   "reason": "日涨幅达到15%的前5只证券",
+   "explain": "1家机构买入，成功率45.90%",
+   "free_cap": 2301643402.77,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "301520",
+   "name": "万邦医药",
+   "close": 70.39,
+   "change_pct": 20.0,
+   "net_buy": 186850048.47,
+   "buy_amt": 300280304.27,
+   "sell_amt": 113430255.8,
+   "deal_amt": 413710560.07,
+   "amount": 1404170947.0,
+   "turnover_pct": 64.83,
+   "deal_ratio": 29.46,
+   "reason": "日换手率达到30%的前5只证券",
+   "explain": "1家机构买入，成功率45.90%",
+   "free_cap": 2301643402.77,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "301047",
+   "name": "义翘神州",
+   "close": 118.98,
+   "change_pct": 4.73,
+   "net_buy": 176092998.14,
+   "buy_amt": 909556108.17,
+   "sell_amt": 733463110.03,
+   "deal_amt": 1643019218.2,
+   "amount": 5461361084.0,
+   "turnover_pct": 12.34,
+   "deal_ratio": 30.08,
+   "reason": "连续三个交易日内，涨幅偏离值累计达到30%的证券",
+   "explain": "3家机构买入，成功率39.32%",
+   "free_cap": 14227702286.58,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "002248",
+   "name": "华东数控",
+   "close": 11.06,
+   "change_pct": 10.05,
+   "net_buy": 153609641.2,
+   "buy_amt": 211576508.2,
+   "sell_amt": 57966867.0,
+   "deal_amt": 269543375.2,
+   "amount": 581446601.0,
+   "turnover_pct": 7.08,
+   "deal_ratio": 46.36,
+   "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+   "explain": "普通席位买入，成功率43.28%",
+   "free_cap": 3400901336.0,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "301520",
+   "name": "万邦医药",
+   "close": 70.39,
+   "change_pct": 20.0,
+   "net_buy": 131398154.4,
+   "buy_amt": 365427827.18,
+   "sell_amt": 234029672.78,
+   "deal_amt": 599457499.96,
+   "amount": 3217928332.0,
+   "turnover_pct": 64.83,
+   "deal_ratio": 18.63,
+   "reason": "连续三个交易日内，涨幅偏离值累计达到30%的证券",
+   "explain": "2家机构买入，成功率43.12%",
+   "free_cap": 2301643402.77,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "301566",
+   "name": "达利凯普",
+   "close": 28.19,
+   "change_pct": 13.21,
+   "net_buy": 129362473.79,
+   "buy_amt": 279431793.42,
+   "sell_amt": 150069319.63,
+   "deal_amt": 429501113.05,
+   "amount": 1857185545.0,
+   "turnover_pct": 31.54,
+   "deal_ratio": 23.13,
+   "reason": "日换手率达到30%的前5只证券",
+   "explain": "1家机构买入，成功率33.41%",
+   "free_cap": 5950536159.06,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "603538",
+   "name": "美诺华",
+   "close": 30.3,
+   "change_pct": 3.77,
+   "net_buy": 115632919.77,
+   "buy_amt": 372250188.0,
+   "sell_amt": 256617268.23,
+   "deal_amt": 628867456.23,
+   "amount": 2648016927.0,
+   "turnover_pct": 25.98,
+   "deal_ratio": 23.75,
+   "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券",
+   "explain": "1家机构买入，成功率41.14%",
+   "free_cap": 10208674515.3,
+   "market": "SH",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "002229",
+   "name": "鸿博股份",
+   "close": 11.74,
+   "change_pct": 10.03,
+   "net_buy": 99509339.59,
+   "buy_amt": 181467846.23,
+   "sell_amt": 81958506.64,
+   "deal_amt": 263426352.87,
+   "amount": 840333599.0,
+   "turnover_pct": 14.84,
+   "deal_ratio": 31.35,
+   "reason": "日涨幅偏离值达到7%的前5只证券",
+   "explain": "1家机构买入，成功率34.03%",
+   "free_cap": 5789653353.62,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "600611",
+   "name": "大众交通",
+   "close": 5.02,
+   "change_pct": 10.09,
+   "net_buy": 80081050.73,
+   "buy_amt": 152586690.61,
+   "sell_amt": 72505639.88,
+   "deal_amt": 225092330.49,
+   "amount": 982363335.0,
+   "turnover_pct": 12.76,
+   "deal_ratio": 22.91,
+   "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
+   "explain": "普通席位买入，成功率44.67%",
+   "free_cap": 7998399769.28,
+   "market": "SH",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "300426",
+   "name": "华智数媒",
+   "close": 7.8,
+   "change_pct": 20.0,
+   "net_buy": 76327543.5,
+   "buy_amt": 118934108.3,
+   "sell_amt": 42606564.8,
+   "deal_amt": 161540673.1,
+   "amount": 421059209.0,
+   "turnover_pct": 14.26,
+   "deal_ratio": 38.37,
+   "reason": "日涨幅达到15%的前5只证券",
+   "explain": "1家机构买入，成功率45.61%",
+   "free_cap": 3120000000.0,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "000859",
+   "name": "国风新材",
+   "close": 10.48,
+   "change_pct": 9.97,
+   "net_buy": 70761700.02,
+   "buy_amt": 236550667.44,
+   "sell_amt": 165788967.42,
+   "deal_amt": 402339634.86,
+   "amount": 1937703473.0,
+   "turnover_pct": 13.99,
+   "deal_ratio": 20.76,
+   "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+   "explain": "主力做T，成功率45.54%",
+   "free_cap": 9389296840.08,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "301550",
+   "name": "斯菱智驱",
+   "close": 87.42,
+   "change_pct": 20.0,
+   "net_buy": 58792735.34,
+   "buy_amt": 272465097.23,
+   "sell_amt": 213672361.89,
+   "deal_amt": 486137459.12,
+   "amount": 1173063680.0,
+   "turnover_pct": 7.09,
+   "deal_ratio": 41.44,
+   "reason": "日涨幅达到15%的前5只证券",
+   "explain": "2家机构买入，成功率36.74%",
+   "free_cap": 17942878157.82,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "300164",
+   "name": "通源石油",
+   "close": 11.66,
+   "change_pct": 8.97,
+   "net_buy": 52766654.48,
+   "buy_amt": 323128291.46,
+   "sell_amt": 270361636.98,
+   "deal_amt": 593489928.44,
+   "amount": 2545183736.0,
+   "turnover_pct": 38.36,
+   "deal_ratio": 23.32,
+   "reason": "日换手率达到30%的前5只证券",
+   "explain": "3家机构买入，成功率28.82%",
+   "free_cap": 6800237671.48,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "600162",
+   "name": "香江控股",
+   "close": 4.29,
+   "change_pct": 10.0,
+   "net_buy": 51534656.07,
+   "buy_amt": 292203285.05,
+   "sell_amt": 240668628.98,
+   "deal_amt": 532871914.03,
+   "amount": 1939249558.0,
+   "turnover_pct": 2.94,
+   "deal_ratio": 27.48,
+   "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+   "explain": "上海资金买入，成功率44.40%",
+   "free_cap": 14021599543.38,
+   "market": "SH",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "301230",
+   "name": "泓博医药",
+   "close": 37.97,
+   "change_pct": 8.18,
+   "net_buy": 48855995.24,
+   "buy_amt": 553866969.52,
+   "sell_amt": 505010974.28,
+   "deal_amt": 1058877943.8,
+   "amount": 3611522994.0,
+   "turnover_pct": 24.94,
+   "deal_ratio": 29.32,
+   "reason": "连续三个交易日内，涨幅偏离值累计达到30%的证券",
+   "explain": "4家机构买入，成功率40.30%",
+   "free_cap": 6179538484.43,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "002437",
+   "name": "誉衡药业",
+   "close": 3.51,
+   "change_pct": 2.33,
+   "net_buy": 44674366.17,
+   "buy_amt": 495803711.22,
+   "sell_amt": 451129345.05,
+   "deal_amt": 946933056.27,
+   "amount": 4394298154.0,
+   "turnover_pct": 28.09,
+   "deal_ratio": 21.55,
+   "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+   "explain": "1家机构买入，成功率38.75%",
+   "free_cap": 7371540017.01,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "300426",
+   "name": "华智数媒",
+   "close": 7.8,
+   "change_pct": 20.0,
+   "net_buy": 33719025.5,
+   "buy_amt": 137987848.3,
+   "sell_amt": 104268822.8,
+   "deal_amt": 242256671.1,
+   "amount": 805987564.0,
+   "turnover_pct": 14.26,
+   "deal_ratio": 30.06,
+   "reason": "连续三个交易日内，涨幅偏离值累计达到30%的证券",
+   "explain": "3家机构买入，成功率36.29%",
+   "free_cap": 3120000000.0,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "603797",
+   "name": "联泰环保",
+   "close": 5.05,
+   "change_pct": 10.02,
+   "net_buy": 28453686.58,
+   "buy_amt": 62060442.38,
+   "sell_amt": 33606755.8,
+   "deal_amt": 95667198.18,
+   "amount": 278768725.0,
+   "turnover_pct": 5.49,
+   "deal_ratio": 34.32,
+   "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+   "explain": "普通席位买入，成功率46.16%",
+   "free_cap": 2911856209.5,
+   "market": "SH",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "603284",
+   "name": "林平发展",
+   "close": 44.44,
+   "change_pct": 10.0,
+   "net_buy": 26839833.65,
+   "buy_amt": 47523618.73,
+   "sell_amt": 20683785.08,
+   "deal_amt": 68207403.81,
+   "amount": 204675005.0,
+   "turnover_pct": 25.16,
+   "deal_ratio": 33.32,
+   "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券",
+   "explain": "普通席位买入，成功率43.31%",
+   "free_cap": 837858428.0,
+   "market": "SH",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "002859",
+   "name": "洁美科技",
+   "close": 81.32,
+   "change_pct": 10.0,
+   "net_buy": 26828236.64,
+   "buy_amt": 285619766.0,
+   "sell_amt": 258791529.36,
+   "deal_amt": 544411295.36,
+   "amount": 1521094494.0,
+   "turnover_pct": 4.52,
+   "deal_ratio": 35.79,
+   "reason": "日涨幅偏离值达到7%的前5只证券",
+   "explain": "买一主买，成功率41.31%",
+   "free_cap": 34830592064.0,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "920117",
+   "name": "龙鑫智能",
+   "close": 33.33,
+   "change_pct": -3.36,
+   "net_buy": 22093677.04,
+   "buy_amt": 55406086.45,
+   "sell_amt": 33312409.41,
+   "deal_amt": 88718495.86,
+   "amount": 376359700.0,
+   "turnover_pct": 53.52,
+   "deal_ratio": 23.57,
+   "reason": "当日换手率达到20%的前5只股票",
+   "explain": "西藏自治区资金卖出，成功率37.69%",
+   "free_cap": 673732719.99,
+   "market": "BJ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "603137",
+   "name": "恒尚节能",
+   "close": 30.34,
+   "change_pct": 10.01,
+   "net_buy": 21123808.79,
+   "buy_amt": 255917768.82,
+   "sell_amt": 234793960.03,
+   "deal_amt": 490711728.85,
+   "amount": 2645858520.0,
+   "turnover_pct": 18.64,
+   "deal_ratio": 18.55,
+   "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+   "explain": "买一主买，成功率44.93%",
+   "free_cap": 5550197353.56,
+   "market": "SH",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "001258",
+   "name": "立新能源",
+   "close": 15.93,
+   "change_pct": 10.01,
+   "net_buy": 20712602.26,
+   "buy_amt": 443300628.83,
+   "sell_amt": 422588026.57,
+   "deal_amt": 865888655.4,
+   "amount": 3628988251.0,
+   "turnover_pct": 26.11,
+   "deal_ratio": 23.86,
+   "reason": "日涨幅偏离值达到7%的前5只证券",
+   "explain": "2家机构买入，成功率36.44%",
+   "free_cap": 14867813231.37,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "001258",
+   "name": "立新能源",
+   "close": 15.93,
+   "change_pct": 10.01,
+   "net_buy": 20712602.26,
+   "buy_amt": 443300628.83,
+   "sell_amt": 422588026.57,
+   "deal_amt": 865888655.4,
+   "amount": 3628988251.0,
+   "turnover_pct": 26.11,
+   "deal_ratio": 23.86,
+   "reason": "日振幅值达到15%的前5只证券",
+   "explain": "2家机构买入，成功率36.44%",
+   "free_cap": 14867813231.37,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "300862",
+   "name": "蓝盾光电",
+   "close": 27.37,
+   "change_pct": 19.99,
+   "net_buy": 20611140.18,
+   "buy_amt": 31172506.18,
+   "sell_amt": 10561366.0,
+   "deal_amt": 41733872.18,
+   "amount": 37169973.0,
+   "turnover_pct": 0.41,
+   "deal_ratio": 112.28,
+   "reason": "连续三个交易日内，涨幅偏离值累计达到30%的证券",
+   "explain": "普通席位买入，成功率43.33%",
+   "free_cap": 4145761461.59,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "002631",
+   "name": "德尔未来",
+   "close": 8.38,
+   "change_pct": -8.52,
+   "net_buy": 19189606.6,
+   "buy_amt": 70918578.57,
+   "sell_amt": 51728971.97,
+   "deal_amt": 122647550.54,
+   "amount": 395081264.0,
+   "turnover_pct": 5.77,
+   "deal_ratio": 31.04,
+   "reason": "日跌幅偏离值达到7%的前5只证券",
+   "explain": "1家机构卖出，成功率45.61%",
+   "free_cap": 6650136309.76,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "605288",
+   "name": "凯迪股份",
+   "close": 63.39,
+   "change_pct": 9.99,
+   "net_buy": 19184794.0,
+   "buy_amt": 49758498.0,
+   "sell_amt": 30573704.0,
+   "deal_amt": 80332202.0,
+   "amount": 218278837.0,
+   "turnover_pct": 3.76,
+   "deal_ratio": 36.8,
+   "reason": "有价格涨跌幅限制的日价格振幅达到15%的前五只证券",
+   "explain": "买一主买，成功率47.44%",
+   "free_cap": 6229872657.03,
+   "market": "SH",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "603797",
+   "name": "联泰环保",
+   "close": 5.05,
+   "change_pct": 10.02,
+   "net_buy": 17361673.9,
+   "buy_amt": 38873763.9,
+   "sell_amt": 21512090.0,
+   "deal_amt": 60385853.9,
+   "amount": 157247620.0,
+   "turnover_pct": 5.49,
+   "deal_ratio": 38.4,
+   "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
+   "explain": "普通席位买入，成功率49.17%",
+   "free_cap": 2911856209.5,
+   "market": "SH",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "300862",
+   "name": "蓝盾光电",
+   "close": 27.37,
+   "change_pct": 19.99,
+   "net_buy": 13792290.4,
+   "buy_amt": 17084901.4,
+   "sell_amt": 3292611.0,
+   "deal_amt": 20377512.4,
+   "amount": 17084901.0,
+   "turnover_pct": 0.41,
+   "deal_ratio": 119.27,
+   "reason": "日涨幅达到15%的前5只证券",
+   "explain": "买一主买，成功率40.00%",
+   "free_cap": 4145761461.59,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "003032",
+   "name": "传智教育",
+   "close": 11.74,
+   "change_pct": -2.41,
+   "net_buy": 11876339.9,
+   "buy_amt": 68665249.9,
+   "sell_amt": 56788910.0,
+   "deal_amt": 125454159.9,
+   "amount": 1175518031.0,
+   "turnover_pct": 34.28,
+   "deal_ratio": 10.67,
+   "reason": "日换手率达到20%的前5只证券",
+   "explain": "西藏自治区资金卖出，成功率29.63%",
+   "free_cap": 3339814077.92,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "920176",
+   "name": "维琪科技",
+   "close": 68.29,
+   "change_pct": -11.31,
+   "net_buy": 8650164.2,
+   "buy_amt": 31151308.3,
+   "sell_amt": 22501144.1,
+   "deal_amt": 53652452.4,
+   "amount": 203991700.0,
+   "turnover_pct": 36.12,
+   "deal_ratio": 26.3,
+   "reason": "当日换手率达到20%的前5只股票",
+   "explain": "主力做T，成功率41.29%",
+   "free_cap": 542700630.0,
+   "market": "BJ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "002329",
+   "name": "皇氏集团",
+   "close": 3.82,
+   "change_pct": 10.09,
+   "net_buy": 6328123.55,
+   "buy_amt": 88943086.09,
+   "sell_amt": 82614962.54,
+   "deal_amt": 171558048.63,
+   "amount": 496567474.0,
+   "turnover_pct": 7.94,
+   "deal_ratio": 34.55,
+   "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+   "explain": "2家机构买入，成功率25.19%",
+   "free_cap": 2489084969.68,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "600730",
+   "name": "*ST高科",
+   "close": 10.18,
+   "change_pct": -9.99,
+   "net_buy": 4227675.7,
+   "buy_amt": 32531390.7,
+   "sell_amt": 28303715.0,
+   "deal_amt": 60835105.7,
+   "amount": 209353657.0,
+   "turnover_pct": 3.35,
+   "deal_ratio": 29.06,
+   "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券",
+   "explain": "普通席位卖出，成功率42.34%",
+   "free_cap": 5972158100.36,
+   "market": "SH",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "301529",
+   "name": "福赛科技",
+   "close": 96.16,
+   "change_pct": 20.0,
+   "net_buy": 4043778.72,
+   "buy_amt": 150226305.19,
+   "sell_amt": 146182526.47,
+   "deal_amt": 296408831.66,
+   "amount": 557583952.0,
+   "turnover_pct": 9.87,
+   "deal_ratio": 53.16,
+   "reason": "日涨幅达到15%的前5只证券",
+   "explain": "主力做T，成功率39.84%",
+   "free_cap": 6112571371.84,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "920222",
+   "name": "益坤电气",
+   "close": 28.45,
+   "change_pct": -6.72,
+   "net_buy": 3802642.83,
+   "buy_amt": 16684440.55,
+   "sell_amt": 12881797.72,
+   "deal_amt": 29566238.27,
+   "amount": 96492500.0,
+   "turnover_pct": 29.14,
+   "deal_ratio": 30.64,
+   "reason": "当日换手率达到20%的前5只股票",
+   "explain": "西藏自治区资金卖出，成功率35.24%",
+   "free_cap": 328955685.5,
+   "market": "BJ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "603887",
+   "name": "城地香江",
+   "close": 10.32,
+   "change_pct": 10.02,
+   "net_buy": 410665.329999998,
+   "buy_amt": 68756604.56,
+   "sell_amt": 68345939.23,
+   "deal_amt": 137102543.79,
+   "amount": 360338565.0,
+   "turnover_pct": 6.03,
+   "deal_ratio": 38.05,
+   "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
+   "explain": "普通席位买入，成功率34.96%",
+   "free_cap": 6212943624.72,
+   "market": "SH",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "000859",
+   "name": "国风新材",
+   "close": 10.48,
+   "change_pct": 9.97,
+   "net_buy": -999.089999973774,
+   "buy_amt": 152244909.33,
+   "sell_amt": 152245908.42,
+   "deal_amt": 304490817.75,
+   "amount": 1280296177.0,
+   "turnover_pct": 13.99,
+   "deal_ratio": 23.78,
+   "reason": "日涨幅偏离值达到7%的前5只证券",
+   "explain": "普通席位买入，成功率47.07%",
+   "free_cap": 9389296840.08,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "000820",
+   "name": "神雾节能",
+   "close": 4.13,
+   "change_pct": 6.99,
+   "net_buy": -2166121.0,
+   "buy_amt": 32075083.0,
+   "sell_amt": 34241204.0,
+   "deal_amt": 66316287.0,
+   "amount": 351707500.0,
+   "turnover_pct": 29.39,
+   "deal_ratio": 18.86,
+   "reason": "日换手率达到20%的前5只证券",
+   "explain": "3家机构买入，成功率37.35%",
+   "free_cap": 1226473202.01,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "601872",
+   "name": "招商轮船",
+   "close": 16.48,
+   "change_pct": -9.35,
+   "net_buy": -4770006.73000002,
+   "buy_amt": 525991472.84,
+   "sell_amt": 530761479.57,
+   "deal_amt": 1056752952.41,
+   "amount": 2849496171.0,
+   "turnover_pct": 2.06,
+   "deal_ratio": 37.09,
+   "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券",
+   "explain": "3家机构卖出，成功率42.51%",
+   "free_cap": 133068394512.96,
+   "market": "SH",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "600833",
+   "name": "第一医药",
+   "close": 12.11,
+   "change_pct": 9.99,
+   "net_buy": -6709218.43000001,
+   "buy_amt": 71998791.16,
+   "sell_amt": 78708009.59,
+   "deal_amt": 150706800.75,
+   "amount": 590770769.0,
+   "turnover_pct": 17.05,
+   "deal_ratio": 25.51,
+   "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+   "explain": "普通席位买入，成功率45.75%",
+   "free_cap": 2701575662.17,
+   "market": "SH",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "603188",
+   "name": "亚邦股份",
+   "close": 4.88,
+   "change_pct": 9.91,
+   "net_buy": -9362542.0,
+   "buy_amt": 43403979.0,
+   "sell_amt": 52766521.0,
+   "deal_amt": 96170500.0,
+   "amount": 233652173.0,
+   "turnover_pct": 3.87,
+   "deal_ratio": 41.16,
+   "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+   "explain": "买一主买，成功率44.00%",
+   "free_cap": 2782429600.0,
+   "market": "SH",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "600272",
+   "name": "开开实业",
+   "close": 15.7,
+   "change_pct": 10.02,
+   "net_buy": -10593069.15,
+   "buy_amt": 61900379.35,
+   "sell_amt": 72493448.5,
+   "deal_amt": 134393827.85,
+   "amount": 752039618.0,
+   "turnover_pct": 30.27,
+   "deal_ratio": 17.87,
+   "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
+   "explain": "普通席位买入，成功率35.25%",
+   "free_cap": 2547040000.0,
+   "market": "SH",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "600272",
+   "name": "开开实业",
+   "close": 15.7,
+   "change_pct": 10.02,
+   "net_buy": -10593069.15,
+   "buy_amt": 61900379.35,
+   "sell_amt": 72493448.5,
+   "deal_amt": 134393827.85,
+   "amount": 752039618.0,
+   "turnover_pct": 30.27,
+   "deal_ratio": 17.87,
+   "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券",
+   "explain": "普通席位买入，成功率35.25%",
+   "free_cap": 2547040000.0,
+   "market": "SH",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "301583",
+   "name": "托伦斯",
+   "close": 166.31,
+   "change_pct": 1.86,
+   "net_buy": -10697339.94,
+   "buy_amt": 257739325.24,
+   "sell_amt": 268436665.18,
+   "deal_amt": 526175990.42,
+   "amount": 2395088450.0,
+   "turnover_pct": 46.17,
+   "deal_ratio": 21.97,
+   "reason": "日换手率达到30%的前5只证券",
+   "explain": "4家机构买入，成功率31.40%",
+   "free_cap": 5127565643.63,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "603655",
+   "name": "朗博科技",
+   "close": 33.79,
+   "change_pct": 9.99,
+   "net_buy": -11322013.59,
+   "buy_amt": 94217962.9,
+   "sell_amt": 105539976.49,
+   "deal_amt": 199757939.39,
+   "amount": 390884147.0,
+   "turnover_pct": 5.26,
+   "deal_ratio": 51.1,
+   "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+   "explain": "普通席位买入，成功率37.70%",
+   "free_cap": 3581740000.0,
+   "market": "SH",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "605179",
+   "name": "一鸣食品",
+   "close": 27.63,
+   "change_pct": 9.99,
+   "net_buy": -12197892.0,
+   "buy_amt": 184057119.0,
+   "sell_amt": 196255011.0,
+   "deal_amt": 380312130.0,
+   "amount": 1856366724.0,
+   "turnover_pct": 10.37,
+   "deal_ratio": 20.49,
+   "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+   "explain": "买一主买，成功率43.08%",
+   "free_cap": 11079630000.0,
+   "market": "SH",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "600683",
+   "name": "京投发展",
+   "close": 10.68,
+   "change_pct": 9.99,
+   "net_buy": -13149484.0,
+   "buy_amt": 38110819.0,
+   "sell_amt": 51260303.0,
+   "deal_amt": 89371122.0,
+   "amount": 168063579.0,
+   "turnover_pct": 1.31,
+   "deal_ratio": 53.18,
+   "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+   "explain": "买一主买，成功率46.43%",
+   "free_cap": 7911504735.96,
+   "market": "SH",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "920038",
+   "name": "森合高科",
+   "close": 41.61,
+   "change_pct": -9.66,
+   "net_buy": -18845301.28,
+   "buy_amt": 30406824.22,
+   "sell_amt": 49252125.5,
+   "deal_amt": 79658949.72,
+   "amount": 351558200.0,
+   "turnover_pct": 23.89,
+   "deal_ratio": 22.66,
+   "reason": "当日换手率达到20%的前5只股票",
+   "explain": "主力做T，成功率20.92%",
+   "free_cap": 1421650630.41,
+   "market": "BJ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "920088",
+   "name": "科力股份",
+   "close": 48.2,
+   "change_pct": 8.46,
+   "net_buy": -25288977.17,
+   "buy_amt": 32153068.71,
+   "sell_amt": 57442045.88,
+   "deal_amt": 89595114.59,
+   "amount": 377867600.0,
+   "turnover_pct": 24.45,
+   "deal_ratio": 23.71,
+   "reason": "当日换手率达到20%的前5只股票",
+   "explain": "西藏自治区资金买入，成功率22.07%",
+   "free_cap": 1569692286.0,
+   "market": "BJ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "605286",
+   "name": "同力天启",
+   "close": 28.17,
+   "change_pct": 10.0,
+   "net_buy": -35514716.13,
+   "buy_amt": 54073576.87,
+   "sell_amt": 89588293.0,
+   "deal_amt": 143661869.87,
+   "amount": 370740330.0,
+   "turnover_pct": 5.39,
+   "deal_ratio": 38.75,
+   "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+   "explain": "普通席位买入，成功率46.53%",
+   "free_cap": 4732560000.0,
+   "market": "SH",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "002580",
+   "name": "圣阳股份",
+   "close": 20.97,
+   "change_pct": -0.1,
+   "net_buy": -36248775.12,
+   "buy_amt": 285774472.12,
+   "sell_amt": 322023247.24,
+   "deal_amt": 607797719.36,
+   "amount": 2965166295.0,
+   "turnover_pct": 30.52,
+   "deal_ratio": 20.5,
+   "reason": "日换手率达到20%的前5只证券",
+   "explain": "1家机构卖出，成功率22.51%",
+   "free_cap": 9485544636.0,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "603158",
+   "name": "腾龙股份",
+   "close": 9.99,
+   "change_pct": -9.84,
+   "net_buy": -36699163.0,
+   "buy_amt": 31489347.0,
+   "sell_amt": 68188510.0,
+   "deal_amt": 99677857.0,
+   "amount": 513080834.0,
+   "turnover_pct": 10.29,
+   "deal_ratio": 19.43,
+   "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券",
+   "explain": "1家机构卖出，成功率44.38%",
+   "free_cap": 4902793778.52,
+   "market": "SH",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "603407",
+   "name": "长裕集团",
+   "close": 64.67,
+   "change_pct": -2.5,
+   "net_buy": -37755076.63,
+   "buy_amt": 74455810.36,
+   "sell_amt": 112210886.99,
+   "deal_amt": 186666697.35,
+   "amount": 810659041.0,
+   "turnover_pct": 33.64,
+   "deal_ratio": 23.03,
+   "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券",
+   "explain": "1家机构卖出，成功率44.19%",
+   "free_cap": 2322428522.64,
+   "market": "SH",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "600449",
+   "name": "宁夏建材",
+   "close": 12.58,
+   "change_pct": -9.82,
+   "net_buy": -39039609.27,
+   "buy_amt": 69740203.0,
+   "sell_amt": 108779812.27,
+   "deal_amt": 178520015.27,
+   "amount": 815336323.0,
+   "turnover_pct": 13.53,
+   "deal_ratio": 21.9,
+   "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券",
+   "explain": "1家机构卖出，成功率48.27%",
+   "free_cap": 6015517508.36,
+   "market": "SH",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "002900",
+   "name": "哈三联",
+   "close": 14.58,
+   "change_pct": -1.69,
+   "net_buy": -46493012.0,
+   "buy_amt": 83134926.0,
+   "sell_amt": 129627938.0,
+   "deal_amt": 212762864.0,
+   "amount": 935714692.0,
+   "turnover_pct": 38.83,
+   "deal_ratio": 22.74,
+   "reason": "日换手率达到20%的前5只证券",
+   "explain": "2家机构卖出，成功率16.28%",
+   "free_cap": 2349164592.0,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "002990",
+   "name": "盛视科技",
+   "close": 52.17,
+   "change_pct": -8.09,
+   "net_buy": -52449021.0,
+   "buy_amt": 194209107.0,
+   "sell_amt": 246658128.0,
+   "deal_amt": 440867235.0,
+   "amount": 1027794967.0,
+   "turnover_pct": 14.05,
+   "deal_ratio": 42.89,
+   "reason": "日跌幅偏离值达到7%的前5只证券",
+   "explain": "1家机构卖出，成功率24.94%",
+   "free_cap": 7200428431.71,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "300534",
+   "name": "陇神戎发",
+   "close": 15.7,
+   "change_pct": -1.13,
+   "net_buy": -59356878.98,
+   "buy_amt": 141532258.0,
+   "sell_amt": 200889136.98,
+   "deal_amt": 342421394.98,
+   "amount": 1527971180.0,
+   "turnover_pct": 30.95,
+   "deal_ratio": 22.41,
+   "reason": "日换手率达到30%的前5只证券",
+   "explain": "3家机构卖出，成功率18.08%",
+   "free_cap": 4742208361.6,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "002667",
+   "name": "*ST威领",
+   "close": 14.55,
+   "change_pct": -8.78,
+   "net_buy": -66863216.0,
+   "buy_amt": 60361796.0,
+   "sell_amt": 127225012.0,
+   "deal_amt": 187586808.0,
+   "amount": 521053722.0,
+   "turnover_pct": 14.5,
+   "deal_ratio": 36.0,
+   "reason": "日跌幅偏离值达到7%的前5只证券",
+   "explain": "2家机构卖出，成功率3.27%",
+   "free_cap": 3442690050.0,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "000802",
+   "name": "北京文化",
+   "close": 5.17,
+   "change_pct": 10.0,
+   "net_buy": -99510401.8,
+   "buy_amt": 163665775.0,
+   "sell_amt": 263176176.8,
+   "deal_amt": 426841951.8,
+   "amount": 734046243.0,
+   "turnover_pct": 6.87,
+   "deal_ratio": 58.15,
+   "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+   "explain": "买一主买，成功率37.21%",
+   "free_cap": 3699362505.85,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "002552",
+   "name": "宝鼎科技",
+   "close": 54.61,
+   "change_pct": 4.3,
+   "net_buy": -106328242.28,
+   "buy_amt": 888994127.0,
+   "sell_amt": 995322369.28,
+   "deal_amt": 1884316496.28,
+   "amount": 4496469273.0,
+   "turnover_pct": 15.03,
+   "deal_ratio": 41.91,
+   "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+   "explain": "2家机构买入，成功率21.93%",
+   "free_cap": 20123964612.29,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "000779",
+   "name": "甘咨询",
+   "close": 12.73,
+   "change_pct": 10.03,
+   "net_buy": -109966293.59,
+   "buy_amt": 107876911.82,
+   "sell_amt": 217843205.41,
+   "deal_amt": 325720117.23,
+   "amount": 1460861327.0,
+   "turnover_pct": 28.9,
+   "deal_ratio": 22.3,
+   "reason": "日振幅值达到15%的前5只证券",
+   "explain": "1家机构买入，成功率21.13%",
+   "free_cap": 5916560353.65,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "000779",
+   "name": "甘咨询",
+   "close": 12.73,
+   "change_pct": 10.03,
+   "net_buy": -109966293.59,
+   "buy_amt": 107876911.82,
+   "sell_amt": 217843205.41,
+   "deal_amt": 325720117.23,
+   "amount": 1460861327.0,
+   "turnover_pct": 28.9,
+   "deal_ratio": 22.3,
+   "reason": "日涨幅偏离值达到7%的前5只证券",
+   "explain": "1家机构买入，成功率21.13%",
+   "free_cap": 5916560353.65,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "002350",
+   "name": "北京科锐",
+   "close": 15.01,
+   "change_pct": -10.01,
+   "net_buy": -117741864.6,
+   "buy_amt": 64696638.0,
+   "sell_amt": 182438502.6,
+   "deal_amt": 247135140.6,
+   "amount": 527997615.0,
+   "turnover_pct": 6.51,
+   "deal_ratio": 46.81,
+   "reason": "日跌幅偏离值达到7%的前5只证券",
+   "explain": "3家机构卖出，成功率17.37%",
+   "free_cap": 7963556565.71,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "002141",
+   "name": "贤丰控股",
+   "close": 6.88,
+   "change_pct": 2.38,
+   "net_buy": -164716884.24,
+   "buy_amt": 253932090.0,
+   "sell_amt": 418648974.24,
+   "deal_amt": 672581064.24,
+   "amount": 2769995497.0,
+   "turnover_pct": 37.74,
+   "deal_ratio": 24.28,
+   "reason": "日振幅值达到15%的前5只证券",
+   "explain": "4家机构买入，成功率18.03%",
+   "free_cap": 7106598290.24,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "002141",
+   "name": "贤丰控股",
+   "close": 6.88,
+   "change_pct": 2.38,
+   "net_buy": -164716884.24,
+   "buy_amt": 253932090.0,
+   "sell_amt": 418648974.24,
+   "deal_amt": 672581064.24,
+   "amount": 2769995497.0,
+   "turnover_pct": 37.74,
+   "deal_ratio": 24.28,
+   "reason": "日换手率达到20%的前5只证券",
+   "explain": "4家机构买入，成功率18.03%",
+   "free_cap": 7106598290.24,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "603306",
+   "name": "华懋科技",
+   "close": 70.8,
+   "change_pct": -9.23,
+   "net_buy": -166458293.25,
+   "buy_amt": 254595402.16,
+   "sell_amt": 421053695.41,
+   "deal_amt": 675649097.57,
+   "amount": 1579372244.0,
+   "turnover_pct": 6.62,
+   "deal_ratio": 42.78,
+   "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券",
+   "explain": "普通席位卖出，成功率43.52%",
+   "free_cap": 23328295347.6,
+   "market": "SH",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "002202",
+   "name": "金风科技",
+   "close": 19.92,
+   "change_pct": -8.12,
+   "net_buy": -170042667.67,
+   "buy_amt": 427470937.33,
+   "sell_amt": 597513605.0,
+   "deal_amt": 1024984542.33,
+   "amount": 4545158380.0,
+   "turnover_pct": 6.74,
+   "deal_ratio": 22.55,
+   "reason": "日跌幅偏离值达到7%的前5只证券",
+   "explain": "2家机构卖出，成功率21.41%",
+   "free_cap": 67001021213.52,
+   "market": "SZ",
+   "d1": null,
+   "d5": null
+  },
+  {
+   "code": "600988",
+   "name": "赤峰黄金",
+   "close": 40.3,
+   "change_pct": -7.84,
+   "net_buy": -391915865.56,
+   "buy_amt": 1111746575.22,
+   "sell_amt": 1503662440.78,
+   "deal_amt": 2615409016.0,
+   "amount": 5167809411.0,
+   "turnover_pct": 7.33,
+   "deal_ratio": 50.61,
+   "reason": "有价格涨跌幅限制的日价格振幅达到15%的前五只证券",
+   "explain": "4家机构卖出，成功率42.64%",
+   "free_cap": 67055628533.4,
+   "market": "SH",
+   "d1": null,
+   "d5": null
+  }
+ ],
+ "lhb_stocks": [
+  {
+   "code": "301717",
+   "name": "超纯应材",
+   "close": 503,
+   "change_pct": 662.24,
+   "net_buy": 1079526943.26,
+   "buy_amt": 1242581445.13,
+   "sell_amt": 163054501.87,
+   "deal_amt": 1405635947.0,
+   "amount": 7040170350.0,
+   "turnover_pct": 85.73,
+   "deal_ratio": 19.97,
+   "reason": "无价格涨跌幅限制的证券",
+   "explain": "3家机构买入，成功率44.94%",
+   "free_cap": 8765462098.0,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "无价格涨跌幅限制的证券"
+   ],
+   "industry": "半导体",
+   "reason_all": "无价格涨跌幅限制的证券"
+  },
+  {
+   "code": "600664",
+   "name": "哈药股份",
+   "close": 8.27,
+   "change_pct": 9.97,
+   "net_buy": 318378167.34,
+   "buy_amt": 995423700.99,
+   "sell_amt": 677045533.65,
+   "deal_amt": 1672469234.64,
+   "amount": 6484941284.0,
+   "turnover_pct": 26.95,
+   "deal_ratio": 25.79,
+   "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+   "explain": "买一主买，成功率46.18%",
+   "free_cap": 20828076674.52,
+   "market": "SH",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+    "有价格涨跌幅限制的日换手率达到20%的前五只证券"
+   ],
+   "industry": "化学制药",
+   "reason_all": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券 / 有价格涨跌幅限制的日换手率达到20%的前五只证券"
+  },
+  {
+   "code": "600667",
+   "name": "太极实业",
+   "close": 21.2,
+   "change_pct": 10.02,
+   "net_buy": 283556485.07,
+   "buy_amt": 910385168.75,
+   "sell_amt": 626828683.68,
+   "deal_amt": 1537213852.43,
+   "amount": 6466750500.0,
+   "turnover_pct": 15.29,
+   "deal_ratio": 23.77,
+   "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
+   "explain": "普通席位买入，成功率48.55%",
+   "free_cap": 44340694173.6,
+   "market": "SH",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券"
+   ],
+   "industry": "工程咨询服务",
+   "reason_all": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券"
+  },
+  {
+   "code": "001258",
+   "name": "立新能源",
+   "close": 15.93,
+   "change_pct": 10.01,
+   "net_buy": 212210442.77,
+   "buy_amt": 700573638.83,
+   "sell_amt": 488363196.06,
+   "deal_amt": 1188936834.89,
+   "amount": 6148815165.0,
+   "turnover_pct": 26.11,
+   "deal_ratio": 19.34,
+   "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+   "explain": "1家机构买入，成功率40.01%",
+   "free_cap": 14867813231.37,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+    "日涨幅偏离值达到7%的前5只证券",
+    "日振幅值达到15%的前5只证券"
+   ],
+   "industry": "电力",
+   "reason_all": "连续三个交易日内，涨幅偏离值累计达到20%的证券 / 日涨幅偏离值达到7%的前5只证券 / 日振幅值达到15%的前5只证券"
+  },
+  {
+   "code": "301520",
+   "name": "万邦医药",
+   "close": 70.39,
+   "change_pct": 20.0,
+   "net_buy": 186850048.47,
+   "buy_amt": 300280304.27,
+   "sell_amt": 113430255.8,
+   "deal_amt": 413710560.07,
+   "amount": 1404170947.0,
+   "turnover_pct": 64.83,
+   "deal_ratio": 29.46,
+   "reason": "日涨幅达到15%的前5只证券",
+   "explain": "1家机构买入，成功率45.90%",
+   "free_cap": 2301643402.77,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "日涨幅达到15%的前5只证券",
+    "日换手率达到30%的前5只证券",
+    "连续三个交易日内，涨幅偏离值累计达到30%的证券"
+   ],
+   "industry": "医疗服务",
+   "reason_all": "日涨幅达到15%的前5只证券 / 日换手率达到30%的前5只证券 / 连续三个交易日内，涨幅偏离值累计达到30%的证券"
+  },
+  {
+   "code": "301047",
+   "name": "义翘神州",
+   "close": 118.98,
+   "change_pct": 4.73,
+   "net_buy": 176092998.14,
+   "buy_amt": 909556108.17,
+   "sell_amt": 733463110.03,
+   "deal_amt": 1643019218.2,
+   "amount": 5461361084.0,
+   "turnover_pct": 12.34,
+   "deal_ratio": 30.08,
+   "reason": "连续三个交易日内，涨幅偏离值累计达到30%的证券",
+   "explain": "3家机构买入，成功率39.32%",
+   "free_cap": 14227702286.58,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "连续三个交易日内，涨幅偏离值累计达到30%的证券"
+   ],
+   "industry": "生物制品",
+   "reason_all": "连续三个交易日内，涨幅偏离值累计达到30%的证券"
+  },
+  {
+   "code": "002248",
+   "name": "华东数控",
+   "close": 11.06,
+   "change_pct": 10.05,
+   "net_buy": 153609641.2,
+   "buy_amt": 211576508.2,
+   "sell_amt": 57966867.0,
+   "deal_amt": 269543375.2,
+   "amount": 581446601.0,
+   "turnover_pct": 7.08,
+   "deal_ratio": 46.36,
+   "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+   "explain": "普通席位买入，成功率43.28%",
+   "free_cap": 3400901336.0,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "连续三个交易日内，涨幅偏离值累计达到20%的证券"
+   ],
+   "industry": "通用设备",
+   "reason_all": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
+  },
+  {
+   "code": "301566",
+   "name": "达利凯普",
+   "close": 28.19,
+   "change_pct": 13.21,
+   "net_buy": 129362473.79,
+   "buy_amt": 279431793.42,
+   "sell_amt": 150069319.63,
+   "deal_amt": 429501113.05,
+   "amount": 1857185545.0,
+   "turnover_pct": 31.54,
+   "deal_ratio": 23.13,
+   "reason": "日换手率达到30%的前5只证券",
+   "explain": "1家机构买入，成功率33.41%",
+   "free_cap": 5950536159.06,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "日换手率达到30%的前5只证券"
+   ],
+   "industry": "元件",
+   "reason_all": "日换手率达到30%的前5只证券"
+  },
+  {
+   "code": "603538",
+   "name": "美诺华",
+   "close": 30.3,
+   "change_pct": 3.77,
+   "net_buy": 115632919.77,
+   "buy_amt": 372250188.0,
+   "sell_amt": 256617268.23,
+   "deal_amt": 628867456.23,
+   "amount": 2648016927.0,
+   "turnover_pct": 25.98,
+   "deal_ratio": 23.75,
+   "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券",
+   "explain": "1家机构买入，成功率41.14%",
+   "free_cap": 10208674515.3,
+   "market": "SH",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "有价格涨跌幅限制的日换手率达到20%的前五只证券"
+   ],
+   "industry": "化学制药",
+   "reason_all": "有价格涨跌幅限制的日换手率达到20%的前五只证券"
+  },
+  {
+   "code": "002229",
+   "name": "鸿博股份",
+   "close": 11.74,
+   "change_pct": 10.03,
+   "net_buy": 99509339.59,
+   "buy_amt": 181467846.23,
+   "sell_amt": 81958506.64,
+   "deal_amt": 263426352.87,
+   "amount": 840333599.0,
+   "turnover_pct": 14.84,
+   "deal_ratio": 31.35,
+   "reason": "日涨幅偏离值达到7%的前5只证券",
+   "explain": "1家机构买入，成功率34.03%",
+   "free_cap": 5789653353.62,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "日涨幅偏离值达到7%的前5只证券"
+   ],
+   "industry": "IT服务",
+   "reason_all": "日涨幅偏离值达到7%的前5只证券"
+  },
+  {
+   "code": "600611",
+   "name": "大众交通",
+   "close": 5.02,
+   "change_pct": 10.09,
+   "net_buy": 80081050.73,
+   "buy_amt": 152586690.61,
+   "sell_amt": 72505639.88,
+   "deal_amt": 225092330.49,
+   "amount": 982363335.0,
+   "turnover_pct": 12.76,
+   "deal_ratio": 22.91,
+   "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
+   "explain": "普通席位买入，成功率44.67%",
+   "free_cap": 7998399769.28,
+   "market": "SH",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券"
+   ],
+   "industry": "铁路公路",
+   "reason_all": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券"
+  },
+  {
+   "code": "300426",
+   "name": "华智数媒",
+   "close": 7.8,
+   "change_pct": 20.0,
+   "net_buy": 76327543.5,
+   "buy_amt": 118934108.3,
+   "sell_amt": 42606564.8,
+   "deal_amt": 161540673.1,
+   "amount": 421059209.0,
+   "turnover_pct": 14.26,
+   "deal_ratio": 38.37,
+   "reason": "日涨幅达到15%的前5只证券",
+   "explain": "1家机构买入，成功率45.61%",
+   "free_cap": 3120000000.0,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "日涨幅达到15%的前5只证券",
+    "连续三个交易日内，涨幅偏离值累计达到30%的证券"
+   ],
+   "industry": "影视院线",
+   "reason_all": "日涨幅达到15%的前5只证券 / 连续三个交易日内，涨幅偏离值累计达到30%的证券"
+  },
+  {
+   "code": "000859",
+   "name": "国风新材",
+   "close": 10.48,
+   "change_pct": 9.97,
+   "net_buy": 70761700.02,
+   "buy_amt": 236550667.44,
+   "sell_amt": 165788967.42,
+   "deal_amt": 402339634.86,
+   "amount": 1937703473.0,
+   "turnover_pct": 13.99,
+   "deal_ratio": 20.76,
+   "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+   "explain": "主力做T，成功率45.54%",
+   "free_cap": 9389296840.08,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+    "日涨幅偏离值达到7%的前5只证券"
+   ],
+   "industry": "塑料",
+   "reason_all": "连续三个交易日内，涨幅偏离值累计达到20%的证券 / 日涨幅偏离值达到7%的前5只证券"
+  },
+  {
+   "code": "301550",
+   "name": "斯菱智驱",
+   "close": 87.42,
+   "change_pct": 20.0,
+   "net_buy": 58792735.34,
+   "buy_amt": 272465097.23,
+   "sell_amt": 213672361.89,
+   "deal_amt": 486137459.12,
+   "amount": 1173063680.0,
+   "turnover_pct": 7.09,
+   "deal_ratio": 41.44,
+   "reason": "日涨幅达到15%的前5只证券",
+   "explain": "2家机构买入，成功率36.74%",
+   "free_cap": 17942878157.82,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "日涨幅达到15%的前5只证券"
+   ],
+   "industry": "汽车零部件",
+   "reason_all": "日涨幅达到15%的前5只证券"
+  },
+  {
+   "code": "300164",
+   "name": "通源石油",
+   "close": 11.66,
+   "change_pct": 8.97,
+   "net_buy": 52766654.48,
+   "buy_amt": 323128291.46,
+   "sell_amt": 270361636.98,
+   "deal_amt": 593489928.44,
+   "amount": 2545183736.0,
+   "turnover_pct": 38.36,
+   "deal_ratio": 23.32,
+   "reason": "日换手率达到30%的前5只证券",
+   "explain": "3家机构买入，成功率28.82%",
+   "free_cap": 6800237671.48,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "日换手率达到30%的前5只证券"
+   ],
+   "industry": "油服工程",
+   "reason_all": "日换手率达到30%的前5只证券"
+  },
+  {
+   "code": "600162",
+   "name": "香江控股",
+   "close": 4.29,
+   "change_pct": 10.0,
+   "net_buy": 51534656.07,
+   "buy_amt": 292203285.05,
+   "sell_amt": 240668628.98,
+   "deal_amt": 532871914.03,
+   "amount": 1939249558.0,
+   "turnover_pct": 2.94,
+   "deal_ratio": 27.48,
+   "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+   "explain": "上海资金买入，成功率44.40%",
+   "free_cap": 14021599543.38,
+   "market": "SH",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+   ],
+   "industry": "房地产开发",
+   "reason_all": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+  },
+  {
+   "code": "301230",
+   "name": "泓博医药",
+   "close": 37.97,
+   "change_pct": 8.18,
+   "net_buy": 48855995.24,
+   "buy_amt": 553866969.52,
+   "sell_amt": 505010974.28,
+   "deal_amt": 1058877943.8,
+   "amount": 3611522994.0,
+   "turnover_pct": 24.94,
+   "deal_ratio": 29.32,
+   "reason": "连续三个交易日内，涨幅偏离值累计达到30%的证券",
+   "explain": "4家机构买入，成功率40.30%",
+   "free_cap": 6179538484.43,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "连续三个交易日内，涨幅偏离值累计达到30%的证券"
+   ],
+   "industry": "医疗服务",
+   "reason_all": "连续三个交易日内，涨幅偏离值累计达到30%的证券"
+  },
+  {
+   "code": "002437",
+   "name": "誉衡药业",
+   "close": 3.51,
+   "change_pct": 2.33,
+   "net_buy": 44674366.17,
+   "buy_amt": 495803711.22,
+   "sell_amt": 451129345.05,
+   "deal_amt": 946933056.27,
+   "amount": 4394298154.0,
+   "turnover_pct": 28.09,
+   "deal_ratio": 21.55,
+   "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+   "explain": "1家机构买入，成功率38.75%",
+   "free_cap": 7371540017.01,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "连续三个交易日内，涨幅偏离值累计达到20%的证券"
+   ],
+   "industry": "化学制药",
+   "reason_all": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
+  },
+  {
+   "code": "603797",
+   "name": "联泰环保",
+   "close": 5.05,
+   "change_pct": 10.02,
+   "net_buy": 28453686.58,
+   "buy_amt": 62060442.38,
+   "sell_amt": 33606755.8,
+   "deal_amt": 95667198.18,
+   "amount": 278768725.0,
+   "turnover_pct": 5.49,
+   "deal_ratio": 34.32,
+   "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+   "explain": "普通席位买入，成功率46.16%",
+   "free_cap": 2911856209.5,
+   "market": "SH",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+    "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券"
+   ],
+   "industry": "环境治理",
+   "reason_all": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券 / 有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券"
+  },
+  {
+   "code": "603284",
+   "name": "林平发展",
+   "close": 44.44,
+   "change_pct": 10.0,
+   "net_buy": 26839833.65,
+   "buy_amt": 47523618.73,
+   "sell_amt": 20683785.08,
+   "deal_amt": 68207403.81,
+   "amount": 204675005.0,
+   "turnover_pct": 25.16,
+   "deal_ratio": 33.32,
+   "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券",
+   "explain": "普通席位买入，成功率43.31%",
+   "free_cap": 837858428.0,
+   "market": "SH",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "有价格涨跌幅限制的日换手率达到20%的前五只证券"
+   ],
+   "industry": "造纸",
+   "reason_all": "有价格涨跌幅限制的日换手率达到20%的前五只证券"
+  },
+  {
+   "code": "002859",
+   "name": "洁美科技",
+   "close": 81.32,
+   "change_pct": 10.0,
+   "net_buy": 26828236.64,
+   "buy_amt": 285619766.0,
+   "sell_amt": 258791529.36,
+   "deal_amt": 544411295.36,
+   "amount": 1521094494.0,
+   "turnover_pct": 4.52,
+   "deal_ratio": 35.79,
+   "reason": "日涨幅偏离值达到7%的前5只证券",
+   "explain": "买一主买，成功率41.31%",
+   "free_cap": 34830592064.0,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "日涨幅偏离值达到7%的前5只证券"
+   ],
+   "industry": "其他电子",
+   "reason_all": "日涨幅偏离值达到7%的前5只证券"
+  },
+  {
+   "code": "920117",
+   "name": "龙鑫智能",
+   "close": 33.33,
+   "change_pct": -3.36,
+   "net_buy": 22093677.04,
+   "buy_amt": 55406086.45,
+   "sell_amt": 33312409.41,
+   "deal_amt": 88718495.86,
+   "amount": 376359700.0,
+   "turnover_pct": 53.52,
+   "deal_ratio": 23.57,
+   "reason": "当日换手率达到20%的前5只股票",
+   "explain": "西藏自治区资金卖出，成功率37.69%",
+   "free_cap": 673732719.99,
+   "market": "BJ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "当日换手率达到20%的前5只股票"
+   ],
+   "industry": "通用设备",
+   "reason_all": "当日换手率达到20%的前5只股票"
+  },
+  {
+   "code": "603137",
+   "name": "恒尚节能",
+   "close": 30.34,
+   "change_pct": 10.01,
+   "net_buy": 21123808.79,
+   "buy_amt": 255917768.82,
+   "sell_amt": 234793960.03,
+   "deal_amt": 490711728.85,
+   "amount": 2645858520.0,
+   "turnover_pct": 18.64,
+   "deal_ratio": 18.55,
+   "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+   "explain": "买一主买，成功率44.93%",
+   "free_cap": 5550197353.56,
+   "market": "SH",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+   ],
+   "industry": "装修装饰",
+   "reason_all": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+  },
+  {
+   "code": "300862",
+   "name": "蓝盾光电",
+   "close": 27.37,
+   "change_pct": 19.99,
+   "net_buy": 20611140.18,
+   "buy_amt": 31172506.18,
+   "sell_amt": 10561366.0,
+   "deal_amt": 41733872.18,
+   "amount": 37169973.0,
+   "turnover_pct": 0.41,
+   "deal_ratio": 112.28,
+   "reason": "连续三个交易日内，涨幅偏离值累计达到30%的证券",
+   "explain": "普通席位买入，成功率43.33%",
+   "free_cap": 4145761461.59,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "连续三个交易日内，涨幅偏离值累计达到30%的证券",
+    "日涨幅达到15%的前5只证券"
+   ],
+   "industry": "通用设备",
+   "reason_all": "连续三个交易日内，涨幅偏离值累计达到30%的证券 / 日涨幅达到15%的前5只证券"
+  },
+  {
+   "code": "002631",
+   "name": "德尔未来",
+   "close": 8.38,
+   "change_pct": -8.52,
+   "net_buy": 19189606.6,
+   "buy_amt": 70918578.57,
+   "sell_amt": 51728971.97,
+   "deal_amt": 122647550.54,
+   "amount": 395081264.0,
+   "turnover_pct": 5.77,
+   "deal_ratio": 31.04,
+   "reason": "日跌幅偏离值达到7%的前5只证券",
+   "explain": "1家机构卖出，成功率45.61%",
+   "free_cap": 6650136309.76,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "日跌幅偏离值达到7%的前5只证券"
+   ],
+   "industry": "家居用品",
+   "reason_all": "日跌幅偏离值达到7%的前5只证券"
+  },
+  {
+   "code": "605288",
+   "name": "凯迪股份",
+   "close": 63.39,
+   "change_pct": 9.99,
+   "net_buy": 19184794.0,
+   "buy_amt": 49758498.0,
+   "sell_amt": 30573704.0,
+   "deal_amt": 80332202.0,
+   "amount": 218278837.0,
+   "turnover_pct": 3.76,
+   "deal_ratio": 36.8,
+   "reason": "有价格涨跌幅限制的日价格振幅达到15%的前五只证券",
+   "explain": "买一主买，成功率47.44%",
+   "free_cap": 6229872657.03,
+   "market": "SH",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "有价格涨跌幅限制的日价格振幅达到15%的前五只证券"
+   ],
+   "industry": "自动化设备",
+   "reason_all": "有价格涨跌幅限制的日价格振幅达到15%的前五只证券"
+  },
+  {
+   "code": "003032",
+   "name": "传智教育",
+   "close": 11.74,
+   "change_pct": -2.41,
+   "net_buy": 11876339.9,
+   "buy_amt": 68665249.9,
+   "sell_amt": 56788910.0,
+   "deal_amt": 125454159.9,
+   "amount": 1175518031.0,
+   "turnover_pct": 34.28,
+   "deal_ratio": 10.67,
+   "reason": "日换手率达到20%的前5只证券",
+   "explain": "西藏自治区资金卖出，成功率29.63%",
+   "free_cap": 3339814077.92,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "日换手率达到20%的前5只证券"
+   ],
+   "industry": "教育",
+   "reason_all": "日换手率达到20%的前5只证券"
+  },
+  {
+   "code": "920176",
+   "name": "维琪科技",
+   "close": 68.29,
+   "change_pct": -11.31,
+   "net_buy": 8650164.2,
+   "buy_amt": 31151308.3,
+   "sell_amt": 22501144.1,
+   "deal_amt": 53652452.4,
+   "amount": 203991700.0,
+   "turnover_pct": 36.12,
+   "deal_ratio": 26.3,
+   "reason": "当日换手率达到20%的前5只股票",
+   "explain": "主力做T，成功率41.29%",
+   "free_cap": 542700630.0,
+   "market": "BJ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "当日换手率达到20%的前5只股票"
+   ],
+   "industry": "化妆品",
+   "reason_all": "当日换手率达到20%的前5只股票"
+  },
+  {
+   "code": "002329",
+   "name": "皇氏集团",
+   "close": 3.82,
+   "change_pct": 10.09,
+   "net_buy": 6328123.55,
+   "buy_amt": 88943086.09,
+   "sell_amt": 82614962.54,
+   "deal_amt": 171558048.63,
+   "amount": 496567474.0,
+   "turnover_pct": 7.94,
+   "deal_ratio": 34.55,
+   "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+   "explain": "2家机构买入，成功率25.19%",
+   "free_cap": 2489084969.68,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "连续三个交易日内，涨幅偏离值累计达到20%的证券"
+   ],
+   "industry": "饮料乳品",
+   "reason_all": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
+  },
+  {
+   "code": "600730",
+   "name": "*ST高科",
+   "close": 10.18,
+   "change_pct": -9.99,
+   "net_buy": 4227675.7,
+   "buy_amt": 32531390.7,
+   "sell_amt": 28303715.0,
+   "deal_amt": 60835105.7,
+   "amount": 209353657.0,
+   "turnover_pct": 3.35,
+   "deal_ratio": 29.06,
+   "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券",
+   "explain": "普通席位卖出，成功率42.34%",
+   "free_cap": 5972158100.36,
+   "market": "SH",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券"
+   ],
+   "industry": "教育",
+   "reason_all": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券"
+  },
+  {
+   "code": "301529",
+   "name": "福赛科技",
+   "close": 96.16,
+   "change_pct": 20.0,
+   "net_buy": 4043778.72,
+   "buy_amt": 150226305.19,
+   "sell_amt": 146182526.47,
+   "deal_amt": 296408831.66,
+   "amount": 557583952.0,
+   "turnover_pct": 9.87,
+   "deal_ratio": 53.16,
+   "reason": "日涨幅达到15%的前5只证券",
+   "explain": "主力做T，成功率39.84%",
+   "free_cap": 6112571371.84,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "日涨幅达到15%的前5只证券"
+   ],
+   "industry": "汽车零部件",
+   "reason_all": "日涨幅达到15%的前5只证券"
+  },
+  {
+   "code": "920222",
+   "name": "益坤电气",
+   "close": 28.45,
+   "change_pct": -6.72,
+   "net_buy": 3802642.83,
+   "buy_amt": 16684440.55,
+   "sell_amt": 12881797.72,
+   "deal_amt": 29566238.27,
+   "amount": 96492500.0,
+   "turnover_pct": 29.14,
+   "deal_ratio": 30.64,
+   "reason": "当日换手率达到20%的前5只股票",
+   "explain": "西藏自治区资金卖出，成功率35.24%",
+   "free_cap": 328955685.5,
+   "market": "BJ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "当日换手率达到20%的前5只股票"
+   ],
+   "industry": "电网设备",
+   "reason_all": "当日换手率达到20%的前5只股票"
+  },
+  {
+   "code": "603887",
+   "name": "城地香江",
+   "close": 10.32,
+   "change_pct": 10.02,
+   "net_buy": 410665.329999998,
+   "buy_amt": 68756604.56,
+   "sell_amt": 68345939.23,
+   "deal_amt": 137102543.79,
+   "amount": 360338565.0,
+   "turnover_pct": 6.03,
+   "deal_ratio": 38.05,
+   "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
+   "explain": "普通席位买入，成功率34.96%",
+   "free_cap": 6212943624.72,
+   "market": "SH",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券"
+   ],
+   "industry": "IT服务",
+   "reason_all": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券"
+  },
+  {
+   "code": "000820",
+   "name": "神雾节能",
+   "close": 4.13,
+   "change_pct": 6.99,
+   "net_buy": -2166121.0,
+   "buy_amt": 32075083.0,
+   "sell_amt": 34241204.0,
+   "deal_amt": 66316287.0,
+   "amount": 351707500.0,
+   "turnover_pct": 29.39,
+   "deal_ratio": 18.86,
+   "reason": "日换手率达到20%的前5只证券",
+   "explain": "3家机构买入，成功率37.35%",
+   "free_cap": 1226473202.01,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "日换手率达到20%的前5只证券"
+   ],
+   "industry": "环保设备",
+   "reason_all": "日换手率达到20%的前5只证券"
+  },
+  {
+   "code": "601872",
+   "name": "招商轮船",
+   "close": 16.48,
+   "change_pct": -9.35,
+   "net_buy": -4770006.73000002,
+   "buy_amt": 525991472.84,
+   "sell_amt": 530761479.57,
+   "deal_amt": 1056752952.41,
+   "amount": 2849496171.0,
+   "turnover_pct": 2.06,
+   "deal_ratio": 37.09,
+   "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券",
+   "explain": "3家机构卖出，成功率42.51%",
+   "free_cap": 133068394512.96,
+   "market": "SH",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券"
+   ],
+   "industry": "航运港口",
+   "reason_all": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券"
+  },
+  {
+   "code": "600833",
+   "name": "第一医药",
+   "close": 12.11,
+   "change_pct": 9.99,
+   "net_buy": -6709218.43000001,
+   "buy_amt": 71998791.16,
+   "sell_amt": 78708009.59,
+   "deal_amt": 150706800.75,
+   "amount": 590770769.0,
+   "turnover_pct": 17.05,
+   "deal_ratio": 25.51,
+   "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+   "explain": "普通席位买入，成功率45.75%",
+   "free_cap": 2701575662.17,
+   "market": "SH",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+   ],
+   "industry": "医药商业",
+   "reason_all": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+  },
+  {
+   "code": "603188",
+   "name": "亚邦股份",
+   "close": 4.88,
+   "change_pct": 9.91,
+   "net_buy": -9362542.0,
+   "buy_amt": 43403979.0,
+   "sell_amt": 52766521.0,
+   "deal_amt": 96170500.0,
+   "amount": 233652173.0,
+   "turnover_pct": 3.87,
+   "deal_ratio": 41.16,
+   "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+   "explain": "买一主买，成功率44.00%",
+   "free_cap": 2782429600.0,
+   "market": "SH",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+   ],
+   "industry": "化学制品",
+   "reason_all": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+  },
+  {
+   "code": "600272",
+   "name": "开开实业",
+   "close": 15.7,
+   "change_pct": 10.02,
+   "net_buy": -10593069.15,
+   "buy_amt": 61900379.35,
+   "sell_amt": 72493448.5,
+   "deal_amt": 134393827.85,
+   "amount": 752039618.0,
+   "turnover_pct": 30.27,
+   "deal_ratio": 17.87,
+   "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
+   "explain": "普通席位买入，成功率35.25%",
+   "free_cap": 2547040000.0,
+   "market": "SH",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
+    "有价格涨跌幅限制的日换手率达到20%的前五只证券"
+   ],
+   "industry": "医药商业",
+   "reason_all": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券 / 有价格涨跌幅限制的日换手率达到20%的前五只证券"
+  },
+  {
+   "code": "301583",
+   "name": "托伦斯",
+   "close": 166.31,
+   "change_pct": 1.86,
+   "net_buy": -10697339.94,
+   "buy_amt": 257739325.24,
+   "sell_amt": 268436665.18,
+   "deal_amt": 526175990.42,
+   "amount": 2395088450.0,
+   "turnover_pct": 46.17,
+   "deal_ratio": 21.97,
+   "reason": "日换手率达到30%的前5只证券",
+   "explain": "4家机构买入，成功率31.40%",
+   "free_cap": 5127565643.63,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "日换手率达到30%的前5只证券"
+   ],
+   "industry": "半导体",
+   "reason_all": "日换手率达到30%的前5只证券"
+  },
+  {
+   "code": "603655",
+   "name": "朗博科技",
+   "close": 33.79,
+   "change_pct": 9.99,
+   "net_buy": -11322013.59,
+   "buy_amt": 94217962.9,
+   "sell_amt": 105539976.49,
+   "deal_amt": 199757939.39,
+   "amount": 390884147.0,
+   "turnover_pct": 5.26,
+   "deal_ratio": 51.1,
+   "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+   "explain": "普通席位买入，成功率37.70%",
+   "free_cap": 3581740000.0,
+   "market": "SH",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+   ],
+   "industry": "汽车零部件",
+   "reason_all": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+  },
+  {
+   "code": "605179",
+   "name": "一鸣食品",
+   "close": 27.63,
+   "change_pct": 9.99,
+   "net_buy": -12197892.0,
+   "buy_amt": 184057119.0,
+   "sell_amt": 196255011.0,
+   "deal_amt": 380312130.0,
+   "amount": 1856366724.0,
+   "turnover_pct": 10.37,
+   "deal_ratio": 20.49,
+   "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+   "explain": "买一主买，成功率43.08%",
+   "free_cap": 11079630000.0,
+   "market": "SH",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+   ],
+   "industry": "饮料乳品",
+   "reason_all": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+  },
+  {
+   "code": "600683",
+   "name": "京投发展",
+   "close": 10.68,
+   "change_pct": 9.99,
+   "net_buy": -13149484.0,
+   "buy_amt": 38110819.0,
+   "sell_amt": 51260303.0,
+   "deal_amt": 89371122.0,
+   "amount": 168063579.0,
+   "turnover_pct": 1.31,
+   "deal_ratio": 53.18,
+   "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+   "explain": "买一主买，成功率46.43%",
+   "free_cap": 7911504735.96,
+   "market": "SH",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+   ],
+   "industry": "房地产开发",
+   "reason_all": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+  },
+  {
+   "code": "920038",
+   "name": "森合高科",
+   "close": 41.61,
+   "change_pct": -9.66,
+   "net_buy": -18845301.28,
+   "buy_amt": 30406824.22,
+   "sell_amt": 49252125.5,
+   "deal_amt": 79658949.72,
+   "amount": 351558200.0,
+   "turnover_pct": 23.89,
+   "deal_ratio": 22.66,
+   "reason": "当日换手率达到20%的前5只股票",
+   "explain": "主力做T，成功率20.92%",
+   "free_cap": 1421650630.41,
+   "market": "BJ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "当日换手率达到20%的前5只股票"
+   ],
+   "industry": "化学制品",
+   "reason_all": "当日换手率达到20%的前5只股票"
+  },
+  {
+   "code": "920088",
+   "name": "科力股份",
+   "close": 48.2,
+   "change_pct": 8.46,
+   "net_buy": -25288977.17,
+   "buy_amt": 32153068.71,
+   "sell_amt": 57442045.88,
+   "deal_amt": 89595114.59,
+   "amount": 377867600.0,
+   "turnover_pct": 24.45,
+   "deal_ratio": 23.71,
+   "reason": "当日换手率达到20%的前5只股票",
+   "explain": "西藏自治区资金买入，成功率22.07%",
+   "free_cap": 1569692286.0,
+   "market": "BJ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "当日换手率达到20%的前5只股票"
+   ],
+   "industry": "油服工程",
+   "reason_all": "当日换手率达到20%的前5只股票"
+  },
+  {
+   "code": "605286",
+   "name": "同力天启",
+   "close": 28.17,
+   "change_pct": 10.0,
+   "net_buy": -35514716.13,
+   "buy_amt": 54073576.87,
+   "sell_amt": 89588293.0,
+   "deal_amt": 143661869.87,
+   "amount": 370740330.0,
+   "turnover_pct": 5.39,
+   "deal_ratio": 38.75,
+   "reason": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+   "explain": "普通席位买入，成功率46.53%",
+   "free_cap": 4732560000.0,
+   "market": "SH",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+   ],
+   "industry": "专用设备",
+   "reason_all": "非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券"
+  },
+  {
+   "code": "002580",
+   "name": "圣阳股份",
+   "close": 20.97,
+   "change_pct": -0.1,
+   "net_buy": -36248775.12,
+   "buy_amt": 285774472.12,
+   "sell_amt": 322023247.24,
+   "deal_amt": 607797719.36,
+   "amount": 2965166295.0,
+   "turnover_pct": 30.52,
+   "deal_ratio": 20.5,
+   "reason": "日换手率达到20%的前5只证券",
+   "explain": "1家机构卖出，成功率22.51%",
+   "free_cap": 9485544636.0,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "日换手率达到20%的前5只证券"
+   ],
+   "industry": "电池",
+   "reason_all": "日换手率达到20%的前5只证券"
+  },
+  {
+   "code": "603158",
+   "name": "腾龙股份",
+   "close": 9.99,
+   "change_pct": -9.84,
+   "net_buy": -36699163.0,
+   "buy_amt": 31489347.0,
+   "sell_amt": 68188510.0,
+   "deal_amt": 99677857.0,
+   "amount": 513080834.0,
+   "turnover_pct": 10.29,
+   "deal_ratio": 19.43,
+   "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券",
+   "explain": "1家机构卖出，成功率44.38%",
+   "free_cap": 4902793778.52,
+   "market": "SH",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券"
+   ],
+   "industry": "汽车零部件",
+   "reason_all": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券"
+  },
+  {
+   "code": "603407",
+   "name": "长裕集团",
+   "close": 64.67,
+   "change_pct": -2.5,
+   "net_buy": -37755076.63,
+   "buy_amt": 74455810.36,
+   "sell_amt": 112210886.99,
+   "deal_amt": 186666697.35,
+   "amount": 810659041.0,
+   "turnover_pct": 33.64,
+   "deal_ratio": 23.03,
+   "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券",
+   "explain": "1家机构卖出，成功率44.19%",
+   "free_cap": 2322428522.64,
+   "market": "SH",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "有价格涨跌幅限制的日换手率达到20%的前五只证券"
+   ],
+   "industry": "化学原料",
+   "reason_all": "有价格涨跌幅限制的日换手率达到20%的前五只证券"
+  },
+  {
+   "code": "600449",
+   "name": "宁夏建材",
+   "close": 12.58,
+   "change_pct": -9.82,
+   "net_buy": -39039609.27,
+   "buy_amt": 69740203.0,
+   "sell_amt": 108779812.27,
+   "deal_amt": 178520015.27,
+   "amount": 815336323.0,
+   "turnover_pct": 13.53,
+   "deal_ratio": 21.9,
+   "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券",
+   "explain": "1家机构卖出，成功率48.27%",
+   "free_cap": 6015517508.36,
+   "market": "SH",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券"
+   ],
+   "industry": "水泥",
+   "reason_all": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券"
+  },
+  {
+   "code": "002900",
+   "name": "哈三联",
+   "close": 14.58,
+   "change_pct": -1.69,
+   "net_buy": -46493012.0,
+   "buy_amt": 83134926.0,
+   "sell_amt": 129627938.0,
+   "deal_amt": 212762864.0,
+   "amount": 935714692.0,
+   "turnover_pct": 38.83,
+   "deal_ratio": 22.74,
+   "reason": "日换手率达到20%的前5只证券",
+   "explain": "2家机构卖出，成功率16.28%",
+   "free_cap": 2349164592.0,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "日换手率达到20%的前5只证券"
+   ],
+   "industry": "化学制药",
+   "reason_all": "日换手率达到20%的前5只证券"
+  },
+  {
+   "code": "002990",
+   "name": "盛视科技",
+   "close": 52.17,
+   "change_pct": -8.09,
+   "net_buy": -52449021.0,
+   "buy_amt": 194209107.0,
+   "sell_amt": 246658128.0,
+   "deal_amt": 440867235.0,
+   "amount": 1027794967.0,
+   "turnover_pct": 14.05,
+   "deal_ratio": 42.89,
+   "reason": "日跌幅偏离值达到7%的前5只证券",
+   "explain": "1家机构卖出，成功率24.94%",
+   "free_cap": 7200428431.71,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "日跌幅偏离值达到7%的前5只证券"
+   ],
+   "industry": "计算机设备",
+   "reason_all": "日跌幅偏离值达到7%的前5只证券"
+  },
+  {
+   "code": "300534",
+   "name": "陇神戎发",
+   "close": 15.7,
+   "change_pct": -1.13,
+   "net_buy": -59356878.98,
+   "buy_amt": 141532258.0,
+   "sell_amt": 200889136.98,
+   "deal_amt": 342421394.98,
+   "amount": 1527971180.0,
+   "turnover_pct": 30.95,
+   "deal_ratio": 22.41,
+   "reason": "日换手率达到30%的前5只证券",
+   "explain": "3家机构卖出，成功率18.08%",
+   "free_cap": 4742208361.6,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "日换手率达到30%的前5只证券"
+   ],
+   "industry": "中药",
+   "reason_all": "日换手率达到30%的前5只证券"
+  },
+  {
+   "code": "002667",
+   "name": "*ST威领",
+   "close": 14.55,
+   "change_pct": -8.78,
+   "net_buy": -66863216.0,
+   "buy_amt": 60361796.0,
+   "sell_amt": 127225012.0,
+   "deal_amt": 187586808.0,
+   "amount": 521053722.0,
+   "turnover_pct": 14.5,
+   "deal_ratio": 36.0,
+   "reason": "日跌幅偏离值达到7%的前5只证券",
+   "explain": "2家机构卖出，成功率3.27%",
+   "free_cap": 3442690050.0,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "日跌幅偏离值达到7%的前5只证券"
+   ],
+   "industry": "专用设备",
+   "reason_all": "日跌幅偏离值达到7%的前5只证券"
+  },
+  {
+   "code": "000802",
+   "name": "北京文化",
+   "close": 5.17,
+   "change_pct": 10.0,
+   "net_buy": -99510401.8,
+   "buy_amt": 163665775.0,
+   "sell_amt": 263176176.8,
+   "deal_amt": 426841951.8,
+   "amount": 734046243.0,
+   "turnover_pct": 6.87,
+   "deal_ratio": 58.15,
+   "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+   "explain": "买一主买，成功率37.21%",
+   "free_cap": 3699362505.85,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "连续三个交易日内，涨幅偏离值累计达到20%的证券"
+   ],
+   "industry": "影视院线",
+   "reason_all": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
+  },
+  {
+   "code": "002552",
+   "name": "宝鼎科技",
+   "close": 54.61,
+   "change_pct": 4.3,
+   "net_buy": -106328242.28,
+   "buy_amt": 888994127.0,
+   "sell_amt": 995322369.28,
+   "deal_amt": 1884316496.28,
+   "amount": 4496469273.0,
+   "turnover_pct": 15.03,
+   "deal_ratio": 41.91,
+   "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+   "explain": "2家机构买入，成功率21.93%",
+   "free_cap": 20123964612.29,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "连续三个交易日内，涨幅偏离值累计达到20%的证券"
+   ],
+   "industry": "元件",
+   "reason_all": "连续三个交易日内，涨幅偏离值累计达到20%的证券"
+  },
+  {
+   "code": "000779",
+   "name": "甘咨询",
+   "close": 12.73,
+   "change_pct": 10.03,
+   "net_buy": -109966293.59,
+   "buy_amt": 107876911.82,
+   "sell_amt": 217843205.41,
+   "deal_amt": 325720117.23,
+   "amount": 1460861327.0,
+   "turnover_pct": 28.9,
+   "deal_ratio": 22.3,
+   "reason": "日振幅值达到15%的前5只证券",
+   "explain": "1家机构买入，成功率21.13%",
+   "free_cap": 5916560353.65,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "日振幅值达到15%的前5只证券",
+    "日涨幅偏离值达到7%的前5只证券"
+   ],
+   "industry": "工程咨询服务",
+   "reason_all": "日振幅值达到15%的前5只证券 / 日涨幅偏离值达到7%的前5只证券"
+  },
+  {
+   "code": "002350",
+   "name": "北京科锐",
+   "close": 15.01,
+   "change_pct": -10.01,
+   "net_buy": -117741864.6,
+   "buy_amt": 64696638.0,
+   "sell_amt": 182438502.6,
+   "deal_amt": 247135140.6,
+   "amount": 527997615.0,
+   "turnover_pct": 6.51,
+   "deal_ratio": 46.81,
+   "reason": "日跌幅偏离值达到7%的前5只证券",
+   "explain": "3家机构卖出，成功率17.37%",
+   "free_cap": 7963556565.71,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "日跌幅偏离值达到7%的前5只证券"
+   ],
+   "industry": "电网设备",
+   "reason_all": "日跌幅偏离值达到7%的前5只证券"
+  },
+  {
+   "code": "002141",
+   "name": "贤丰控股",
+   "close": 6.88,
+   "change_pct": 2.38,
+   "net_buy": -164716884.24,
+   "buy_amt": 253932090.0,
+   "sell_amt": 418648974.24,
+   "deal_amt": 672581064.24,
+   "amount": 2769995497.0,
+   "turnover_pct": 37.74,
+   "deal_ratio": 24.28,
+   "reason": "日振幅值达到15%的前5只证券",
+   "explain": "4家机构买入，成功率18.03%",
+   "free_cap": 7106598290.24,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "日振幅值达到15%的前5只证券",
+    "日换手率达到20%的前5只证券"
+   ],
+   "industry": "元件",
+   "reason_all": "日振幅值达到15%的前5只证券 / 日换手率达到20%的前5只证券"
+  },
+  {
+   "code": "603306",
+   "name": "华懋科技",
+   "close": 70.8,
+   "change_pct": -9.23,
+   "net_buy": -166458293.25,
+   "buy_amt": 254595402.16,
+   "sell_amt": 421053695.41,
+   "deal_amt": 675649097.57,
+   "amount": 1579372244.0,
+   "turnover_pct": 6.62,
+   "deal_ratio": 42.78,
+   "reason": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券",
+   "explain": "普通席位卖出，成功率43.52%",
+   "free_cap": 23328295347.6,
+   "market": "SH",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券"
+   ],
+   "industry": "汽车零部件",
+   "reason_all": "有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券"
+  },
+  {
+   "code": "002202",
+   "name": "金风科技",
+   "close": 19.92,
+   "change_pct": -8.12,
+   "net_buy": -170042667.67,
+   "buy_amt": 427470937.33,
+   "sell_amt": 597513605.0,
+   "deal_amt": 1024984542.33,
+   "amount": 4545158380.0,
+   "turnover_pct": 6.74,
+   "deal_ratio": 22.55,
+   "reason": "日跌幅偏离值达到7%的前5只证券",
+   "explain": "2家机构卖出，成功率21.41%",
+   "free_cap": 67001021213.52,
+   "market": "SZ",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "日跌幅偏离值达到7%的前5只证券"
+   ],
+   "industry": "风电设备",
+   "reason_all": "日跌幅偏离值达到7%的前5只证券"
+  },
+  {
+   "code": "600988",
+   "name": "赤峰黄金",
+   "close": 40.3,
+   "change_pct": -7.84,
+   "net_buy": -391915865.56,
+   "buy_amt": 1111746575.22,
+   "sell_amt": 1503662440.78,
+   "deal_amt": 2615409016.0,
+   "amount": 5167809411.0,
+   "turnover_pct": 7.33,
+   "deal_ratio": 50.61,
+   "reason": "有价格涨跌幅限制的日价格振幅达到15%的前五只证券",
+   "explain": "4家机构卖出，成功率42.64%",
+   "free_cap": 67055628533.4,
+   "market": "SH",
+   "d1": null,
+   "d5": null,
+   "reasons": [
+    "有价格涨跌幅限制的日价格振幅达到15%的前五只证券"
+   ],
+   "industry": "贵金属",
+   "reason_all": "有价格涨跌幅限制的日价格振幅达到15%的前五只证券"
+  }
+ ],
+ "ths_hot": [
+  {
+   "code": "002963",
+   "name": "豪尔赛",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "液冷服务器+智慧灯杆+照明工程",
+   "tags": [
+    "液冷服务器",
+    "智慧灯杆",
+    "照明工程"
+   ],
+   "market": 33,
+   "industry": "装修装饰"
+  },
+  {
+   "code": "600759",
+   "name": "ST洲际",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "油气开采+伊拉克项目+ST摘帽预期",
+   "tags": [
+    "油气开采",
+    "伊拉克项目",
+    "ST摘帽预期"
+   ],
+   "market": 22,
+   "industry": "油气开采"
+  },
+  {
+   "code": "000779",
+   "name": "甘咨询",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "参股算力建设（金额较小）+工程咨询+AI应用+甘肃国资",
+   "tags": [
+    "参股算力建设（金额较小）",
+    "工程咨询",
+    "AI应用",
+    "甘肃国资"
+   ],
+   "market": 33,
+   "industry": "工程咨询服务"
+  },
+  {
+   "code": "603655",
+   "name": "朗博科技",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "橡胶密封件+新能源汽车+年报增长",
+   "tags": [
+    "橡胶密封件",
+    "新能源汽车",
+    "年报增长"
+   ],
+   "market": 17,
+   "industry": "汽车零部件"
+  },
+  {
+   "code": "603897",
+   "name": "长城科技",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "机器人概念+电磁线+年报增长",
+   "tags": [
+    "机器人概念",
+    "电磁线",
+    "年报增长"
+   ],
+   "market": 17,
+   "industry": "电网设备"
+  },
+  {
+   "code": "002762",
+   "name": "金发拉比",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "母婴用品+摘帽+中报预计扭亏",
+   "tags": [
+    "母婴用品",
+    "摘帽",
+    "中报预计扭亏"
+   ],
+   "market": 33,
+   "industry": "服装家纺"
+  },
+  {
+   "code": "603823",
+   "name": "百合花",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "光刻胶+战略入股+PEEK材料+有机颜料",
+   "tags": [
+    "光刻胶",
+    "战略入股",
+    "PEEK材料",
+    "有机颜料"
+   ],
+   "market": 17,
+   "industry": "化学制品"
+  },
+  {
+   "code": "603179",
+   "name": "新泉股份",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "机器人+汽车饰件+全球化布局",
+   "tags": [
+    "机器人",
+    "汽车饰件",
+    "全球化布局"
+   ],
+   "market": 17,
+   "industry": "汽车零部件"
+  },
+  {
+   "code": "301529",
+   "name": "福赛科技",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "机器人+汽车内饰件+定增获批",
+   "tags": [
+    "机器人",
+    "汽车内饰件",
+    "定增获批"
+   ],
+   "market": 33,
+   "industry": "汽车零部件"
+  },
+  {
+   "code": "301550",
+   "name": "斯菱智驱",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "机器人+谐波减速器+汽车轮毂轴承",
+   "tags": [
+    "机器人",
+    "谐波减速器",
+    "汽车轮毂轴承"
+   ],
+   "market": 33,
+   "industry": "汽车零部件"
+  },
+  {
+   "code": "002235",
+   "name": "安妮股份",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "彩票印制+数据确权+防伪溯源+控制权变更",
+   "tags": [
+    "彩票印制",
+    "数据确权",
+    "防伪溯源",
+    "控制权变更"
+   ],
+   "market": 33,
+   "industry": "造纸"
+  },
+  {
+   "code": "603009",
+   "name": "北特科技",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "人形机器人+丝杠+汽车零部件",
+   "tags": [
+    "人形机器人",
+    "丝杠",
+    "汽车零部件"
+   ],
+   "market": 17,
+   "industry": "汽车零部件"
+  },
+  {
+   "code": "002031",
+   "name": "巨轮智能",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "人形机器人+RV减速器+轮胎模具",
+   "tags": [
+    "人形机器人",
+    "RV减速器",
+    "轮胎模具"
+   ],
+   "market": 33,
+   "industry": "专用设备"
+  },
+  {
+   "code": "600107",
+   "name": "*ST尔雅",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "服装主业+股权变卖+ST板块",
+   "tags": [
+    "服装主业",
+    "股权变卖",
+    "ST板块"
+   ],
+   "market": 22,
+   "industry": "服装家纺"
+  },
+  {
+   "code": "603284",
+   "name": "林平发展",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "造纸+产能扩张+循环经济+次新股",
+   "tags": [
+    "造纸",
+    "产能扩张",
+    "循环经济",
+    "次新股"
+   ],
+   "market": 17,
+   "industry": "造纸"
+  },
+  {
+   "code": "605288",
+   "name": "凯迪股份",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "机器人+智能线性驱动+新能源汽车",
+   "tags": [
+    "机器人",
+    "智能线性驱动",
+    "新能源汽车"
+   ],
+   "market": 17,
+   "industry": "自动化设备"
+  },
+  {
+   "code": "600881",
+   "name": "亚泰集团",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "创新药+预重整+重整投资人招募+长春国资",
+   "tags": [
+    "创新药",
+    "预重整",
+    "重整投资人招募",
+    "长春国资"
+   ],
+   "market": 17,
+   "industry": "综合"
+  },
+  {
+   "code": "301520",
+   "name": "万邦医药",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "创新药+CRO+收购赛德盛",
+   "tags": [
+    "创新药",
+    "CRO",
+    "收购赛德盛"
+   ],
+   "market": 33,
+   "industry": "医疗服务"
+  },
+  {
+   "code": "002715",
+   "name": "登云股份",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "黄金概念+汽车零部件+一季报增长",
+   "tags": [
+    "黄金概念",
+    "汽车零部件",
+    "一季报增长"
+   ],
+   "market": 33,
+   "industry": "汽车零部件"
+  },
+  {
+   "code": "002194",
+   "name": "武汉凡谷",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "6G预研+滤波器龙头+卫星通信",
+   "tags": [
+    "6G预研",
+    "滤波器龙头",
+    "卫星通信"
+   ],
+   "market": 33,
+   "industry": "通信设备"
+  },
+  {
+   "code": "603012",
+   "name": "创力集团",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "煤机装备+智慧矿山+华为合作+定增获批",
+   "tags": [
+    "煤机装备",
+    "智慧矿山",
+    "华为合作",
+    "定增获批"
+   ],
+   "market": 17,
+   "industry": "专用设备"
+  },
+  {
+   "code": "002246",
+   "name": "北化股份",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "半年报增长+硝化棉+商业航天+央企",
+   "tags": [
+    "半年报增长",
+    "硝化棉",
+    "商业航天",
+    "央企"
+   ],
+   "market": 33,
+   "industry": "化学制品"
+  },
+  {
+   "code": "603488",
+   "name": "展鹏科技",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "军工+军事仿真+电梯门系统",
+   "tags": [
+    "军工",
+    "军事仿真",
+    "电梯门系统"
+   ],
+   "market": 17,
+   "industry": "专用设备"
+  },
+  {
+   "code": "600667",
+   "name": "太极实业",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "存储芯片+先进封装+SK海力士+无锡国资",
+   "tags": [
+    "存储芯片",
+    "先进封装",
+    "SK海力士",
+    "无锡国资"
+   ],
+   "market": 17,
+   "industry": "工程咨询服务"
+  },
+  {
+   "code": "603137",
+   "name": "恒尚节能",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "跨界存储+建筑幕墙+新签项目增长",
+   "tags": [
+    "跨界存储",
+    "建筑幕墙",
+    "新签项目增长"
+   ],
+   "market": 17,
+   "industry": "装修装饰"
+  },
+  {
+   "code": "603887",
+   "name": "城地香江",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "模块化数据中心+算力租赁+央企入主",
+   "tags": [
+    "模块化数据中心",
+    "算力租赁",
+    "央企入主"
+   ],
+   "market": 17,
+   "industry": "IT服务"
+  },
+  {
+   "code": "001258",
+   "name": "立新能源",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "半年报增长+风电+光伏+新疆国资",
+   "tags": [
+    "半年报增长",
+    "风电",
+    "光伏",
+    "新疆国资"
+   ],
+   "market": 33,
+   "industry": "电力"
+  },
+  {
+   "code": "605286",
+   "name": "同力天启",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "算电协同+储能+电梯部件",
+   "tags": [
+    "算电协同",
+    "储能",
+    "电梯部件"
+   ],
+   "market": 17,
+   "industry": "专用设备"
+  },
+  {
+   "code": "600833",
+   "name": "第一医药",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "医药商业+中报预增+上海国资",
+   "tags": [
+    "医药商业",
+    "中报预增",
+    "上海国资"
+   ],
+   "market": 17,
+   "industry": "医药商业"
+  },
+  {
+   "code": "600863",
+   "name": "华能蒙电",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "电力+新能源+煤电联营+央企",
+   "tags": [
+    "电力",
+    "新能源",
+    "煤电联营",
+    "央企"
+   ],
+   "market": 17,
+   "industry": "电力"
+  },
+  {
+   "code": "300426",
+   "name": "华智数媒",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "影视院线+AI应用+半年报扭亏",
+   "tags": [
+    "影视院线",
+    "AI应用",
+    "半年报扭亏"
+   ],
+   "market": 33,
+   "industry": "影视院线"
+  },
+  {
+   "code": "600664",
+   "name": "哈药股份",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "创新药+集采拟中标+半年报预增",
+   "tags": [
+    "创新药",
+    "集采拟中标",
+    "半年报预增"
+   ],
+   "market": 17,
+   "industry": "化学制药"
+  },
+  {
+   "code": "603106",
+   "name": "恒银科技",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "AI应用+金融智能终端+金融信创",
+   "tags": [
+    "AI应用",
+    "金融智能终端",
+    "金融信创"
+   ],
+   "market": 17,
+   "industry": "计算机设备"
+  },
+  {
+   "code": "600126",
+   "name": "杭钢股份",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "减持未实施+算力租赁+浙江国资",
+   "tags": [
+    "减持未实施",
+    "算力租赁",
+    "浙江国资"
+   ],
+   "market": 17,
+   "industry": "普钢"
+  },
+  {
+   "code": "002229",
+   "name": "鸿博股份",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "算力租赁+彩票印刷",
+   "tags": [
+    "算力租赁",
+    "彩票印刷"
+   ],
+   "market": 33,
+   "industry": "IT服务"
+  },
+  {
+   "code": "600715",
+   "name": "文投控股",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "影视院线+AI漫剧+北京国资",
+   "tags": [
+    "影视院线",
+    "AI漫剧",
+    "北京国资"
+   ],
+   "market": 17,
+   "industry": "游戏"
+  },
+  {
+   "code": "002859",
+   "name": "洁美科技",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "拟收购埃福思科技+MLCC离型膜+载带满产",
+   "tags": [
+    "拟收购埃福思科技",
+    "MLCC离型膜",
+    "载带满产"
+   ],
+   "market": 33,
+   "industry": "其他电子"
+  },
+  {
+   "code": "000859",
+   "name": "国风新材",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "光刻胶+MLCC+聚酰亚胺+并购重组",
+   "tags": [
+    "光刻胶",
+    "MLCC",
+    "聚酰亚胺",
+    "并购重组"
+   ],
+   "market": 33,
+   "industry": "塑料"
+  },
+  {
+   "code": "605179",
+   "name": "一鸣食品",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "乳业+烘焙食品+米制鲜食",
+   "tags": [
+    "乳业",
+    "烘焙食品",
+    "米制鲜食"
+   ],
+   "market": 17,
+   "industry": "饮料乳品"
+  },
+  {
+   "code": "002685",
+   "name": "华东重机",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "港机出海+GPU芯片+重大合同+中报预增",
+   "tags": [
+    "港机出海",
+    "GPU芯片",
+    "重大合同",
+    "中报预增"
+   ],
+   "market": 33,
+   "industry": "工程机械"
+  },
+  {
+   "code": "002687",
+   "name": "乔治白",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "职业装+校服+通勤服",
+   "tags": [
+    "职业装",
+    "校服",
+    "通勤服"
+   ],
+   "market": 33,
+   "industry": "服装家纺"
+  },
+  {
+   "code": "603883",
+   "name": "老百姓",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "药品零售+股份回购+员工持股",
+   "tags": [
+    "药品零售",
+    "股份回购",
+    "员工持股"
+   ],
+   "market": 17,
+   "industry": "医药商业"
+  },
+  {
+   "code": "600162",
+   "name": "香江控股",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "算力+IDC+家居商贸+房地产",
+   "tags": [
+    "算力",
+    "IDC",
+    "家居商贸",
+    "房地产"
+   ],
+   "market": 17,
+   "industry": "房地产开发"
+  },
+  {
+   "code": "600611",
+   "name": "大众交通",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "无人驾驶+上海出租车+间接投资长江存储+算力",
+   "tags": [
+    "无人驾驶",
+    "上海出租车",
+    "间接投资长江存储",
+    "算力"
+   ],
+   "market": 17,
+   "industry": "铁路公路"
+  },
+  {
+   "code": "002047",
+   "name": "宝鹰股份",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "光耦合器+股权转让+国企改革",
+   "tags": [
+    "光耦合器",
+    "股权转让",
+    "国企改革"
+   ],
+   "market": 33,
+   "industry": "装修装饰"
+  },
+  {
+   "code": "002256",
+   "name": "兆新股份",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "光伏+收购新能源运维公司+盐湖提锂+定增",
+   "tags": [
+    "光伏",
+    "收购新能源运维公司",
+    "盐湖提锂",
+    "定增"
+   ],
+   "market": 33,
+   "industry": "电力"
+  },
+  {
+   "code": "600272",
+   "name": "开开实业",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "SPD+医药商业+资产收购+上海国资",
+   "tags": [
+    "SPD",
+    "医药商业",
+    "资产收购",
+    "上海国资"
+   ],
+   "market": 17,
+   "industry": "医药商业"
+  },
+  {
+   "code": "002212",
+   "name": "天融信",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "AI安全+智算云+车联网安全",
+   "tags": [
+    "AI安全",
+    "智算云",
+    "车联网安全"
+   ],
+   "market": 33,
+   "industry": "软件开发"
+  },
+  {
+   "code": "603797",
+   "name": "联泰环保",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "污水处理+PPP项目+估值提升",
+   "tags": [
+    "污水处理",
+    "PPP项目",
+    "估值提升"
+   ],
+   "market": 17,
+   "industry": "环境治理"
+  },
+  {
+   "code": "603087",
+   "name": "甘李药业",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "GLP-1出海+独家许可协议+创新药+胰岛素龙头",
+   "tags": [
+    "GLP-1出海",
+    "独家许可协议",
+    "创新药",
+    "胰岛素龙头"
+   ],
+   "market": 17,
+   "industry": "生物制品"
+  },
+  {
+   "code": "002585",
+   "name": "双星新材",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "MLCC离型膜+复合铜箔+光学膜+半年报预计扭亏",
+   "tags": [
+    "MLCC离型膜",
+    "复合铜箔",
+    "光学膜",
+    "半年报预计扭亏"
+   ],
+   "market": 33,
+   "industry": "塑料"
+  },
+  {
+   "code": "002721",
+   "name": "金一文化",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "黄金珠宝+数字货币+AI应用+海淀国资",
+   "tags": [
+    "黄金珠宝",
+    "数字货币",
+    "AI应用",
+    "海淀国资"
+   ],
+   "market": 33,
+   "industry": "饰品"
+  },
+  {
+   "code": "603188",
+   "name": "亚邦股份",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "染料+资产处置+一季报增长+常州国资",
+   "tags": [
+    "染料",
+    "资产处置",
+    "一季报增长",
+    "常州国资"
+   ],
+   "market": 17,
+   "industry": "化学制品"
+  },
+  {
+   "code": "002329",
+   "name": "皇氏集团",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "乳业+新式茶饮+代工+种源突破",
+   "tags": [
+    "乳业",
+    "新式茶饮",
+    "代工",
+    "种源突破"
+   ],
+   "market": 33,
+   "industry": "饮料乳品"
+  },
+  {
+   "code": "002248",
+   "name": "华东数控",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "工业母机+谐波减速器+圆台磨床中标",
+   "tags": [
+    "工业母机",
+    "谐波减速器",
+    "圆台磨床中标"
+   ],
+   "market": 33,
+   "industry": "通用设备"
+  },
+  {
+   "code": "603758",
+   "name": "秦安股份",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "人形机器人+真空镀膜+发动机核心零部件+回购注销",
+   "tags": [
+    "人形机器人",
+    "真空镀膜",
+    "发动机核心零部件",
+    "回购注销"
+   ],
+   "market": 17,
+   "industry": "汽车零部件"
+  },
+  {
+   "code": "600721",
+   "name": "百花医药",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "CRO+创新药+金华国资",
+   "tags": [
+    "CRO",
+    "创新药",
+    "金华国资"
+   ],
+   "market": 17,
+   "industry": "医疗服务"
+  },
+  {
+   "code": "600683",
+   "name": "京投发展",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "资产重组+拟购光电子资产+TOD轨道物业+北京国资",
+   "tags": [
+    "资产重组",
+    "拟购光电子资产",
+    "TOD轨道物业",
+    "北京国资"
+   ],
+   "market": 17,
+   "industry": "房地产开发"
+  },
+  {
+   "code": "300862",
+   "name": "蓝盾光电",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "拟重大资产重组+复牌+真空镀膜设备+环境监测",
+   "tags": [
+    "拟重大资产重组",
+    "复牌",
+    "真空镀膜设备",
+    "环境监测"
+   ],
+   "market": 33,
+   "industry": "通用设备"
+  },
+  {
+   "code": "000802",
+   "name": "北京文化",
+   "close": 0.0,
+   "change_pct": 0.0,
+   "turnover_pct": 0.0,
+   "amount": 0.0,
+   "big_order": 0.0,
+   "reason": "《欢迎来龙餐馆》上映+影视全产业链+半年报减亏",
+   "tags": [
+    "《欢迎来龙餐馆》上映",
+    "影视全产业链",
+    "半年报减亏"
+   ],
+   "market": 33,
+   "industry": "影视院线"
+  }
+ ],
+ "themes": [
+  {
+   "tag": "创新药",
+   "count": 5,
+   "stocks": [
+    {
+     "code": "600881",
+     "name": "亚泰集团",
+     "change_pct": 0.0
+    },
+    {
+     "code": "301520",
+     "name": "万邦医药",
+     "change_pct": 0.0
+    },
+    {
+     "code": "600664",
+     "name": "哈药股份",
+     "change_pct": 0.0
+    },
+    {
+     "code": "603087",
+     "name": "甘李药业",
+     "change_pct": 0.0
+    },
+    {
+     "code": "600721",
+     "name": "百花医药",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "AI应用",
+   "count": 4,
+   "stocks": [
+    {
+     "code": "000779",
+     "name": "甘咨询",
+     "change_pct": 0.0
+    },
+    {
+     "code": "300426",
+     "name": "华智数媒",
+     "change_pct": 0.0
+    },
+    {
+     "code": "603106",
+     "name": "恒银科技",
+     "change_pct": 0.0
+    },
+    {
+     "code": "002721",
+     "name": "金一文化",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "机器人",
+   "count": 4,
+   "stocks": [
+    {
+     "code": "603179",
+     "name": "新泉股份",
+     "change_pct": 0.0
+    },
+    {
+     "code": "301529",
+     "name": "福赛科技",
+     "change_pct": 0.0
+    },
+    {
+     "code": "301550",
+     "name": "斯菱智驱",
+     "change_pct": 0.0
+    },
+    {
+     "code": "605288",
+     "name": "凯迪股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "人形机器人",
+   "count": 3,
+   "stocks": [
+    {
+     "code": "603009",
+     "name": "北特科技",
+     "change_pct": 0.0
+    },
+    {
+     "code": "002031",
+     "name": "巨轮智能",
+     "change_pct": 0.0
+    },
+    {
+     "code": "603758",
+     "name": "秦安股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "算力租赁",
+   "count": 3,
+   "stocks": [
+    {
+     "code": "603887",
+     "name": "城地香江",
+     "change_pct": 0.0
+    },
+    {
+     "code": "600126",
+     "name": "杭钢股份",
+     "change_pct": 0.0
+    },
+    {
+     "code": "002229",
+     "name": "鸿博股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "CRO",
+   "count": 2,
+   "stocks": [
+    {
+     "code": "301520",
+     "name": "万邦医药",
+     "change_pct": 0.0
+    },
+    {
+     "code": "600721",
+     "name": "百花医药",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "MLCC离型膜",
+   "count": 2,
+   "stocks": [
+    {
+     "code": "002859",
+     "name": "洁美科技",
+     "change_pct": 0.0
+    },
+    {
+     "code": "002585",
+     "name": "双星新材",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "一季报增长",
+   "count": 2,
+   "stocks": [
+    {
+     "code": "002715",
+     "name": "登云股份",
+     "change_pct": 0.0
+    },
+    {
+     "code": "603188",
+     "name": "亚邦股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "上海国资",
+   "count": 2,
+   "stocks": [
+    {
+     "code": "600833",
+     "name": "第一医药",
+     "change_pct": 0.0
+    },
+    {
+     "code": "600272",
+     "name": "开开实业",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "中报预增",
+   "count": 2,
+   "stocks": [
+    {
+     "code": "600833",
+     "name": "第一医药",
+     "change_pct": 0.0
+    },
+    {
+     "code": "002685",
+     "name": "华东重机",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "乳业",
+   "count": 2,
+   "stocks": [
+    {
+     "code": "605179",
+     "name": "一鸣食品",
+     "change_pct": 0.0
+    },
+    {
+     "code": "002329",
+     "name": "皇氏集团",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "光伏",
+   "count": 2,
+   "stocks": [
+    {
+     "code": "001258",
+     "name": "立新能源",
+     "change_pct": 0.0
+    },
+    {
+     "code": "002256",
+     "name": "兆新股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "光刻胶",
+   "count": 2,
+   "stocks": [
+    {
+     "code": "603823",
+     "name": "百合花",
+     "change_pct": 0.0
+    },
+    {
+     "code": "000859",
+     "name": "国风新材",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "北京国资",
+   "count": 2,
+   "stocks": [
+    {
+     "code": "600715",
+     "name": "文投控股",
+     "change_pct": 0.0
+    },
+    {
+     "code": "600683",
+     "name": "京投发展",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "医药商业",
+   "count": 2,
+   "stocks": [
+    {
+     "code": "600833",
+     "name": "第一医药",
+     "change_pct": 0.0
+    },
+    {
+     "code": "600272",
+     "name": "开开实业",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "半年报增长",
+   "count": 2,
+   "stocks": [
+    {
+     "code": "002246",
+     "name": "北化股份",
+     "change_pct": 0.0
+    },
+    {
+     "code": "001258",
+     "name": "立新能源",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "央企",
+   "count": 2,
+   "stocks": [
+    {
+     "code": "002246",
+     "name": "北化股份",
+     "change_pct": 0.0
+    },
+    {
+     "code": "600863",
+     "name": "华能蒙电",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "定增获批",
+   "count": 2,
+   "stocks": [
+    {
+     "code": "301529",
+     "name": "福赛科技",
+     "change_pct": 0.0
+    },
+    {
+     "code": "603012",
+     "name": "创力集团",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "年报增长",
+   "count": 2,
+   "stocks": [
+    {
+     "code": "603655",
+     "name": "朗博科技",
+     "change_pct": 0.0
+    },
+    {
+     "code": "603897",
+     "name": "长城科技",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "影视院线",
+   "count": 2,
+   "stocks": [
+    {
+     "code": "300426",
+     "name": "华智数媒",
+     "change_pct": 0.0
+    },
+    {
+     "code": "600715",
+     "name": "文投控股",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "新能源汽车",
+   "count": 2,
+   "stocks": [
+    {
+     "code": "603655",
+     "name": "朗博科技",
+     "change_pct": 0.0
+    },
+    {
+     "code": "605288",
+     "name": "凯迪股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "汽车零部件",
+   "count": 2,
+   "stocks": [
+    {
+     "code": "603009",
+     "name": "北特科技",
+     "change_pct": 0.0
+    },
+    {
+     "code": "002715",
+     "name": "登云股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "算力",
+   "count": 2,
+   "stocks": [
+    {
+     "code": "600162",
+     "name": "香江控股",
+     "change_pct": 0.0
+    },
+    {
+     "code": "600611",
+     "name": "大众交通",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "谐波减速器",
+   "count": 2,
+   "stocks": [
+    {
+     "code": "301550",
+     "name": "斯菱智驱",
+     "change_pct": 0.0
+    },
+    {
+     "code": "002248",
+     "name": "华东数控",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "6G预研",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002194",
+     "name": "武汉凡谷",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "AI安全",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002212",
+     "name": "天融信",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "AI漫剧",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600715",
+     "name": "文投控股",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "GLP-1出海",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603087",
+     "name": "甘李药业",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "GPU芯片",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002685",
+     "name": "华东重机",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "IDC",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600162",
+     "name": "香江控股",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "MLCC",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "000859",
+     "name": "国风新材",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "PEEK材料",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603823",
+     "name": "百合花",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "PPP项目",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603797",
+     "name": "联泰环保",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "RV减速器",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002031",
+     "name": "巨轮智能",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "SK海力士",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600667",
+     "name": "太极实业",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "SPD",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600272",
+     "name": "开开实业",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "ST摘帽预期",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600759",
+     "name": "ST洲际",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "ST板块",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600107",
+     "name": "*ST尔雅",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "TOD轨道物业",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600683",
+     "name": "京投发展",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "《欢迎来龙餐馆》上映",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "000802",
+     "name": "北京文化",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "上海出租车",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600611",
+     "name": "大众交通",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "丝杠",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603009",
+     "name": "北特科技",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "中报预计扭亏",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002762",
+     "name": "金发拉比",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "产能扩张",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603284",
+     "name": "林平发展",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "代工",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002329",
+     "name": "皇氏集团",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "伊拉克项目",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600759",
+     "name": "ST洲际",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "估值提升",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603797",
+     "name": "联泰环保",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "储能",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "605286",
+     "name": "同力天启",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "先进封装",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600667",
+     "name": "太极实业",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "光学膜",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002585",
+     "name": "双星新材",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "光耦合器",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002047",
+     "name": "宝鹰股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "全球化布局",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603179",
+     "name": "新泉股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "军事仿真",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603488",
+     "name": "展鹏科技",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "军工",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603488",
+     "name": "展鹏科技",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "减持未实施",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600126",
+     "name": "杭钢股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "半年报减亏",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "000802",
+     "name": "北京文化",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "半年报扭亏",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "300426",
+     "name": "华智数媒",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "半年报预增",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600664",
+     "name": "哈药股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "半年报预计扭亏",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002585",
+     "name": "双星新材",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "华为合作",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603012",
+     "name": "创力集团",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "卫星通信",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002194",
+     "name": "武汉凡谷",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "参股算力建设（金额较小）",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "000779",
+     "name": "甘咨询",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "发动机核心零部件",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603758",
+     "name": "秦安股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "员工持股",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603883",
+     "name": "老百姓",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "商业航天",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002246",
+     "name": "北化股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "回购注销",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603758",
+     "name": "秦安股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "国企改革",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002047",
+     "name": "宝鹰股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "圆台磨床中标",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002248",
+     "name": "华东数控",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "复合铜箔",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002585",
+     "name": "双星新材",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "复牌",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "300862",
+     "name": "蓝盾光电",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "央企入主",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603887",
+     "name": "城地香江",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "存储芯片",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600667",
+     "name": "太极实业",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "定增",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002256",
+     "name": "兆新股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "家居商贸",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600162",
+     "name": "香江控股",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "工业母机",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002248",
+     "name": "华东数控",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "工程咨询",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "000779",
+     "name": "甘咨询",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "常州国资",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603188",
+     "name": "亚邦股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "并购重组",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "000859",
+     "name": "国风新材",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "建筑幕墙",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603137",
+     "name": "恒尚节能",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "彩票印制",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002235",
+     "name": "安妮股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "彩票印刷",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002229",
+     "name": "鸿博股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "影视全产业链",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "000802",
+     "name": "北京文化",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "循环经济",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603284",
+     "name": "林平发展",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "战略入股",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603823",
+     "name": "百合花",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "房地产",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600162",
+     "name": "香江控股",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "拟收购埃福思科技",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002859",
+     "name": "洁美科技",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "拟购光电子资产",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600683",
+     "name": "京投发展",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "拟重大资产重组",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "300862",
+     "name": "蓝盾光电",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "控制权变更",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002235",
+     "name": "安妮股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "摘帽",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002762",
+     "name": "金发拉比",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "收购新能源运维公司",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002256",
+     "name": "兆新股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "收购赛德盛",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "301520",
+     "name": "万邦医药",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "数字货币",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002721",
+     "name": "金一文化",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "数据确权",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002235",
+     "name": "安妮股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "新式茶饮",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002329",
+     "name": "皇氏集团",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "新疆国资",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "001258",
+     "name": "立新能源",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "新签项目增长",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603137",
+     "name": "恒尚节能",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "新能源",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600863",
+     "name": "华能蒙电",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "无人驾驶",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600611",
+     "name": "大众交通",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "无锡国资",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600667",
+     "name": "太极实业",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "智慧灯杆",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002963",
+     "name": "豪尔赛",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "智慧矿山",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603012",
+     "name": "创力集团",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "智算云",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002212",
+     "name": "天融信",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "智能线性驱动",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "605288",
+     "name": "凯迪股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "有机颜料",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603823",
+     "name": "百合花",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "服装主业",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600107",
+     "name": "*ST尔雅",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "机器人概念",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603897",
+     "name": "长城科技",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "染料",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603188",
+     "name": "亚邦股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "校服",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002687",
+     "name": "乔治白",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "模块化数据中心",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603887",
+     "name": "城地香江",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "橡胶密封件",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603655",
+     "name": "朗博科技",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "次新股",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603284",
+     "name": "林平发展",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "母婴用品",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002762",
+     "name": "金发拉比",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "污水处理",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603797",
+     "name": "联泰环保",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "汽车内饰件",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "301529",
+     "name": "福赛科技",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "汽车轮毂轴承",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "301550",
+     "name": "斯菱智驱",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "汽车饰件",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603179",
+     "name": "新泉股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "油气开采",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600759",
+     "name": "ST洲际",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "浙江国资",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600126",
+     "name": "杭钢股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "海淀国资",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002721",
+     "name": "金一文化",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "液冷服务器",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002963",
+     "name": "豪尔赛",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "港机出海",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002685",
+     "name": "华东重机",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "滤波器龙头",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002194",
+     "name": "武汉凡谷",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "烘焙食品",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "605179",
+     "name": "一鸣食品",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "煤机装备",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603012",
+     "name": "创力集团",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "煤电联营",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600863",
+     "name": "华能蒙电",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "照明工程",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002963",
+     "name": "豪尔赛",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "独家许可协议",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603087",
+     "name": "甘李药业",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "环境监测",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "300862",
+     "name": "蓝盾光电",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "甘肃国资",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "000779",
+     "name": "甘咨询",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "电力",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600863",
+     "name": "华能蒙电",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "电梯部件",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "605286",
+     "name": "同力天启",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "电梯门系统",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603488",
+     "name": "展鹏科技",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "电磁线",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603897",
+     "name": "长城科技",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "盐湖提锂",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002256",
+     "name": "兆新股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "真空镀膜",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603758",
+     "name": "秦安股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "真空镀膜设备",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "300862",
+     "name": "蓝盾光电",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "硝化棉",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002246",
+     "name": "北化股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "种源突破",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002329",
+     "name": "皇氏集团",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "算电协同",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "605286",
+     "name": "同力天启",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "米制鲜食",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "605179",
+     "name": "一鸣食品",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "职业装",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002687",
+     "name": "乔治白",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "聚酰亚胺",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "000859",
+     "name": "国风新材",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "股份回购",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603883",
+     "name": "老百姓",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "股权变卖",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600107",
+     "name": "*ST尔雅",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "股权转让",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002047",
+     "name": "宝鹰股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "胰岛素龙头",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603087",
+     "name": "甘李药业",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "药品零售",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603883",
+     "name": "老百姓",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "资产处置",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603188",
+     "name": "亚邦股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "资产收购",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600272",
+     "name": "开开实业",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "资产重组",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600683",
+     "name": "京投发展",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "跨界存储",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603137",
+     "name": "恒尚节能",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "车联网安全",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002212",
+     "name": "天融信",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "轮胎模具",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002031",
+     "name": "巨轮智能",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "载带满产",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002859",
+     "name": "洁美科技",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "通勤服",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002687",
+     "name": "乔治白",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "造纸",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603284",
+     "name": "林平发展",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "重大合同",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002685",
+     "name": "华东重机",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "重整投资人招募",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600881",
+     "name": "亚泰集团",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "金华国资",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600721",
+     "name": "百花医药",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "金融信创",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603106",
+     "name": "恒银科技",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "金融智能终端",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "603106",
+     "name": "恒银科技",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "长春国资",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600881",
+     "name": "亚泰集团",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "间接投资长江存储",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600611",
+     "name": "大众交通",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "防伪溯源",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002235",
+     "name": "安妮股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "集采拟中标",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600664",
+     "name": "哈药股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "预重整",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "600881",
+     "name": "亚泰集团",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "风电",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "001258",
+     "name": "立新能源",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "黄金概念",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002715",
+     "name": "登云股份",
+     "change_pct": 0.0
+    }
+   ]
+  },
+  {
+   "tag": "黄金珠宝",
+   "count": 1,
+   "stocks": [
+    {
+     "code": "002721",
+     "name": "金一文化",
+     "change_pct": 0.0
+    }
+   ]
+  }
+ ],
+ "industries": []
+}
