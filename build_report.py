@@ -279,6 +279,62 @@ else:
                 f"因东财 push2 行情接口本次被风控限流，未能取到板块指数官方点位，与东财官网展示值可能有约 0.1~0.2 个百分点差异，"
                 f"排序与方向一致；上涨/下跌/涨停家数、领涨领跌股为逐只个股精确统计。")
 
+# ── 条件渲染：best-effort 板块（同花顺题材）若抓不到则整段省略，不留空框 ──
+# 海外 GitHub Actions runner 连不上同花顺，ths/themes 会为空；此时题材相关 KPI 与卡片
+# 全部不渲染，行业涨跌榜独占整行，保证报告干净、无空区块。
+has_theme = bool(themes)
+
+kpi_theme = (
+    f'''<div class="kpi r"><div class="l">当日最热题材</div><div class="v sm">{E(top_theme['tag'])}</div>
+    <div class="s">{top_theme['count']} 只强势股共用 · 共 {len(themes)} 个题材标签</div></div>'''
+    if has_theme else "")
+kpis_html = "".join([
+    f'''<div class="kpi r"><div class="l">龙虎榜上榜家数</div><div class="v">{len(lhb)}</div>
+    <div class="s">共 {len(lhb_rec)} 条上榜记录</div></div>''',
+    f'''<div class="kpi {'r' if net_buy_total>0 else 'g'}"><div class="l">龙虎榜净买入合计</div>
+    <div class="v {cls(net_buy_total)}">{money(net_buy_total, True)}</div>
+    <div class="s">净买 {len(buy_side)} 家 / 净卖 {len(sell_side)} 家</div></div>''',
+    kpi_theme,
+    f'''<div class="kpi r"><div class="l">领涨行业</div><div class="v sm up">{E(top_ind['name'])} {pct(top_ind['change_pct'])}</div>
+    <div class="s">领涨股 {E(top_ind.get('leader',''))} {pct(top_ind.get('leader_change',0))}</div></div>''',
+    f'''<div class="kpi g"><div class="l">领跌行业</div><div class="v sm down">{E(bot_ind['name'])} {pct(bot_ind['change_pct'])}</div>
+    <div class="s">{ind_up} 个行业上涨 / {ind_down} 个下跌</div></div>''',
+    f'''<div class="kpi {'r' if mkt['up']>mkt['down'] else 'g'}"><div class="l">全市场涨跌家数</div>
+    <div class="v"><span class="up">{mkt['up']}</span><span class="sub" style="font-size:14px">/</span><span class="down">{mkt['down']}</span></div>
+    <div class="s">涨停 {mkt['limit_up']} · 跌停 {mkt['limit_down']}</div></div>''',
+])
+
+if has_theme:
+    theme_top_card = f'''<div class="card"><h2>当日题材热度 TOP20 <em>同花顺强势股 reason 标签按「+」拆分词频</em></h2>
+    {svg_theme_bars(themes[:20])}
+    <div class="note">口径：同花顺编辑部对当日 {len(ths)} 只强势股的人工题材归因标签，按「+」拆分后统计出现只数。
+    当日 TOP5 题材：{E(theme_line)}。</div>
+  </div>'''
+    ind_chart_card = f'''<div class="card"><h2>行业涨跌榜 <em>东财一级行业 · 领涨 {TOP_N_IND} / 领跌 {TOP_N_IND}</em></h2>
+    {svg_industry(top_inds, bot_inds)}
+  </div>'''
+    grid2_1 = f'<div class="grid2">{theme_top_card}{ind_chart_card}</div>'
+    theme_detail = f'''<div class="grid2">
+  <div class="card"><h2>题材热度明细 <em>TOP40 题材及代表个股</em></h2>
+    <div class="scroll" style="max-height:520px"><table><thead><tr>
+      <th>#</th><th>题材标签</th><th>只数</th><th style="text-align:left">代表个股（当日涨幅）</th>
+    </tr></thead><tbody>{theme_table()}</tbody></table></div>
+  </div>
+  <div class="card"><h2>当日强势股题材归因 <em>同花顺 {len(ths)} 只</em></h2>
+    <div class="tools"><input class="search" id="q3" placeholder="搜索代码 / 名称 / 题材"/><span class="sub" id="c3"></span></div>
+    <div class="scroll" style="max-height:456px"><table id="t3"><thead><tr>
+      <th>#</th><th>代码</th><th>名称</th><th>行业</th><th>收盘</th><th>涨幅</th><th>换手</th><th>成交额</th>
+      <th style="text-align:left">题材归因</th>
+    </tr></thead><tbody>{ths_table()}</tbody></table></div>
+  </div>
+</div>'''
+else:
+    # 无题材数据（海外 runner 抓不到同花顺）：行业涨跌榜独占整行，不残留空框
+    grid2_1 = f'''<div class="card"><h2>行业涨跌榜 <em>东财一级行业 · 领涨 {TOP_N_IND} / 领跌 {TOP_N_IND}</em></h2>
+    {svg_industry(top_inds, bot_inds)}
+  </div>'''
+    theme_detail = ""
+
 HTML = f"""<!DOCTYPE html>
 <html lang="zh-CN"><head><meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
@@ -298,7 +354,7 @@ h1 span{{color:var(--up)}}
 .meta{{color:var(--sub);font-size:11.5px;text-align:right}}
 .badge{{display:inline-block;background:#182130;border:1px solid var(--bd);color:var(--sub);
 border-radius:4px;padding:2px 7px;font-size:10.5px;margin-left:5px}}
-.kpis{{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin-bottom:14px}}
+.kpis{{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;margin-bottom:14px}}
 .kpi{{background:linear-gradient(160deg,var(--panel),var(--panel2));border:1px solid var(--bd);border-radius:8px;padding:11px 12px;position:relative;overflow:hidden}}
 .kpi::after{{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--acc);opacity:.75}}
 .kpi.r::after{{background:var(--up)}} .kpi.g::after{{background:var(--dn)}}
@@ -363,33 +419,9 @@ footer b{{color:#b9c5d1;font-weight:600}}
   </div>
 </header>
 
-<div class="kpis">
-  <div class="kpi r"><div class="l">龙虎榜上榜家数</div><div class="v">{len(lhb)}</div>
-    <div class="s">共 {len(lhb_rec)} 条上榜记录</div></div>
-  <div class="kpi {'r' if net_buy_total>0 else 'g'}"><div class="l">龙虎榜净买入合计</div>
-    <div class="v {cls(net_buy_total)}">{money(net_buy_total, True)}</div>
-    <div class="s">净买 {len(buy_side)} 家 / 净卖 {len(sell_side)} 家</div></div>
-  <div class="kpi r"><div class="l">当日最热题材</div><div class="v sm">{E(top_theme['tag'])}</div>
-    <div class="s">{top_theme['count']} 只强势股共用 · 共 {len(themes)} 个题材标签</div></div>
-  <div class="kpi r"><div class="l">领涨行业</div><div class="v sm up">{E(top_ind['name'])} {pct(top_ind['change_pct'])}</div>
-    <div class="s">领涨股 {E(top_ind.get('leader',''))} {pct(top_ind.get('leader_change',0))}</div></div>
-  <div class="kpi g"><div class="l">领跌行业</div><div class="v sm down">{E(bot_ind['name'])} {pct(bot_ind['change_pct'])}</div>
-    <div class="s">{ind_up} 个行业上涨 / {ind_down} 个下跌</div></div>
-  <div class="kpi {'r' if mkt['up']>mkt['down'] else 'g'}"><div class="l">全市场涨跌家数</div>
-    <div class="v"><span class="up">{mkt['up']}</span><span class="sub" style="font-size:14px">/</span><span class="down">{mkt['down']}</span></div>
-    <div class="s">涨停 {mkt['limit_up']} · 跌停 {mkt['limit_down']}</div></div>
-</div>
+<div class="kpis">{kpis_html}</div>
 
-<div class="grid2">
-  <div class="card"><h2>当日题材热度 TOP20 <em>同花顺强势股 reason 标签按「+」拆分词频</em></h2>
-    {svg_theme_bars(themes[:20])}
-    <div class="note">口径：同花顺编辑部对当日 {len(ths)} 只强势股的人工题材归因标签，按「+」拆分后统计出现只数。
-    当日 TOP5 题材：{E(theme_line)}。</div>
-  </div>
-  <div class="card"><h2>行业涨跌榜 <em>东财一级行业 · 领涨 {TOP_N_IND} / 领跌 {TOP_N_IND}</em></h2>
-    {svg_industry(top_inds, bot_inds)}
-  </div>
-</div>
+{grid2_1}
 
 <div class="card"><h2>全市场涨跌分布 <em>{DATE} 收盘 · 个股样本 {mkt['total']} 只</em></h2>
   {svg_breadth(mkt)}
@@ -413,20 +445,7 @@ footer b{{color:#b9c5d1;font-weight:600}}
   </tr></thead><tbody>{lhb_table()}</tbody></table></div>
 </div>
 
-<div class="grid2">
-  <div class="card"><h2>题材热度明细 <em>TOP40 题材及代表个股</em></h2>
-    <div class="scroll" style="max-height:520px"><table><thead><tr>
-      <th>#</th><th>题材标签</th><th>只数</th><th style="text-align:left">代表个股（当日涨幅）</th>
-    </tr></thead><tbody>{theme_table()}</tbody></table></div>
-  </div>
-  <div class="card"><h2>当日强势股题材归因 <em>同花顺 {len(ths)} 只</em></h2>
-    <div class="tools"><input class="search" id="q3" placeholder="搜索代码 / 名称 / 题材"/><span class="sub" id="c3"></span></div>
-    <div class="scroll" style="max-height:456px"><table id="t3"><thead><tr>
-      <th>#</th><th>代码</th><th>名称</th><th>行业</th><th>收盘</th><th>涨幅</th><th>换手</th><th>成交额</th>
-      <th style="text-align:left">题材归因</th>
-    </tr></thead><tbody>{ths_table()}</tbody></table></div>
-  </div>
-</div>
+{theme_detail}
 
 <div class="card"><h2>行业板块全景 <em>{len(inds)} 个东财一级行业 · 按涨跌幅排序</em></h2>
   <div class="tools">
