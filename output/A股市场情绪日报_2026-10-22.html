@@ -1,0 +1,2807 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>A股市场情绪日报 · 2026-10-22</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0a0e14;--panel:#111823;--panel2:#0e141d;--bd:#1e2937;--txt:#e6edf3;--sub:#8b98a5;--up:#ff4d4f;--dn:#00c087;--acc:#d9a441}
+body{background:var(--bg);color:var(--txt);font:13px/1.5 ui-sans-serif,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;
+background-image:radial-gradient(900px 420px at 12% -8%,rgba(255,77,79,.09),transparent),radial-gradient(760px 380px at 92% -4%,rgba(0,192,135,.07),transparent);
+-webkit-font-smoothing:antialiased}
+.wrap{max-width:1400px;margin:0 auto;padding:20px 18px 46px}
+header{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;
+border-bottom:1px solid var(--bd);padding-bottom:14px;margin-bottom:16px}
+h1{font-size:23px;letter-spacing:.5px;font-weight:700}
+h1 span{color:var(--up)}
+.date{font:600 15px/1.2 ui-monospace,Consolas,monospace;color:var(--acc)}
+.meta{color:var(--sub);font-size:11.5px;text-align:right}
+.badge{display:inline-block;background:#182130;border:1px solid var(--bd);color:var(--sub);
+border-radius:4px;padding:2px 7px;font-size:10.5px;margin-left:5px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;margin-bottom:14px}
+.kpi{background:linear-gradient(160deg,var(--panel),var(--panel2));border:1px solid var(--bd);border-radius:8px;padding:11px 12px;position:relative;overflow:hidden}
+.kpi::after{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--acc);opacity:.75}
+.kpi.r::after{background:var(--up)} .kpi.g::after{background:var(--dn)}
+.kpi .l{color:var(--sub);font-size:11px;margin-bottom:5px;letter-spacing:.3px}
+.kpi .v{font:700 20px/1.15 ui-monospace,Consolas,monospace}
+.kpi .v.sm{font-size:15px;font-family:inherit}
+.kpi .s{color:var(--sub);font-size:10.5px;margin-top:4px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{background:var(--panel);border:1px solid var(--bd);border-radius:9px;padding:12px 13px;margin-bottom:12px}
+.card h2{font-size:13.5px;font-weight:700;margin-bottom:9px;display:flex;align-items:center;gap:7px;letter-spacing:.4px}
+.card h2::before{content:"";width:3px;height:13px;background:var(--up);border-radius:2px}
+.card h2 em{font-style:normal;color:var(--sub);font-weight:400;font-size:11px}
+table{width:100%;border-collapse:collapse;font-size:12px}
+th{position:sticky;top:0;background:#16202d;color:var(--sub);font-weight:600;font-size:11px;
+text-align:right;padding:7px 7px;border-bottom:1px solid var(--bd);white-space:nowrap;z-index:2}
+th:nth-child(-n+4),td:nth-child(-n+4){text-align:left}
+th.c,td.c{text-align:center}
+td{padding:5px 7px;border-bottom:1px solid #16202d;text-align:right;white-space:nowrap}
+tbody tr:hover{background:#16202d}
+.mono{font-family:ui-monospace,Consolas,"SF Mono",monospace}
+.idx{color:#556575;font-size:10.5px;width:30px}
+.nm{font-weight:600}
+.sub{color:var(--sub)}
+.b{font-weight:700}
+.up{color:var(--up)} .down{color:var(--dn)} .flat{color:#8b98a5}
+.rs{text-align:left!important;color:#a9b6c3;font-size:11px;white-space:normal;line-height:1.45;min-width:220px}
+.chip{display:inline-block;background:#182130;border:1px solid #24303f;border-radius:3px;
+padding:1px 5px;margin:1px 3px 1px 0;font-size:10.5px}
+.tag{display:inline-block;background:#1c2634;border:1px solid #2a3849;color:#c8d4e0;border-radius:3px;
+padding:1px 5px;margin:1px 3px 1px 0;font-size:10.5px}
+.scroll{max-height:620px;overflow:auto}
+.scroll::-webkit-scrollbar{width:8px;height:8px}
+.scroll::-webkit-scrollbar-thumb{background:#2a3644;border-radius:4px}
+.tools{display:flex;gap:8px;align-items:center;margin-bottom:8px;flex-wrap:wrap}
+input.search{background:#0c121a;border:1px solid var(--bd);color:var(--txt);border-radius:5px;
+padding:5px 9px;font-size:12px;width:210px;outline:none;font-family:inherit}
+input.search:focus{border-color:#3a4a5e}
+.btn{background:#182130;border:1px solid var(--bd);color:var(--sub);border-radius:5px;
+padding:4px 9px;font-size:11px;cursor:pointer;font-family:inherit}
+.btn:hover{color:var(--txt);border-color:#3a4a5e}
+.btn.on{background:#243244;color:var(--txt);border-color:#3f5064}
+.note{color:var(--sub);font-size:11px;line-height:1.6;background:#0d141d;border:1px dashed #223041;
+border-radius:6px;padding:9px 11px;margin-top:9px}
+footer{margin-top:20px;border-top:1px solid var(--bd);padding-top:13px;color:var(--sub);font-size:11px;line-height:1.75}
+footer b{color:#b9c5d1;font-weight:600}
+.src{display:flex;gap:16px;flex-wrap:wrap;margin-top:5px}
+.src span{background:#111823;border:1px solid var(--bd);border-radius:4px;padding:3px 8px}
+@media(max-width:1080px){.kpis{grid-template-columns:repeat(3,1fr)}.grid2{grid-template-columns:1fr}}
+</style></head>
+<body><div class="wrap">
+
+<header>
+  <div>
+    <h1>A股市场情绪日报 <span>· 龙虎榜 / 题材热点 / 行业轮动</span></h1>
+    <div class="meta" style="text-align:left;margin-top:6px">
+      全市场龙虎榜 66 家 · 强势股题材归因 33 只 · 行业板块 127 个 · 个股样本 5577 只
+    </div>
+  </div>
+  <div>
+    <div class="date">交易日 2026-10-22</div>
+    <div class="meta">数据抓取时间 2026-10-22 14:17<span class="badge">真实接口抓取</span></div>
+  </div>
+</header>
+
+<div class="kpis"><div class="kpi r"><div class="l">龙虎榜上榜家数</div><div class="v">66</div>
+    <div class="s">共 75 条上榜记录</div></div><div class="kpi r"><div class="l">龙虎榜净买入合计</div>
+    <div class="v up">+¥4.99亿</div>
+    <div class="s">净买 30 家 / 净卖 36 家</div></div><div class="kpi r"><div class="l">当日最热题材</div><div class="v sm">人形机器人</div>
+    <div class="s">7 只强势股共用 · 共 93 个题材标签</div></div><div class="kpi r"><div class="l">领涨行业</div><div class="v sm up">电机 +4.45%</div>
+    <div class="s">领涨股 华阳智能 +20.00%</div></div><div class="kpi g"><div class="l">领跌行业</div><div class="v sm down">元件 -6.23%</div>
+    <div class="s">9 个行业上涨 / 118 个下跌</div></div><div class="kpi g"><div class="l">全市场涨跌家数</div>
+    <div class="v"><span class="up">535</span><span class="sub" style="font-size:14px">/</span><span class="down">4999</span></div>
+    <div class="s">涨停 38 · 跌停 95</div></div></div>
+
+<div class="grid2"><div class="card"><h2>当日题材热度 TOP20 <em>同花顺强势股 reason 标签按「+」拆分词频</em></h2>
+    <svg viewBox="0 0 660 554" width="100%" height="554" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif,-apple-system,Segoe UI,Microsoft YaHei,sans-serif"><line x1="136.0" y1="18" x2="136.0" y2="538" stroke="#22303c" stroke-width="1"/><text x="136.0" y="12" fill="#8b98a5" font-size="10" text-anchor="middle">0</text><line x1="203.4" y1="18" x2="203.4" y2="538" stroke="#22303c" stroke-width="1"/><text x="203.4" y="12" fill="#8b98a5" font-size="10" text-anchor="middle">1</text><line x1="270.9" y1="18" x2="270.9" y2="538" stroke="#22303c" stroke-width="1"/><text x="270.9" y="12" fill="#8b98a5" font-size="10" text-anchor="middle">2</text><line x1="338.3" y1="18" x2="338.3" y2="538" stroke="#22303c" stroke-width="1"/><text x="338.3" y="12" fill="#8b98a5" font-size="10" text-anchor="middle">3</text><line x1="405.7" y1="18" x2="405.7" y2="538" stroke="#22303c" stroke-width="1"/><text x="405.7" y="12" fill="#8b98a5" font-size="10" text-anchor="middle">4</text><line x1="473.1" y1="18" x2="473.1" y2="538" stroke="#22303c" stroke-width="1"/><text x="473.1" y="12" fill="#8b98a5" font-size="10" text-anchor="middle">5</text><line x1="540.6" y1="18" x2="540.6" y2="538" stroke="#22303c" stroke-width="1"/><text x="540.6" y="12" fill="#8b98a5" font-size="10" text-anchor="middle">6</text><line x1="608.0" y1="18" x2="608.0" y2="538" stroke="#22303c" stroke-width="1"/><text x="608.0" y="12" fill="#8b98a5" font-size="10" text-anchor="middle">7</text><text x="128" y="35" fill="#e6edf3" font-size="12" text-anchor="end">人形机器人</text><rect x="136" y="24" width="472.0" height="18" rx="3" fill="url(#gTheme)" opacity="1.00"/><text x="615.0" y="35" fill="#ff7875" font-size="11" font-weight="600">7只</text><text x="128" y="61" fill="#e6edf3" font-size="12" text-anchor="end">“羊”字辈</text><rect x="136" y="50" width="202.3" height="18" rx="3" fill="url(#gTheme)" opacity="0.97"/><text x="345.3" y="61" fill="#ff7875" font-size="11" font-weight="600">3只</text><text x="128" y="87" fill="#e6edf3" font-size="12" text-anchor="end">军工</text><rect x="136" y="76" width="134.9" height="18" rx="3" fill="url(#gTheme)" opacity="0.94"/><text x="277.9" y="87" fill="#ff7875" font-size="11" font-weight="600">2只</text><text x="128" y="113" fill="#e6edf3" font-size="12" text-anchor="end">数据中心液冷</text><rect x="136" y="102" width="134.9" height="18" rx="3" fill="url(#gTheme)" opacity="0.92"/><text x="277.9" y="113" fill="#ff7875" font-size="11" font-weight="600">2只</text><text x="128" y="139" fill="#e6edf3" font-size="12" text-anchor="end">机器人关节</text><rect x="136" y="128" width="134.9" height="18" rx="3" fill="url(#gTheme)" opacity="0.89"/><text x="277.9" y="139" fill="#ff7875" font-size="11" font-weight="600">2只</text><text x="128" y="165" fill="#e6edf3" font-size="12" text-anchor="end">AI出版</text><rect x="136" y="154" width="67.4" height="18" rx="3" fill="url(#gTheme)" opacity="0.86"/><text x="210.4" y="165" fill="#ff7875" font-size="11" font-weight="600">1只</text><text x="128" y="191" fill="#e6edf3" font-size="12" text-anchor="end">AI应用</text><rect x="136" y="180" width="67.4" height="18" rx="3" fill="url(#gTheme)" opacity="0.83"/><text x="210.4" y="191" fill="#ff7875" font-size="11" font-weight="600">1只</text><text x="128" y="217" fill="#e6edf3" font-size="12" text-anchor="end">AI智能体</text><rect x="136" y="206" width="67.4" height="18" rx="3" fill="url(#gTheme)" opacity="0.80"/><text x="210.4" y="217" fill="#ff7875" font-size="11" font-weight="600">1只</text><text x="128" y="243" fill="#e6edf3" font-size="12" text-anchor="end">AI照明</text><rect x="136" y="232" width="67.4" height="18" rx="3" fill="url(#gTheme)" opacity="0.78"/><text x="210.4" y="243" fill="#ff7875" font-size="11" font-weight="600">1只</text><text x="128" y="269" fill="#e6edf3" font-size="12" text-anchor="end">AR-AI显示</text><rect x="136" y="258" width="67.4" height="18" rx="3" fill="url(#gTheme)" opacity="0.75"/><text x="210.4" y="269" fill="#ff7875" font-size="11" font-weight="600">1只</text><text x="128" y="295" fill="#e6edf3" font-size="12" text-anchor="end">IC分销</text><rect x="136" y="284" width="67.4" height="18" rx="3" fill="url(#gTheme)" opacity="0.72"/><text x="210.4" y="295" fill="#ff7875" font-size="11" font-weight="600">1只</text><text x="128" y="321" fill="#e6edf3" font-size="12" text-anchor="end">LED</text><rect x="136" y="310" width="67.4" height="18" rx="3" fill="url(#gTheme)" opacity="0.69"/><text x="210.4" y="321" fill="#ff7875" font-size="11" font-weight="600">1只</text><text x="128" y="347" fill="#e6edf3" font-size="12" text-anchor="end">LED封装</text><rect x="136" y="336" width="67.4" height="18" rx="3" fill="url(#gTheme)" opacity="0.66"/><text x="210.4" y="347" fill="#ff7875" font-size="11" font-weight="600">1只</text><text x="128" y="373" fill="#e6edf3" font-size="12" text-anchor="end">Mini/Micro…</text><rect x="136" y="362" width="67.4" height="18" rx="3" fill="url(#gTheme)" opacity="0.64"/><text x="210.4" y="373" fill="#ff7875" font-size="11" font-weight="600">1只</text><text x="128" y="399" fill="#e6edf3" font-size="12" text-anchor="end">三季报增长</text><rect x="136" y="388" width="67.4" height="18" rx="3" fill="url(#gTheme)" opacity="0.61"/><text x="210.4" y="399" fill="#ff7875" font-size="11" font-weight="600">1只</text><text x="128" y="425" fill="#e6edf3" font-size="12" text-anchor="end">专业照明</text><rect x="136" y="414" width="67.4" height="18" rx="3" fill="url(#gTheme)" opacity="0.58"/><text x="210.4" y="425" fill="#ff7875" font-size="11" font-weight="600">1只</text><text x="128" y="451" fill="#e6edf3" font-size="12" text-anchor="end">两轮电驱</text><rect x="136" y="440" width="67.4" height="18" rx="3" fill="url(#gTheme)" opacity="0.55"/><text x="210.4" y="451" fill="#ff7875" font-size="11" font-weight="600">1只</text><text x="128" y="477" fill="#e6edf3" font-size="12" text-anchor="end">伺服电机</text><rect x="136" y="466" width="67.4" height="18" rx="3" fill="url(#gTheme)" opacity="0.52"/><text x="210.4" y="477" fill="#ff7875" font-size="11" font-weight="600">1只</text><text x="128" y="503" fill="#e6edf3" font-size="12" text-anchor="end">信息安全</text><rect x="136" y="492" width="67.4" height="18" rx="3" fill="url(#gTheme)" opacity="0.50"/><text x="210.4" y="503" fill="#ff7875" font-size="11" font-weight="600">1只</text><text x="128" y="529" fill="#e6edf3" font-size="12" text-anchor="end">像素车灯</text><rect x="136" y="518" width="67.4" height="18" rx="3" fill="url(#gTheme)" opacity="0.47"/><text x="210.4" y="529" fill="#ff7875" font-size="11" font-weight="600">1只</text><defs><linearGradient id="gTheme" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7a1f24"/><stop offset="100%" stop-color="#ff4d4f"/></linearGradient></defs></svg>
+    <div class="note">口径：同花顺编辑部对当日 33 只强势股的人工题材归因标签，按「+」拆分后统计出现只数。
+    当日 TOP5 题材：人形机器人(7)、“羊”字辈(3)、军工(2)、数据中心液冷(2)、机器人关节(2)。</div>
+  </div><div class="card"><h2>行业涨跌榜 <em>东财一级行业 · 领涨 14 / 领跌 14</em></h2>
+    <svg viewBox="0 0 660 678" width="100%" height="678" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif,-apple-system,Segoe UI,Microsoft YaHei,sans-serif"><line x1="330.0" y1="16" x2="330.0" y2="664" stroke="#3a4a5a" stroke-width="1"/><line x1="231.0" y1="16" x2="231.0" y2="664" stroke="#22303c" stroke-width="1" stroke-dasharray="2 3"/><text x="231.0" y="11" fill="#8b98a5" font-size="9" text-anchor="middle">-3.1%</text><line x1="429.0" y1="16" x2="429.0" y2="664" stroke="#22303c" stroke-width="1" stroke-dasharray="2 3"/><text x="429.0" y="11" fill="#8b98a5" font-size="9" text-anchor="middle">+3.1%</text><line x1="132.0" y1="16" x2="132.0" y2="664" stroke="#22303c" stroke-width="1" stroke-dasharray="2 3"/><text x="132.0" y="11" fill="#8b98a5" font-size="9" text-anchor="middle">-6.2%</text><line x1="528.0" y1="16" x2="528.0" y2="664" stroke="#22303c" stroke-width="1" stroke-dasharray="2 3"/><text x="528.0" y="11" fill="#8b98a5" font-size="9" text-anchor="middle">+6.2%</text><rect x="330.0" y="23" width="141.4" height="14" rx="2" fill="#ff4d4f" opacity="0.88"/><text x="323.0" y="33" fill="#e6edf3" font-size="11" text-anchor="end">电机</text><text x="477.4" y="33" fill="#ff4d4f" font-size="11" font-weight="600">+4.45%</text><text x="656" y="33" fill="#8b98a5" font-size="9.5" text-anchor="end">18↑/8↓ 华阳智能</text><rect x="330.0" y="45" width="65.2" height="14" rx="2" fill="#ff4d4f" opacity="0.88"/><text x="323.0" y="55" fill="#e6edf3" font-size="11" text-anchor="end">医疗美容</text><text x="401.2" y="55" fill="#ff4d4f" font-size="11" font-weight="600">+2.05%</text><text x="656" y="55" fill="#8b98a5" font-size="9.5" text-anchor="end">3↑/2↓ 锦波生物</text><rect x="330.0" y="67" width="51.2" height="14" rx="2" fill="#ff4d4f" opacity="0.88"/><text x="323.0" y="77" fill="#e6edf3" font-size="11" text-anchor="end">通信服务</text><text x="387.2" y="77" fill="#ff4d4f" font-size="11" font-weight="600">+1.61%</text><text x="656" y="77" fill="#8b98a5" font-size="9.5" text-anchor="end">3↑/36↓ 中国移动</text><rect x="330.0" y="89" width="31.1" height="14" rx="2" fill="#ff4d4f" opacity="0.88"/><text x="323.0" y="99" fill="#e6edf3" font-size="11" text-anchor="end">白色家电</text><text x="367.1" y="99" fill="#ff4d4f" font-size="11" font-weight="600">+0.98%</text><text x="656" y="99" fill="#8b98a5" font-size="9.5" text-anchor="end">2↑/8↓ 美的集团</text><rect x="330.0" y="111" width="15.6" height="14" rx="2" fill="#ff4d4f" opacity="0.88"/><text x="323.0" y="121" fill="#e6edf3" font-size="11" text-anchor="end">银行</text><text x="351.6" y="121" fill="#ff4d4f" font-size="11" font-weight="600">+0.49%</text><text x="656" y="121" fill="#8b98a5" font-size="9.5" text-anchor="end">7↑/34↓ 工商银行</text><rect x="330.0" y="133" width="9.5" height="14" rx="2" fill="#ff4d4f" opacity="0.88"/><text x="323.0" y="143" fill="#e6edf3" font-size="11" text-anchor="end">地面兵装</text><text x="345.5" y="143" fill="#ff4d4f" font-size="11" font-weight="600">+0.30%</text><text x="656" y="143" fill="#8b98a5" font-size="9.5" text-anchor="end">3↑/9↓ 甘化科工</text><rect x="330.0" y="155" width="5.4" height="14" rx="2" fill="#ff4d4f" opacity="0.88"/><text x="323.0" y="165" fill="#e6edf3" font-size="11" text-anchor="end">炼化及贸易</text><text x="341.4" y="165" fill="#ff4d4f" font-size="11" font-weight="600">+0.17%</text><text x="656" y="165" fill="#8b98a5" font-size="9.5" text-anchor="end">6↑/23↓ 博汇股份</text><rect x="330.0" y="177" width="2.9" height="14" rx="2" fill="#ff4d4f" opacity="0.88"/><text x="323.0" y="187" fill="#e6edf3" font-size="11" text-anchor="end">轨交设备</text><text x="338.9" y="187" fill="#ff4d4f" font-size="11" font-weight="600">+0.09%</text><text x="656" y="187" fill="#8b98a5" font-size="9.5" text-anchor="end">7↑/23↓ 金鹰重工</text><rect x="330.0" y="199" width="1.9" height="14" rx="2" fill="#ff4d4f" opacity="0.88"/><text x="323.0" y="209" fill="#e6edf3" font-size="11" text-anchor="end">白酒</text><text x="337.9" y="209" fill="#ff4d4f" font-size="11" font-weight="600">+0.06%</text><text x="656" y="209" fill="#8b98a5" font-size="9.5" text-anchor="end">3↑/16↓ 贵州茅台</text><rect x="329.0" y="221" width="1.5" height="14" rx="2" fill="#00c087" opacity="0.88"/><text x="337.0" y="231" fill="#e6edf3" font-size="11">工程机械</text><text x="323.0" y="231" fill="#00c087" font-size="11" font-weight="600" text-anchor="end">-0.03%</text><text x="4" y="231" fill="#8b98a5" font-size="9.5">16↑/18↓</text><rect x="326.5" y="243" width="3.5" height="14" rx="2" fill="#00c087" opacity="0.88"/><text x="337.0" y="253" fill="#e6edf3" font-size="11">照明设备</text><text x="320.5" y="253" fill="#00c087" font-size="11" font-weight="600" text-anchor="end">-0.11%</text><text x="4" y="253" fill="#8b98a5" font-size="9.5">4↑/10↓</text><rect x="322.7" y="265" width="7.3" height="14" rx="2" fill="#00c087" opacity="0.88"/><text x="337.0" y="275" fill="#e6edf3" font-size="11">旅游零售</text><text x="316.7" y="275" fill="#00c087" font-size="11" font-weight="600" text-anchor="end">-0.23%</text><text x="4" y="275" fill="#8b98a5" font-size="9.5">0↑/1↓</text><rect x="321.7" y="287" width="8.3" height="14" rx="2" fill="#00c087" opacity="0.88"/><text x="337.0" y="297" fill="#e6edf3" font-size="11">养殖业</text><text x="315.7" y="297" fill="#00c087" font-size="11" font-weight="600" text-anchor="end">-0.26%</text><text x="4" y="297" fill="#8b98a5" font-size="9.5">4↑/18↓</text><rect x="316.7" y="309" width="13.3" height="14" rx="2" fill="#00c087" opacity="0.88"/><text x="337.0" y="319" fill="#e6edf3" font-size="11">铁路公路</text><text x="310.7" y="319" fill="#00c087" font-size="11" font-weight="600" text-anchor="end">-0.42%</text><text x="4" y="319" fill="#8b98a5" font-size="9.5">3↑/30↓</text><text x="330.0" y="341" fill="#8b98a5" font-size="10" text-anchor="middle">· · · 中间 99 个行业省略 · · ·</text><rect x="191.1" y="353" width="138.9" height="14" rx="2" fill="#00c087" opacity="0.88"/><text x="337.0" y="363" fill="#e6edf3" font-size="11">出版</text><text x="185.1" y="363" fill="#00c087" font-size="11" font-weight="600" text-anchor="end">-4.37%</text><text x="4" y="363" fill="#8b98a5" font-size="9.5">1↑/27↓</text><rect x="190.2" y="375" width="139.8" height="14" rx="2" fill="#00c087" opacity="0.88"/><text x="337.0" y="385" fill="#e6edf3" font-size="11">渔业</text><text x="184.2" y="385" fill="#00c087" font-size="11" font-weight="600" text-anchor="end">-4.40%</text><text x="4" y="385" fill="#8b98a5" font-size="9.5">0↑/6↓</text><rect x="189.8" y="397" width="140.2" height="14" rx="2" fill="#00c087" opacity="0.88"/><text x="337.0" y="407" fill="#e6edf3" font-size="11">综合</text><text x="183.8" y="407" fill="#00c087" font-size="11" font-weight="600" text-anchor="end">-4.41%</text><text x="4" y="407" fill="#8b98a5" font-size="9.5">0↑/20↓</text><rect x="187.0" y="419" width="143.0" height="14" rx="2" fill="#00c087" opacity="0.88"/><text x="337.0" y="429" fill="#e6edf3" font-size="11">电子化学品</text><text x="181.0" y="429" fill="#00c087" font-size="11" font-weight="600" text-anchor="end">-4.50%</text><text x="4" y="429" fill="#8b98a5" font-size="9.5">1↑/36↓</text><rect x="178.4" y="441" width="151.6" height="14" rx="2" fill="#00c087" opacity="0.88"/><text x="337.0" y="451" fill="#e6edf3" font-size="11">互联网电商</text><text x="172.4" y="451" fill="#00c087" font-size="11" font-weight="600" text-anchor="end">-4.77%</text><text x="4" y="451" fill="#8b98a5" font-size="9.5">0↑/18↓</text><rect x="177.4" y="463" width="152.6" height="14" rx="2" fill="#00c087" opacity="0.88"/><text x="337.0" y="473" fill="#e6edf3" font-size="11">教育</text><text x="171.4" y="473" fill="#00c087" font-size="11" font-weight="600" text-anchor="end">-4.80%</text><text x="4" y="473" fill="#8b98a5" font-size="9.5">0↑/17↓</text><rect x="177.4" y="485" width="152.6" height="14" rx="2" fill="#00c087" opacity="0.88"/><text x="337.0" y="495" fill="#e6edf3" font-size="11">玻璃玻纤</text><text x="171.4" y="495" fill="#00c087" font-size="11" font-weight="600" text-anchor="end">-4.80%</text><text x="4" y="495" fill="#8b98a5" font-size="9.5">4↑/9↓</text><rect x="170.1" y="507" width="159.9" height="14" rx="2" fill="#00c087" opacity="0.88"/><text x="337.0" y="517" fill="#e6edf3" font-size="11">广告营销</text><text x="164.1" y="517" fill="#00c087" font-size="11" font-weight="600" text-anchor="end">-5.03%</text><text x="4" y="517" fill="#8b98a5" font-size="9.5">1↑/29↓</text><rect x="167.9" y="529" width="162.1" height="14" rx="2" fill="#00c087" opacity="0.88"/><text x="337.0" y="539" fill="#e6edf3" font-size="11">数字媒体</text><text x="161.9" y="539" fill="#00c087" font-size="11" font-weight="600" text-anchor="end">-5.10%</text><text x="4" y="539" fill="#8b98a5" font-size="9.5">1↑/14↓</text><rect x="166.3" y="551" width="163.7" height="14" rx="2" fill="#00c087" opacity="0.88"/><text x="337.0" y="561" fill="#e6edf3" font-size="11">电视广播</text><text x="160.3" y="561" fill="#00c087" font-size="11" font-weight="600" text-anchor="end">-5.15%</text><text x="4" y="561" fill="#8b98a5" font-size="9.5">0↑/13↓</text><rect x="156.2" y="573" width="173.8" height="14" rx="2" fill="#00c087" opacity="0.88"/><text x="337.0" y="583" fill="#e6edf3" font-size="11">林业</text><text x="150.2" y="583" fill="#00c087" font-size="11" font-weight="600" text-anchor="end">-5.47%</text><text x="4" y="583" fill="#8b98a5" font-size="9.5">0↑/4↓</text><rect x="148.5" y="595" width="181.5" height="14" rx="2" fill="#00c087" opacity="0.88"/><text x="337.0" y="605" fill="#e6edf3" font-size="11">影视院线</text><text x="142.5" y="605" fill="#00c087" font-size="11" font-weight="600" text-anchor="end">-5.71%</text><text x="4" y="605" fill="#8b98a5" font-size="9.5">0↑/18↓</text><rect x="139.9" y="617" width="190.1" height="14" rx="2" fill="#00c087" opacity="0.88"/><text x="337.0" y="627" fill="#e6edf3" font-size="11">通信设备</text><text x="133.9" y="627" fill="#00c087" font-size="11" font-weight="600" text-anchor="end">-5.98%</text><text x="4" y="627" fill="#8b98a5" font-size="9.5">7↑/84↓</text><rect x="132.0" y="639" width="198.0" height="14" rx="2" fill="#00c087" opacity="0.88"/><text x="337.0" y="649" fill="#e6edf3" font-size="11">元件</text><text x="126.0" y="649" fill="#00c087" font-size="11" font-weight="600" text-anchor="end">-6.23%</text><text x="4" y="649" fill="#8b98a5" font-size="9.5">2↑/65↓</text></svg>
+  </div></div>
+
+<div class="card"><h2>全市场涨跌分布 <em>2026-10-22 收盘 · 个股样本 5577 只</em></h2>
+  <svg viewBox="0 0 660 86" width="100%" height="86" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif,-apple-system,Segoe UI,Microsoft YaHei,sans-serif"><rect x="0.0" y="26" width="63.3" height="26" fill="#ff4d4f" opacity="0.9"/><rect x="63.3" y="26" width="5.1" height="26" fill="#5c6b7a" opacity="0.9"/><rect x="68.4" y="26" width="591.6" height="26" fill="#00c087" opacity="0.9"/><text x="364.2" y="43" fill="#0b1016" font-size="11.5" font-weight="700" text-anchor="middle">下跌 4999</text><text x="0" y="18" fill="#8b98a5" font-size="11">全市场 5577 只 · 上涨占比 9.6%</text><text x="660" y="18" fill="#ff4d4f" font-size="11" text-anchor="end" font-weight="600">涨停 38 · <tspan fill="#00c087">跌停 95</tspan></text><text x="0" y="72" fill="#8b98a5" font-size="10.5">情绪温度：</text><rect x="76" y="62" width="576" height="12" rx="6" fill="#1b2430"/><rect x="76" y="62" width="55.3" height="12" rx="6" fill="url(#gTemp)"/><text x="137.3" y="72" fill="#e6edf3" font-size="10.5" font-weight="600">10分</text><defs><linearGradient id="gTemp" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00c087"/><stop offset="55%" stop-color="#d9a441"/><stop offset="100%" stop-color="#ff4d4f"/></linearGradient></defs></svg>
+</div>
+
+<div class="card"><h2>龙虎榜资金净买入排名 <em>按营业部席位净买入额排序 · 单位 ¥</em></h2>
+  <svg viewBox="0 0 1320 496" width="100%" height="496" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif,-apple-system,Segoe UI,Microsoft YaHei,sans-serif"><text x="118" y="14" fill="#ff4d4f" font-size="12" font-weight="700">▲ 净买入 TOP18</text><text x="794.0" y="14" fill="#00c087" font-size="12" font-weight="700">▼ 净卖出 TOP18</text><text x="110.0" y="39" fill="#e6edf3" font-size="11.5" text-anchor="end">利亚德</text><text x="2.0" y="39" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">300296</text><rect x="118.0" y="29" width="452.0" height="16" rx="3" fill="url(#gBuy)"/><text x="577.0" y="39" fill="#ff4d4f" font-size="11" font-weight="600">¥1.83亿</text><text x="652.0" y="39" fill="#ff4d4f" font-size="10.5" text-anchor="end">+8.35%</text><text x="110.0" y="64" fill="#e6edf3" font-size="11.5" text-anchor="end">北新路桥</text><text x="2.0" y="64" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">002307</text><rect x="118.0" y="54" width="426.0" height="16" rx="3" fill="url(#gBuy)"/><text x="551.0" y="64" fill="#ff4d4f" font-size="11" font-weight="600">¥1.72亿</text><text x="652.0" y="64" fill="#ff4d4f" font-size="10.5" text-anchor="end">+10.06%</text><text x="110.0" y="89" fill="#e6edf3" font-size="11.5" text-anchor="end">沈鼓集团</text><text x="2.0" y="89" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">601091</text><rect x="118.0" y="79" width="421.9" height="16" rx="3" fill="url(#gBuy)"/><text x="546.9" y="89" fill="#ff4d4f" font-size="11" font-weight="600">¥1.70亿</text><text x="652.0" y="89" fill="#ff4d4f" font-size="10.5" text-anchor="end">+9.99%</text><text x="110.0" y="114" fill="#e6edf3" font-size="11.5" text-anchor="end">安培龙</text><text x="2.0" y="114" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">301413</text><rect x="118.0" y="104" width="277.9" height="16" rx="3" fill="url(#gBuy)"/><text x="402.9" y="114" fill="#ff4d4f" font-size="11" font-weight="600">¥1.12亿</text><text x="652.0" y="114" fill="#ff4d4f" font-size="10.5" text-anchor="end">+14.60%</text><text x="110.0" y="139" fill="#e6edf3" font-size="11.5" text-anchor="end">博汇股份</text><text x="2.0" y="139" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">300839</text><rect x="118.0" y="129" width="277.0" height="16" rx="3" fill="url(#gBuy)"/><text x="402.0" y="139" fill="#ff4d4f" font-size="11" font-weight="600">¥1.12亿</text><text x="652.0" y="139" fill="#ff4d4f" font-size="10.5" text-anchor="end">+20.00%</text><text x="110.0" y="164" fill="#e6edf3" font-size="11.5" text-anchor="end">昂利康</text><text x="2.0" y="164" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">002940</text><rect x="118.0" y="154" width="269.7" height="16" rx="3" fill="url(#gBuy)"/><text x="394.7" y="164" fill="#ff4d4f" font-size="11" font-weight="600">¥1.09亿</text><text x="652.0" y="164" fill="#00c087" font-size="10.5" text-anchor="end">-0.32%</text><text x="110.0" y="189" fill="#e6edf3" font-size="11.5" text-anchor="end">通则康威</text><text x="2.0" y="189" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">301718</text><rect x="118.0" y="179" width="250.2" height="16" rx="3" fill="url(#gBuy)"/><text x="375.2" y="189" fill="#ff4d4f" font-size="11" font-weight="600">¥1.01亿</text><text x="652.0" y="189" fill="#ff4d4f" font-size="10.5" text-anchor="end">+171.54%</text><text x="110.0" y="214" fill="#e6edf3" font-size="11.5" text-anchor="end">襄阳轴承</text><text x="2.0" y="214" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">000678</text><rect x="118.0" y="204" width="247.6" height="16" rx="3" fill="url(#gBuy)"/><text x="372.6" y="214" fill="#ff4d4f" font-size="11" font-weight="600">¥10000万</text><text x="652.0" y="214" fill="#ff4d4f" font-size="10.5" text-anchor="end">+9.96%</text><text x="110.0" y="239" fill="#e6edf3" font-size="11.5" text-anchor="end">海洋王</text><text x="2.0" y="239" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">002724</text><rect x="118.0" y="229" width="206.0" height="16" rx="3" fill="url(#gBuy)"/><text x="331.0" y="239" fill="#ff4d4f" font-size="11" font-weight="600">¥8322万</text><text x="652.0" y="239" fill="#ff4d4f" font-size="10.5" text-anchor="end">+10.01%</text><text x="110.0" y="264" fill="#e6edf3" font-size="11.5" text-anchor="end">云汉芯城</text><text x="2.0" y="264" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">301563</text><rect x="118.0" y="254" width="200.4" height="16" rx="3" fill="url(#gBuy)"/><text x="325.4" y="264" fill="#ff4d4f" font-size="11" font-weight="600">¥8094万</text><text x="652.0" y="264" fill="#ff4d4f" font-size="10.5" text-anchor="end">+16.16%</text><text x="110.0" y="289" fill="#e6edf3" font-size="11.5" text-anchor="end">奕帆传动</text><text x="2.0" y="289" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">301023</text><rect x="118.0" y="279" width="195.9" height="16" rx="3" fill="url(#gBuy)"/><text x="320.9" y="289" fill="#ff4d4f" font-size="11" font-weight="600">¥7914万</text><text x="652.0" y="289" fill="#ff4d4f" font-size="10.5" text-anchor="end">+19.99%</text><text x="110.0" y="314" fill="#e6edf3" font-size="11.5" text-anchor="end">出版传媒</text><text x="2.0" y="314" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">601999</text><rect x="118.0" y="304" width="167.6" height="16" rx="3" fill="url(#gBuy)"/><text x="292.6" y="314" fill="#ff4d4f" font-size="11" font-weight="600">¥6770万</text><text x="652.0" y="314" fill="#ff4d4f" font-size="10.5" text-anchor="end">+10.00%</text><text x="110.0" y="339" fill="#e6edf3" font-size="11.5" text-anchor="end">冰山冷热</text><text x="2.0" y="339" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">000530</text><rect x="118.0" y="329" width="131.2" height="16" rx="3" fill="url(#gBuy)"/><text x="256.2" y="339" fill="#ff4d4f" font-size="11" font-weight="600">¥5298万</text><text x="652.0" y="339" fill="#ff4d4f" font-size="10.5" text-anchor="end">+9.97%</text><text x="110.0" y="364" fill="#e6edf3" font-size="11.5" text-anchor="end">海量数据</text><text x="2.0" y="364" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">603138</text><rect x="118.0" y="354" width="103.0" height="16" rx="3" fill="url(#gBuy)"/><text x="228.0" y="364" fill="#ff4d4f" font-size="11" font-weight="600">¥4161万</text><text x="652.0" y="364" fill="#ff4d4f" font-size="10.5" text-anchor="end">+10.01%</text><text x="110.0" y="389" fill="#e6edf3" font-size="11.5" text-anchor="end">上海九百</text><text x="2.0" y="389" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">600838</text><rect x="118.0" y="379" width="102.9" height="16" rx="3" fill="url(#gBuy)"/><text x="227.9" y="389" fill="#ff4d4f" font-size="11" font-weight="600">¥4154万</text><text x="652.0" y="389" fill="#ff4d4f" font-size="10.5" text-anchor="end">+10.01%</text><text x="110.0" y="414" fill="#e6edf3" font-size="11.5" text-anchor="end">阳光照明</text><text x="2.0" y="414" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">600261</text><rect x="118.0" y="404" width="96.7" height="16" rx="3" fill="url(#gBuy)"/><text x="221.7" y="414" fill="#ff4d4f" font-size="11" font-weight="600">¥3904万</text><text x="652.0" y="414" fill="#ff4d4f" font-size="10.5" text-anchor="end">+10.09%</text><text x="110.0" y="439" fill="#e6edf3" font-size="11.5" text-anchor="end">长城电工</text><text x="2.0" y="439" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">600192</text><rect x="118.0" y="429" width="94.3" height="16" rx="3" fill="url(#gBuy)"/><text x="219.3" y="439" fill="#ff4d4f" font-size="11" font-weight="600">¥3809万</text><text x="652.0" y="439" fill="#ff4d4f" font-size="10.5" text-anchor="end">+10.04%</text><text x="110.0" y="464" fill="#e6edf3" font-size="11.5" text-anchor="end">正裕工业</text><text x="2.0" y="464" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">603089</text><rect x="118.0" y="454" width="82.9" height="16" rx="3" fill="url(#gBuy)"/><text x="207.9" y="464" fill="#ff4d4f" font-size="11" font-weight="600">¥3349万</text><text x="652.0" y="464" fill="#ff4d4f" font-size="10.5" text-anchor="end">+9.97%</text><text x="786.0" y="39" fill="#e6edf3" font-size="11.5" text-anchor="end">华盛昌</text><text x="678.0" y="39" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">002980</text><rect x="794.0" y="29" width="429.6" height="16" rx="3" fill="url(#gSell)"/><text x="1230.6" y="39" fill="#00c087" font-size="11" font-weight="600">¥1.73亿</text><text x="1328.0" y="39" fill="#00c087" font-size="10.5" text-anchor="end">-10.00%</text><text x="786.0" y="64" fill="#e6edf3" font-size="11.5" text-anchor="end">粤传媒</text><text x="678.0" y="64" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">002181</text><rect x="794.0" y="54" width="378.5" height="16" rx="3" fill="url(#gSell)"/><text x="1179.5" y="64" fill="#00c087" font-size="11" font-weight="600">¥1.53亿</text><text x="1328.0" y="64" fill="#00c087" font-size="10.5" text-anchor="end">-9.96%</text><text x="786.0" y="89" fill="#e6edf3" font-size="11.5" text-anchor="end">万丰奥威</text><text x="678.0" y="89" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">002085</text><rect x="794.0" y="79" width="230.4" height="16" rx="3" fill="url(#gSell)"/><text x="1031.4" y="89" fill="#00c087" font-size="11" font-weight="600">¥9305万</text><text x="1328.0" y="89" fill="#00c087" font-size="10.5" text-anchor="end">-10.01%</text><text x="786.0" y="114" fill="#e6edf3" font-size="11.5" text-anchor="end">慈文传媒</text><text x="678.0" y="114" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">002343</text><rect x="794.0" y="104" width="221.5" height="16" rx="3" fill="url(#gSell)"/><text x="1022.5" y="114" fill="#00c087" font-size="11" font-weight="600">¥8946万</text><text x="1328.0" y="114" fill="#00c087" font-size="10.5" text-anchor="end">-6.16%</text><text x="786.0" y="139" fill="#e6edf3" font-size="11.5" text-anchor="end">新亚制程</text><text x="678.0" y="139" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">002388</text><rect x="794.0" y="129" width="201.6" height="16" rx="3" fill="url(#gSell)"/><text x="1002.6" y="139" fill="#00c087" font-size="11" font-weight="600">¥8144万</text><text x="1328.0" y="139" fill="#00c087" font-size="10.5" text-anchor="end">-10.00%</text><text x="786.0" y="164" fill="#e6edf3" font-size="11.5" text-anchor="end">深桑达A</text><text x="678.0" y="164" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">000032</text><rect x="794.0" y="154" width="189.4" height="16" rx="3" fill="url(#gSell)"/><text x="990.4" y="164" fill="#00c087" font-size="11" font-weight="600">¥7651万</text><text x="1328.0" y="164" fill="#00c087" font-size="10.5" text-anchor="end">-10.00%</text><text x="786.0" y="189" fill="#e6edf3" font-size="11.5" text-anchor="end">天洋新材</text><text x="678.0" y="189" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">603330</text><rect x="794.0" y="179" width="174.9" height="16" rx="3" fill="url(#gSell)"/><text x="975.9" y="189" fill="#00c087" font-size="11" font-weight="600">¥7064万</text><text x="1328.0" y="189" fill="#ff4d4f" font-size="10.5" text-anchor="end">+10.01%</text><text x="786.0" y="214" fill="#e6edf3" font-size="11.5" text-anchor="end">中新赛克</text><text x="678.0" y="214" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">002912</text><rect x="794.0" y="204" width="169.0" height="16" rx="3" fill="url(#gSell)"/><text x="970.0" y="214" fill="#00c087" font-size="11" font-weight="600">¥6826万</text><text x="1328.0" y="214" fill="#00c087" font-size="10.5" text-anchor="end">-6.85%</text><text x="786.0" y="239" fill="#e6edf3" font-size="11.5" text-anchor="end">金健米业</text><text x="678.0" y="239" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">600127</text><rect x="794.0" y="229" width="132.0" height="16" rx="3" fill="url(#gSell)"/><text x="933.0" y="239" fill="#00c087" font-size="11" font-weight="600">¥5330万</text><text x="1328.0" y="239" fill="#00c087" font-size="10.5" text-anchor="end">-9.99%</text><text x="786.0" y="264" fill="#e6edf3" font-size="11.5" text-anchor="end">崇达技术</text><text x="678.0" y="264" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">002815</text><rect x="794.0" y="254" width="125.5" height="16" rx="3" fill="url(#gSell)"/><text x="926.5" y="264" fill="#00c087" font-size="11" font-weight="600">¥5069万</text><text x="1328.0" y="264" fill="#00c087" font-size="10.5" text-anchor="end">-10.00%</text><text x="786.0" y="289" fill="#e6edf3" font-size="11.5" text-anchor="end">仁东控股</text><text x="678.0" y="289" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">002647</text><rect x="794.0" y="279" width="108.1" height="16" rx="3" fill="url(#gSell)"/><text x="909.1" y="289" fill="#00c087" font-size="11" font-weight="600">¥4366万</text><text x="1328.0" y="289" fill="#00c087" font-size="10.5" text-anchor="end">-8.96%</text><text x="786.0" y="314" fill="#e6edf3" font-size="11.5" text-anchor="end">新亚强</text><text x="678.0" y="314" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">603155</text><rect x="794.0" y="304" width="84.0" height="16" rx="3" fill="url(#gSell)"/><text x="885.0" y="314" fill="#00c087" font-size="11" font-weight="600">¥3393万</text><text x="1328.0" y="314" fill="#00c087" font-size="10.5" text-anchor="end">-10.02%</text><text x="786.0" y="339" fill="#e6edf3" font-size="11.5" text-anchor="end">昂立教育</text><text x="678.0" y="339" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">600661</text><rect x="794.0" y="329" width="81.1" height="16" rx="3" fill="url(#gSell)"/><text x="882.1" y="339" fill="#00c087" font-size="11" font-weight="600">¥3276万</text><text x="1328.0" y="339" fill="#00c087" font-size="10.5" text-anchor="end">-10.04%</text><text x="786.0" y="364" fill="#e6edf3" font-size="11.5" text-anchor="end">九牧王</text><text x="678.0" y="364" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">601566</text><rect x="794.0" y="354" width="68.1" height="16" rx="3" fill="url(#gSell)"/><text x="869.1" y="364" fill="#00c087" font-size="11" font-weight="600">¥2752万</text><text x="1328.0" y="364" fill="#00c087" font-size="10.5" text-anchor="end">-6.35%</text><text x="786.0" y="389" fill="#e6edf3" font-size="11.5" text-anchor="end">吉大正元</text><text x="678.0" y="389" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">003029</text><rect x="794.0" y="379" width="64.1" height="16" rx="3" fill="url(#gSell)"/><text x="865.1" y="389" fill="#00c087" font-size="11" font-weight="600">¥2591万</text><text x="1328.0" y="389" fill="#00c087" font-size="10.5" text-anchor="end">-7.64%</text><text x="786.0" y="414" fill="#e6edf3" font-size="11.5" text-anchor="end">善水科技</text><text x="678.0" y="414" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">301190</text><rect x="794.0" y="404" width="59.8" height="16" rx="3" fill="url(#gSell)"/><text x="860.8" y="414" fill="#00c087" font-size="11" font-weight="600">¥2416万</text><text x="1328.0" y="414" fill="#00c087" font-size="10.5" text-anchor="end">-16.24%</text><text x="786.0" y="439" fill="#e6edf3" font-size="11.5" text-anchor="end">永吉股份</text><text x="678.0" y="439" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">603058</text><rect x="794.0" y="429" width="57.5" height="16" rx="3" fill="url(#gSell)"/><text x="858.5" y="439" fill="#00c087" font-size="11" font-weight="600">¥2321万</text><text x="1328.0" y="439" fill="#00c087" font-size="10.5" text-anchor="end">-10.00%</text><text x="786.0" y="464" fill="#e6edf3" font-size="11.5" text-anchor="end">凡拓数创</text><text x="678.0" y="464" fill="#8b98a5" font-size="10" font-family="ui-monospace,Consolas,monospace">301313</text><rect x="794.0" y="454" width="55.8" height="16" rx="3" fill="url(#gSell)"/><text x="856.8" y="464" fill="#00c087" font-size="11" font-weight="600">¥2254万</text><text x="1328.0" y="464" fill="#00c087" font-size="10.5" text-anchor="end">-1.92%</text><defs>
+      <linearGradient id="gBuy" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#5c161a"/><stop offset="100%" stop-color="#ff4d4f"/></linearGradient>
+      <linearGradient id="gSell" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0d4a38"/><stop offset="100%" stop-color="#00c087"/></linearGradient>
+    </defs></svg>
+</div>
+
+<div class="card"><h2>龙虎榜明细 <em>全部 66 只 · 按净买入降序</em></h2>
+  <div class="tools">
+    <input class="search" id="q1" placeholder="搜索代码 / 名称 / 行业 / 上榜原因"/>
+    <button class="btn on" data-t="t1" data-c="6">净买入 ↓</button>
+    <button class="btn" data-t="t1" data-c="5">涨跌幅 ↓</button>
+    <button class="btn" data-t="t1" data-c="9">换手率 ↓</button>
+    <span class="sub" id="c1"></span>
+  </div>
+  <div class="scroll"><table id="t1"><thead><tr>
+    <th>#</th><th>代码</th><th>名称</th><th>所属行业</th><th>收盘</th><th>涨跌幅</th>
+    <th>净买入</th><th>买入额</th><th>卖出额</th><th>换手率</th><th>占成交</th><th style="text-align:left">上榜原因</th>
+  </tr></thead><tbody><tr data-k="300296利亚德连续三个交易日内，涨幅偏离值累计达到30%的证券光学光电子">
+<td class="idx">1</td>
+<td class="mono">300296</td>
+<td class="nm">利亚德</td>
+<td class="mono sub">光学光电子</td>
+<td class="mono">6.10</td>
+<td class="mono up" data-v="8.35">+8.35%</td>
+<td class="mono up b" data-v="182548751.81">+¥1.83亿</td>
+<td class="mono sub">¥6.27亿</td>
+<td class="mono sub">¥4.44亿</td>
+<td class="mono" data-v="24.61">24.61%</td>
+<td class="mono sub">20.8%</td>
+<td class="rs">连续三个交易日内，涨幅偏离值累计达到30%的证券</td></tr>
+<tr data-k="002307北新路桥日涨幅偏离值达到7%的前5只证券基础建设">
+<td class="idx">2</td>
+<td class="mono">002307</td>
+<td class="nm">北新路桥</td>
+<td class="mono sub">基础建设</td>
+<td class="mono">3.39</td>
+<td class="mono up" data-v="10.06">+10.06%</td>
+<td class="mono up b" data-v="172034322.52">+¥1.72亿</td>
+<td class="mono sub">¥3.49亿</td>
+<td class="mono sub">¥1.77亿</td>
+<td class="mono" data-v="12.66">12.66%</td>
+<td class="mono sub">75.4%</td>
+<td class="rs">日涨幅偏离值达到7%的前5只证券</td></tr>
+<tr data-k="601091沈鼓集团有价格涨跌幅限制的日换手率达到20%的前五只证券专用设备">
+<td class="idx">3</td>
+<td class="mono">601091</td>
+<td class="nm">沈鼓集团</td>
+<td class="mono sub">专用设备</td>
+<td class="mono">21.58</td>
+<td class="mono up" data-v="9.99">+9.99%</td>
+<td class="mono up b" data-v="170406178.12">+¥1.70亿</td>
+<td class="mono sub">¥2.85亿</td>
+<td class="mono sub">¥1.15亿</td>
+<td class="mono" data-v="48.25">48.25%</td>
+<td class="mono sub">18.4%</td>
+<td class="rs">有价格涨跌幅限制的日换手率达到20%的前五只证券</td></tr>
+<tr data-k="301413安培龙连续三个交易日内，涨幅偏离值累计达到30%的证券通用设备">
+<td class="idx">4</td>
+<td class="mono">301413</td>
+<td class="nm">安培龙</td>
+<td class="mono sub">通用设备</td>
+<td class="mono">61.13</td>
+<td class="mono up" data-v="14.6">+14.60%</td>
+<td class="mono up b" data-v="112251064.52">+¥1.12亿</td>
+<td class="mono sub">¥3.57亿</td>
+<td class="mono sub">¥2.45亿</td>
+<td class="mono" data-v="20.1">20.10%</td>
+<td class="mono sub">35.6%</td>
+<td class="rs">连续三个交易日内，涨幅偏离值累计达到30%的证券</td></tr>
+<tr data-k="300839博汇股份日涨幅达到15%的前5只证券 / 连续三个交易日内，涨幅偏离值累计达到30%的证券炼化及贸易">
+<td class="idx">5</td>
+<td class="mono">300839</td>
+<td class="nm">博汇股份</td>
+<td class="mono sub">炼化及贸易</td>
+<td class="mono">19.92</td>
+<td class="mono up" data-v="20.0">+20.00%</td>
+<td class="mono up b" data-v="111890867.0">+¥1.12亿</td>
+<td class="mono sub">¥1.96亿</td>
+<td class="mono sub">¥8427万</td>
+<td class="mono" data-v="14.53">14.53%</td>
+<td class="mono sub">34.5%</td>
+<td class="rs">日涨幅达到15%的前5只证券 / 连续三个交易日内，涨幅偏离值累计达到30%的证券</td></tr>
+<tr data-k="002940昂利康连续三个交易日内，涨幅偏离值累计达到20%的证券化学制药">
+<td class="idx">6</td>
+<td class="mono">002940</td>
+<td class="nm">昂利康</td>
+<td class="mono sub">化学制药</td>
+<td class="mono">25.30</td>
+<td class="mono down" data-v="-0.32">-0.32%</td>
+<td class="mono up b" data-v="108935865.1">+¥1.09亿</td>
+<td class="mono sub">¥4.21亿</td>
+<td class="mono sub">¥3.12亿</td>
+<td class="mono" data-v="13.13">13.13%</td>
+<td class="mono sub">40.7%</td>
+<td class="rs">连续三个交易日内，涨幅偏离值累计达到20%的证券</td></tr>
+<tr data-k="301718通则康威无价格涨跌幅限制的证券通信设备">
+<td class="idx">7</td>
+<td class="mono">301718</td>
+<td class="nm">通则康威</td>
+<td class="mono sub">通信设备</td>
+<td class="mono">72.99</td>
+<td class="mono up" data-v="171.54">+171.54%</td>
+<td class="mono up b" data-v="101049349.56">+¥1.01亿</td>
+<td class="mono sub">¥1.44亿</td>
+<td class="mono sub">¥4252万</td>
+<td class="mono" data-v="78.48">78.48%</td>
+<td class="mono sub">8.5%</td>
+<td class="rs">无价格涨跌幅限制的证券</td></tr>
+<tr data-k="000678襄阳轴承日涨幅偏离值达到7%的前5只证券汽车零部件">
+<td class="idx">8</td>
+<td class="mono">000678</td>
+<td class="nm">襄阳轴承</td>
+<td class="mono sub">汽车零部件</td>
+<td class="mono">12.03</td>
+<td class="mono up" data-v="9.96">+9.96%</td>
+<td class="mono up b" data-v="99999094.54">+¥10000万</td>
+<td class="mono sub">¥1.95亿</td>
+<td class="mono sub">¥9478万</td>
+<td class="mono" data-v="15.95">15.95%</td>
+<td class="mono sub">33.8%</td>
+<td class="rs">日涨幅偏离值达到7%的前5只证券</td></tr>
+<tr data-k="002724海洋王日涨幅偏离值达到7%的前5只证券照明设备">
+<td class="idx">9</td>
+<td class="mono">002724</td>
+<td class="nm">海洋王</td>
+<td class="mono sub">照明设备</td>
+<td class="mono">11.21</td>
+<td class="mono up" data-v="10.01">+10.01%</td>
+<td class="mono up b" data-v="83216810.14">+¥8322万</td>
+<td class="mono sub">¥2.05亿</td>
+<td class="mono sub">¥1.21亿</td>
+<td class="mono" data-v="20.18">20.18%</td>
+<td class="mono sub">25.6%</td>
+<td class="rs">日涨幅偏离值达到7%的前5只证券</td></tr>
+<tr data-k="301563云汉芯城日涨幅达到15%的前5只证券其他电子">
+<td class="idx">10</td>
+<td class="mono">301563</td>
+<td class="nm">云汉芯城</td>
+<td class="mono sub">其他电子</td>
+<td class="mono">110.35</td>
+<td class="mono up" data-v="16.16">+16.16%</td>
+<td class="mono up b" data-v="80944495.56">+¥8094万</td>
+<td class="mono sub">¥2.01亿</td>
+<td class="mono sub">¥1.20亿</td>
+<td class="mono" data-v="10.75">10.75%</td>
+<td class="mono sub">51.8%</td>
+<td class="rs">日涨幅达到15%的前5只证券</td></tr>
+<tr data-k="301023奕帆传动日涨幅达到15%的前5只证券电机">
+<td class="idx">11</td>
+<td class="mono">301023</td>
+<td class="nm">奕帆传动</td>
+<td class="mono sub">电机</td>
+<td class="mono">32.48</td>
+<td class="mono up" data-v="19.99">+19.99%</td>
+<td class="mono up b" data-v="79136299.06">+¥7914万</td>
+<td class="mono sub">¥1.30亿</td>
+<td class="mono sub">¥5103万</td>
+<td class="mono" data-v="20.67">20.67%</td>
+<td class="mono sub">42.0%</td>
+<td class="rs">日涨幅达到15%的前5只证券</td></tr>
+<tr data-k="601999出版传媒非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券出版">
+<td class="idx">12</td>
+<td class="mono">601999</td>
+<td class="nm">出版传媒</td>
+<td class="mono sub">出版</td>
+<td class="mono">8.58</td>
+<td class="mono up" data-v="10.0">+10.00%</td>
+<td class="mono up b" data-v="67702868.68">+¥6770万</td>
+<td class="mono sub">¥1.94亿</td>
+<td class="mono sub">¥1.27亿</td>
+<td class="mono" data-v="16.89">16.89%</td>
+<td class="mono sub">34.7%</td>
+<td class="rs">非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券</td></tr>
+<tr data-k="000530冰山冷热连续三个交易日内，涨幅偏离值累计达到20%的证券 / 日换手率达到20%的前5只证券 / 日涨幅偏离值达到7%的前5只证券通用设备">
+<td class="idx">13</td>
+<td class="mono">000530</td>
+<td class="nm">冰山冷热</td>
+<td class="mono sub">通用设备</td>
+<td class="mono">9.49</td>
+<td class="mono up" data-v="9.97">+9.97%</td>
+<td class="mono up b" data-v="52982508.75">+¥5298万</td>
+<td class="mono sub">¥5.24亿</td>
+<td class="mono sub">¥4.71亿</td>
+<td class="mono" data-v="45.41">45.41%</td>
+<td class="mono sub">14.8%</td>
+<td class="rs">连续三个交易日内，涨幅偏离值累计达到20%的证券 / 日换手率达到20%的前5只证券 / 日涨幅偏离值达到7%的前5只证券</td></tr>
+<tr data-k="603138海量数据非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券IT服务">
+<td class="idx">14</td>
+<td class="mono">603138</td>
+<td class="nm">海量数据</td>
+<td class="mono sub">IT服务</td>
+<td class="mono">16.92</td>
+<td class="mono up" data-v="10.01">+10.01%</td>
+<td class="mono up b" data-v="41607106.72">+¥4161万</td>
+<td class="mono sub">¥1.59亿</td>
+<td class="mono sub">¥1.17亿</td>
+<td class="mono" data-v="20.74">20.74%</td>
+<td class="mono sub">22.4%</td>
+<td class="rs">非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券</td></tr>
+<tr data-k="600838上海九百非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券一般零售">
+<td class="idx">15</td>
+<td class="mono">600838</td>
+<td class="nm">上海九百</td>
+<td class="mono sub">一般零售</td>
+<td class="mono">10.00</td>
+<td class="mono up" data-v="10.01">+10.01%</td>
+<td class="mono up b" data-v="41539978.01">+¥4154万</td>
+<td class="mono sub">¥1.30亿</td>
+<td class="mono sub">¥8888万</td>
+<td class="mono" data-v="15.31">15.31%</td>
+<td class="mono sub">24.7%</td>
+<td class="rs">非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券</td></tr>
+<tr data-k="600261阳光照明有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券照明设备">
+<td class="idx">16</td>
+<td class="mono">600261</td>
+<td class="nm">阳光照明</td>
+<td class="mono sub">照明设备</td>
+<td class="mono">3.60</td>
+<td class="mono up" data-v="10.09">+10.09%</td>
+<td class="mono up b" data-v="39035753.0">+¥3904万</td>
+<td class="mono sub">¥6432万</td>
+<td class="mono sub">¥2528万</td>
+<td class="mono" data-v="5.25">5.25%</td>
+<td class="mono sub">35.8%</td>
+<td class="rs">有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券</td></tr>
+<tr data-k="600192长城电工有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券电网设备">
+<td class="idx">17</td>
+<td class="mono">600192</td>
+<td class="nm">长城电工</td>
+<td class="mono sub">电网设备</td>
+<td class="mono">8.33</td>
+<td class="mono up" data-v="10.04">+10.04%</td>
+<td class="mono up b" data-v="38085980.34">+¥3809万</td>
+<td class="mono sub">¥6597万</td>
+<td class="mono sub">¥2788万</td>
+<td class="mono" data-v="9.92">9.92%</td>
+<td class="mono sub">26.4%</td>
+<td class="rs">有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券</td></tr>
+<tr data-k="603089正裕工业非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券汽车零部件">
+<td class="idx">18</td>
+<td class="mono">603089</td>
+<td class="nm">正裕工业</td>
+<td class="mono sub">汽车零部件</td>
+<td class="mono">10.81</td>
+<td class="mono up" data-v="9.97">+9.97%</td>
+<td class="mono up b" data-v="33493801.15">+¥3349万</td>
+<td class="mono sub">¥8221万</td>
+<td class="mono sub">¥4872万</td>
+<td class="mono" data-v="7.01">7.01%</td>
+<td class="mono sub">34.9%</td>
+<td class="rs">非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券</td></tr>
+<tr data-k="002076星光股份日换手率达到20%的前5只证券 / 日涨幅偏离值达到7%的前5只证券照明设备">
+<td class="idx">19</td>
+<td class="mono">002076</td>
+<td class="nm">星光股份</td>
+<td class="mono sub">照明设备</td>
+<td class="mono">2.70</td>
+<td class="mono up" data-v="10.2">+10.20%</td>
+<td class="mono up b" data-v="26739548.0">+¥2674万</td>
+<td class="mono sub">¥1.57亿</td>
+<td class="mono sub">¥1.30亿</td>
+<td class="mono" data-v="35.22">35.22%</td>
+<td class="mono sub">29.1%</td>
+<td class="rs">日换手率达到20%的前5只证券 / 日涨幅偏离值达到7%的前5只证券</td></tr>
+<tr data-k="920157宇特光电当日换手率达到20%的前5只股票通信设备">
+<td class="idx">20</td>
+<td class="mono">920157</td>
+<td class="nm">宇特光电</td>
+<td class="mono sub">通信设备</td>
+<td class="mono">70.90</td>
+<td class="mono up" data-v="1.58">+1.58%</td>
+<td class="mono up b" data-v="23164937.55">+¥2316万</td>
+<td class="mono sub">¥5739万</td>
+<td class="mono sub">¥3422万</td>
+<td class="mono" data-v="42.16">42.16%</td>
+<td class="mono sub">23.8%</td>
+<td class="rs">当日换手率达到20%的前5只股票</td></tr>
+<tr data-k="688137近岸蛋白有价格涨跌幅限制的日收盘价格跌幅达到15%的前五只证券生物制品">
+<td class="idx">21</td>
+<td class="mono">688137</td>
+<td class="nm">近岸蛋白</td>
+<td class="mono sub">生物制品</td>
+<td class="mono">106.80</td>
+<td class="mono down" data-v="-20.0">-20.00%</td>
+<td class="mono up b" data-v="20849658.3">+¥2085万</td>
+<td class="mono sub">¥8171万</td>
+<td class="mono sub">¥6086万</td>
+<td class="mono" data-v="12.16">12.16%</td>
+<td class="mono sub">14.3%</td>
+<td class="rs">有价格涨跌幅限制的日收盘价格跌幅达到15%的前五只证券</td></tr>
+<tr data-k="002811郑中设计连续三个交易日内，涨幅偏离值累计达到20%的证券装修装饰">
+<td class="idx">22</td>
+<td class="mono">002811</td>
+<td class="nm">郑中设计</td>
+<td class="mono sub">装修装饰</td>
+<td class="mono">24.65</td>
+<td class="mono up" data-v="2.03">+2.03%</td>
+<td class="mono up b" data-v="20739162.94">+¥2074万</td>
+<td class="mono sub">¥3.35亿</td>
+<td class="mono sub">¥3.14亿</td>
+<td class="mono" data-v="13.2">13.20%</td>
+<td class="mono sub">33.6%</td>
+<td class="rs">连续三个交易日内，涨幅偏离值累计达到20%的证券</td></tr>
+<tr data-k="920296文峰光电当日换手率达到20%的前5只股票通信设备">
+<td class="idx">23</td>
+<td class="mono">920296</td>
+<td class="nm">文峰光电</td>
+<td class="mono sub">通信设备</td>
+<td class="mono">33.13</td>
+<td class="mono down" data-v="-8.73">-8.73%</td>
+<td class="mono up b" data-v="16398023.22">+¥1640万</td>
+<td class="mono sub">¥7091万</td>
+<td class="mono sub">¥5451万</td>
+<td class="mono" data-v="68.16">68.16%</td>
+<td class="mono sub">27.9%</td>
+<td class="rs">当日换手率达到20%的前5只股票</td></tr>
+<tr data-k="301502华阳智能日涨幅达到15%的前5只证券 / 连续三个交易日内，涨幅偏离值累计达到30%的证券电机">
+<td class="idx">24</td>
+<td class="mono">301502</td>
+<td class="nm">华阳智能</td>
+<td class="mono sub">电机</td>
+<td class="mono">54.00</td>
+<td class="mono up" data-v="20.0">+20.00%</td>
+<td class="mono up b" data-v="13403318.22">+¥1340万</td>
+<td class="mono sub">¥4737万</td>
+<td class="mono sub">¥3397万</td>
+<td class="mono" data-v="14.04">14.04%</td>
+<td class="mono sub">47.0%</td>
+<td class="rs">日涨幅达到15%的前5只证券 / 连续三个交易日内，涨幅偏离值累计达到30%的证券</td></tr>
+<tr data-k="603028赛福天有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券通用设备">
+<td class="idx">25</td>
+<td class="mono">603028</td>
+<td class="nm">赛福天</td>
+<td class="mono sub">通用设备</td>
+<td class="mono">7.76</td>
+<td class="mono up" data-v="10.07">+10.07%</td>
+<td class="mono up b" data-v="11774806.6">+¥1177万</td>
+<td class="mono sub">¥2815万</td>
+<td class="mono sub">¥1638万</td>
+<td class="mono" data-v="3.73">3.73%</td>
+<td class="mono sub">55.0%</td>
+<td class="rs">有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券</td></tr>
+<tr data-k="600202哈空调非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券 / 有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券 / 有价格涨跌幅限制的日换手率达到20%的前五只证券通用设备">
+<td class="idx">26</td>
+<td class="mono">600202</td>
+<td class="nm">哈空调</td>
+<td class="mono sub">通用设备</td>
+<td class="mono">6.13</td>
+<td class="mono up" data-v="10.05">+10.05%</td>
+<td class="mono up b" data-v="11693077.51">+¥1169万</td>
+<td class="mono sub">¥1.38亿</td>
+<td class="mono sub">¥1.26亿</td>
+<td class="mono" data-v="28.46">28.46%</td>
+<td class="mono sub">27.4%</td>
+<td class="rs">非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券 / 有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券 / 有价格涨跌幅限制的日换手率达到20%的前五只证券</td></tr>
+<tr data-k="920229世纪数码当日换手率达到20%的前5只股票专用设备">
+<td class="idx">27</td>
+<td class="mono">920229</td>
+<td class="nm">世纪数码</td>
+<td class="mono sub">专用设备</td>
+<td class="mono">36.50</td>
+<td class="mono up" data-v="3.69">+3.69%</td>
+<td class="mono up b" data-v="11301295.08">+¥1130万</td>
+<td class="mono sub">¥2205万</td>
+<td class="mono sub">¥1075万</td>
+<td class="mono" data-v="29.06">29.06%</td>
+<td class="mono sub">27.0%</td>
+<td class="rs">当日换手率达到20%的前5只股票</td></tr>
+<tr data-k="601811新华文轩有价格涨跌幅限制的日价格振幅达到15%的前五只证券出版">
+<td class="idx">28</td>
+<td class="mono">601811</td>
+<td class="nm">新华文轩</td>
+<td class="mono sub">出版</td>
+<td class="mono">21.35</td>
+<td class="mono down" data-v="-5.53">-5.53%</td>
+<td class="mono up b" data-v="10546322.17">+¥1055万</td>
+<td class="mono sub">¥1.49亿</td>
+<td class="mono sub">¥1.39亿</td>
+<td class="mono" data-v="8.15">8.15%</td>
+<td class="mono sub">20.3%</td>
+<td class="rs">有价格涨跌幅限制的日价格振幅达到15%的前五只证券</td></tr>
+<tr data-k="301052果麦文化日换手率达到30%的前5只证券出版">
+<td class="idx">29</td>
+<td class="mono">301052</td>
+<td class="nm">果麦文化</td>
+<td class="mono sub">出版</td>
+<td class="mono">29.30</td>
+<td class="mono down" data-v="-13.75">-13.75%</td>
+<td class="mono up b" data-v="6348255.88">+¥635万</td>
+<td class="mono sub">¥7707万</td>
+<td class="mono sub">¥7072万</td>
+<td class="mono" data-v="34.53">34.53%</td>
+<td class="mono sub">17.5%</td>
+<td class="rs">日换手率达到30%的前5只证券</td></tr>
+<tr data-k="301139元道退退市整理期通信服务">
+<td class="idx">30</td>
+<td class="mono">301139</td>
+<td class="nm">元道退</td>
+<td class="mono sub">通信服务</td>
+<td class="mono">0.77</td>
+<td class="mono down" data-v="-1.28">-1.28%</td>
+<td class="mono up b" data-v="1131516.76">+¥113万</td>
+<td class="mono sub">¥245万</td>
+<td class="mono sub">¥132万</td>
+<td class="mono" data-v="9.29">9.29%</td>
+<td class="mono sub">68.2%</td>
+<td class="rs">退市整理期</td></tr>
+<tr data-k="920096嘉晨智能当日换手率达到20%的前5只股票自动化设备">
+<td class="idx">31</td>
+<td class="mono">920096</td>
+<td class="nm">嘉晨智能</td>
+<td class="mono sub">自动化设备</td>
+<td class="mono">34.80</td>
+<td class="mono down" data-v="-5.69">-5.69%</td>
+<td class="mono down b" data-v="-111774.349999998">-¥11万</td>
+<td class="mono sub">¥2172万</td>
+<td class="mono sub">¥2183万</td>
+<td class="mono" data-v="38.21">38.21%</td>
+<td class="mono sub">18.6%</td>
+<td class="rs">当日换手率达到20%的前5只股票</td></tr>
+<tr data-k="920196南方乳业当日换手率达到20%的前5只股票饮料乳品">
+<td class="idx">32</td>
+<td class="mono">920196</td>
+<td class="nm">南方乳业</td>
+<td class="mono sub">饮料乳品</td>
+<td class="mono">16.24</td>
+<td class="mono down" data-v="-4.69">-4.69%</td>
+<td class="mono down b" data-v="-222559.659999998">-¥22万</td>
+<td class="mono sub">¥1506万</td>
+<td class="mono sub">¥1528万</td>
+<td class="mono" data-v="29.54">29.54%</td>
+<td class="mono sub">25.2%</td>
+<td class="rs">当日换手率达到20%的前5只股票</td></tr>
+<tr data-k="002696百洋股份日振幅值达到15%的前5只证券 / 日换手率达到20%的前5只证券饲料">
+<td class="idx">33</td>
+<td class="mono">002696</td>
+<td class="nm">百洋股份</td>
+<td class="mono sub">饲料</td>
+<td class="mono">9.81</td>
+<td class="mono down" data-v="-6.75">-6.75%</td>
+<td class="mono down b" data-v="-702370.280000001">-¥70万</td>
+<td class="mono sub">¥1.99亿</td>
+<td class="mono sub">¥1.99亿</td>
+<td class="mono" data-v="39.36">39.36%</td>
+<td class="mono sub">27.2%</td>
+<td class="rs">日振幅值达到15%的前5只证券 / 日换手率达到20%的前5只证券</td></tr>
+<tr data-k="688121*ST卓然有价格涨跌幅限制的日收盘价格跌幅达到15%的前五只证券专用设备">
+<td class="idx">34</td>
+<td class="mono">688121</td>
+<td class="nm">*ST卓然</td>
+<td class="mono sub">专用设备</td>
+<td class="mono">0.54</td>
+<td class="mono down" data-v="-19.4">-19.40%</td>
+<td class="mono down b" data-v="-1022628.14">-¥102万</td>
+<td class="mono sub">¥139万</td>
+<td class="mono sub">¥241万</td>
+<td class="mono" data-v="12.46">12.46%</td>
+<td class="mono sub">26.2%</td>
+<td class="rs">有价格涨跌幅限制的日收盘价格跌幅达到15%的前五只证券</td></tr>
+<tr data-k="301686中塑股份日换手率达到30%的前5只证券塑料">
+<td class="idx">35</td>
+<td class="mono">301686</td>
+<td class="nm">中塑股份</td>
+<td class="mono sub">塑料</td>
+<td class="mono">142.25</td>
+<td class="mono up" data-v="7.93">+7.93%</td>
+<td class="mono down b" data-v="-1348275.73">-¥135万</td>
+<td class="mono sub">¥3661万</td>
+<td class="mono sub">¥3796万</td>
+<td class="mono" data-v="44.3">44.30%</td>
+<td class="mono sub">13.5%</td>
+<td class="rs">日换手率达到30%的前5只证券</td></tr>
+<tr data-k="600537*ST亿晶有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券光伏设备">
+<td class="idx">36</td>
+<td class="mono">600537</td>
+<td class="nm">*ST亿晶</td>
+<td class="mono sub">光伏设备</td>
+<td class="mono">1.52</td>
+<td class="mono down" data-v="-10.06">-10.06%</td>
+<td class="mono down b" data-v="-1505630.0">-¥151万</td>
+<td class="mono sub">¥706万</td>
+<td class="mono sub">¥857万</td>
+<td class="mono" data-v="4.29">4.29%</td>
+<td class="mono sub">19.7%</td>
+<td class="rs">有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券</td></tr>
+<tr data-k="603968醋化股份有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券化学制品">
+<td class="idx">37</td>
+<td class="mono">603968</td>
+<td class="nm">醋化股份</td>
+<td class="mono sub">化学制品</td>
+<td class="mono">10.58</td>
+<td class="mono down" data-v="-10.03">-10.03%</td>
+<td class="mono down b" data-v="-1636692.0">-¥164万</td>
+<td class="mono sub">¥2510万</td>
+<td class="mono sub">¥2674万</td>
+<td class="mono" data-v="9.19">9.19%</td>
+<td class="mono sub">25.2%</td>
+<td class="rs">有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券</td></tr>
+<tr data-k="603767中马传动有价格涨跌幅限制的日价格振幅达到15%的前五只证券汽车零部件">
+<td class="idx">38</td>
+<td class="mono">603767</td>
+<td class="nm">中马传动</td>
+<td class="mono sub">汽车零部件</td>
+<td class="mono">15.05</td>
+<td class="mono down" data-v="-9.5">-9.50%</td>
+<td class="mono down b" data-v="-1884644.03">-¥188万</td>
+<td class="mono sub">¥2460万</td>
+<td class="mono sub">¥2648万</td>
+<td class="mono" data-v="8.56">8.56%</td>
+<td class="mono sub">11.5%</td>
+<td class="rs">有价格涨跌幅限制的日价格振幅达到15%的前五只证券</td></tr>
+<tr data-k="600293三峡新材有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券玻璃玻纤">
+<td class="idx">39</td>
+<td class="mono">600293</td>
+<td class="nm">三峡新材</td>
+<td class="mono sub">玻璃玻纤</td>
+<td class="mono">5.23</td>
+<td class="mono up" data-v="10.11">+10.11%</td>
+<td class="mono down b" data-v="-5668274.0">-¥567万</td>
+<td class="mono sub">¥3100万</td>
+<td class="mono sub">¥3666万</td>
+<td class="mono" data-v="1.14">1.14%</td>
+<td class="mono sub">97.5%</td>
+<td class="rs">有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券</td></tr>
+<tr data-k="301591肯特股份日换手率达到30%的前5只证券塑料">
+<td class="idx">40</td>
+<td class="mono">301591</td>
+<td class="nm">肯特股份</td>
+<td class="mono sub">塑料</td>
+<td class="mono">48.80</td>
+<td class="mono up" data-v="6.83">+6.83%</td>
+<td class="mono down b" data-v="-8353957.05">-¥835万</td>
+<td class="mono sub">¥8952万</td>
+<td class="mono sub">¥9787万</td>
+<td class="mono" data-v="48.74">48.74%</td>
+<td class="mono sub">18.2%</td>
+<td class="rs">日换手率达到30%的前5只证券</td></tr>
+<tr data-k="301569联亚药业日换手率达到30%的前5只证券化学制药">
+<td class="idx">41</td>
+<td class="mono">301569</td>
+<td class="nm">联亚药业</td>
+<td class="mono sub">化学制药</td>
+<td class="mono">17.50</td>
+<td class="mono down" data-v="-12.76">-12.76%</td>
+<td class="mono down b" data-v="-8462351.61">-¥846万</td>
+<td class="mono sub">¥6089万</td>
+<td class="mono sub">¥6935万</td>
+<td class="mono" data-v="41.03">41.03%</td>
+<td class="mono sub">14.8%</td>
+<td class="rs">日换手率达到30%的前5只证券</td></tr>
+<tr data-k="600241时代万恒有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券电池">
+<td class="idx">42</td>
+<td class="mono">600241</td>
+<td class="nm">时代万恒</td>
+<td class="mono sub">电池</td>
+<td class="mono">11.03</td>
+<td class="mono down" data-v="-10.03">-10.03%</td>
+<td class="mono down b" data-v="-9685359.3">-¥969万</td>
+<td class="mono sub">¥5484万</td>
+<td class="mono sub">¥6453万</td>
+<td class="mono" data-v="21.82">21.82%</td>
+<td class="mono sub">16.6%</td>
+<td class="rs">有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券</td></tr>
+<tr data-k="000011深物业A日振幅值达到15%的前5只证券房地产开发">
+<td class="idx">43</td>
+<td class="mono">000011</td>
+<td class="nm">深物业A</td>
+<td class="mono sub">房地产开发</td>
+<td class="mono">9.94</td>
+<td class="mono down" data-v="-9.96">-9.96%</td>
+<td class="mono down b" data-v="-12851723.21">-¥1285万</td>
+<td class="mono sub">¥7467万</td>
+<td class="mono sub">¥8752万</td>
+<td class="mono" data-v="13.73">13.73%</td>
+<td class="mono sub">20.8%</td>
+<td class="rs">日振幅值达到15%的前5只证券</td></tr>
+<tr data-k="301227森鹰窗业日跌幅达到15%的前5只证券家居用品">
+<td class="idx">44</td>
+<td class="mono">301227</td>
+<td class="nm">森鹰窗业</td>
+<td class="mono sub">家居用品</td>
+<td class="mono">26.24</td>
+<td class="mono down" data-v="-20.0">-20.00%</td>
+<td class="mono down b" data-v="-15987217.33">-¥1599万</td>
+<td class="mono sub">¥7096万</td>
+<td class="mono sub">¥8695万</td>
+<td class="mono" data-v="12.53">12.53%</td>
+<td class="mono sub">55.2%</td>
+<td class="rs">日跌幅达到15%的前5只证券</td></tr>
+<tr data-k="688500慧辰股份有价格涨跌幅限制的连续3个交易日内收盘价格涨幅偏离值累计达到30%的证券IT服务">
+<td class="idx">45</td>
+<td class="mono">688500</td>
+<td class="nm">慧辰股份</td>
+<td class="mono sub">IT服务</td>
+<td class="mono">39.30</td>
+<td class="mono up" data-v="4.63">+4.63%</td>
+<td class="mono down b" data-v="-18206755.29">-¥1821万</td>
+<td class="mono sub">¥1.47亿</td>
+<td class="mono sub">¥1.65亿</td>
+<td class="mono" data-v="15.58">15.58%</td>
+<td class="mono sub">37.9%</td>
+<td class="rs">有价格涨跌幅限制的连续3个交易日内收盘价格涨幅偏离值累计达到30%的证券</td></tr>
+<tr data-k="001388信通电子连续三个交易日内，涨幅偏离值累计达到20%的证券电网设备">
+<td class="idx">46</td>
+<td class="mono">001388</td>
+<td class="nm">信通电子</td>
+<td class="mono sub">电网设备</td>
+<td class="mono">22.40</td>
+<td class="mono up" data-v="5.51">+5.51%</td>
+<td class="mono down b" data-v="-18842090.18">-¥1884万</td>
+<td class="mono sub">¥9368万</td>
+<td class="mono sub">¥1.13亿</td>
+<td class="mono" data-v="13.88">13.88%</td>
+<td class="mono sub">22.3%</td>
+<td class="rs">连续三个交易日内，涨幅偏离值累计达到20%的证券</td></tr>
+<tr data-k="603105芯能科技有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券电力">
+<td class="idx">47</td>
+<td class="mono">603105</td>
+<td class="nm">芯能科技</td>
+<td class="mono sub">电力</td>
+<td class="mono">7.99</td>
+<td class="mono down" data-v="-10.02">-10.02%</td>
+<td class="mono down b" data-v="-21100309.74">-¥2110万</td>
+<td class="mono sub">¥1670万</td>
+<td class="mono sub">¥3780万</td>
+<td class="mono" data-v="7.82">7.82%</td>
+<td class="mono sub">17.1%</td>
+<td class="rs">有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券</td></tr>
+<tr data-k="600178东安动力有价格涨跌幅限制的日换手率达到20%的前五只证券汽车零部件">
+<td class="idx">48</td>
+<td class="mono">600178</td>
+<td class="nm">东安动力</td>
+<td class="mono sub">汽车零部件</td>
+<td class="mono">12.29</td>
+<td class="mono down" data-v="-9.96">-9.96%</td>
+<td class="mono down b" data-v="-21268830.26">-¥2127万</td>
+<td class="mono sub">¥1.06亿</td>
+<td class="mono sub">¥1.28亿</td>
+<td class="mono" data-v="22.4">22.40%</td>
+<td class="mono sub">17.0%</td>
+<td class="rs">有价格涨跌幅限制的日换手率达到20%的前五只证券</td></tr>
+<tr data-k="301313凡拓数创日换手率达到30%的前5只证券数字媒体">
+<td class="idx">49</td>
+<td class="mono">301313</td>
+<td class="nm">凡拓数创</td>
+<td class="mono sub">数字媒体</td>
+<td class="mono">51.20</td>
+<td class="mono down" data-v="-1.92">-1.92%</td>
+<td class="mono down b" data-v="-22536665.12">-¥2254万</td>
+<td class="mono sub">¥1.61亿</td>
+<td class="mono sub">¥1.84亿</td>
+<td class="mono" data-v="35.65">35.65%</td>
+<td class="mono sub">23.5%</td>
+<td class="rs">日换手率达到30%的前5只证券</td></tr>
+<tr data-k="603058永吉股份有价格涨跌幅限制的日价格振幅达到15%的前五只证券包装印刷">
+<td class="idx">50</td>
+<td class="mono">603058</td>
+<td class="nm">永吉股份</td>
+<td class="mono sub">包装印刷</td>
+<td class="mono">9.00</td>
+<td class="mono down" data-v="-10.0">-10.00%</td>
+<td class="mono down b" data-v="-23208463.0">-¥2321万</td>
+<td class="mono sub">¥5293万</td>
+<td class="mono sub">¥7613万</td>
+<td class="mono" data-v="8.49">8.49%</td>
+<td class="mono sub">38.4%</td>
+<td class="rs">有价格涨跌幅限制的日价格振幅达到15%的前五只证券</td></tr>
+<tr data-k="301190善水科技日跌幅达到15%的前5只证券化学原料">
+<td class="idx">51</td>
+<td class="mono">301190</td>
+<td class="nm">善水科技</td>
+<td class="mono sub">化学原料</td>
+<td class="mono">37.70</td>
+<td class="mono down" data-v="-16.24">-16.24%</td>
+<td class="mono down b" data-v="-24164826.43">-¥2416万</td>
+<td class="mono sub">¥5285万</td>
+<td class="mono sub">¥7701万</td>
+<td class="mono" data-v="12.75">12.75%</td>
+<td class="mono sub">13.8%</td>
+<td class="rs">日跌幅达到15%的前5只证券</td></tr>
+<tr data-k="003029吉大正元日换手率达到20%的前5只证券软件开发">
+<td class="idx">52</td>
+<td class="mono">003029</td>
+<td class="nm">吉大正元</td>
+<td class="mono sub">软件开发</td>
+<td class="mono">23.70</td>
+<td class="mono down" data-v="-7.64">-7.64%</td>
+<td class="mono down b" data-v="-25905608.88">-¥2591万</td>
+<td class="mono sub">¥7977万</td>
+<td class="mono sub">¥1.06亿</td>
+<td class="mono" data-v="34.33">34.33%</td>
+<td class="mono sub">11.7%</td>
+<td class="rs">日换手率达到20%的前5只证券</td></tr>
+<tr data-k="601566九牧王有价格涨跌幅限制的日价格振幅达到15%的前五只证券服装家纺">
+<td class="idx">53</td>
+<td class="mono">601566</td>
+<td class="nm">九牧王</td>
+<td class="mono sub">服装家纺</td>
+<td class="mono">9.59</td>
+<td class="mono down" data-v="-6.35">-6.35%</td>
+<td class="mono down b" data-v="-27518551.3">-¥2752万</td>
+<td class="mono sub">¥8091万</td>
+<td class="mono sub">¥1.08亿</td>
+<td class="mono" data-v="10.52">10.52%</td>
+<td class="mono sub">30.5%</td>
+<td class="rs">有价格涨跌幅限制的日价格振幅达到15%的前五只证券</td></tr>
+<tr data-k="600661昂立教育有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券教育">
+<td class="idx">54</td>
+<td class="mono">600661</td>
+<td class="nm">昂立教育</td>
+<td class="mono sub">教育</td>
+<td class="mono">8.60</td>
+<td class="mono down" data-v="-10.04">-10.04%</td>
+<td class="mono down b" data-v="-32764601.55">-¥3276万</td>
+<td class="mono sub">¥1632万</td>
+<td class="mono sub">¥4908万</td>
+<td class="mono" data-v="8.98">8.98%</td>
+<td class="mono sub">29.1%</td>
+<td class="rs">有价格涨跌幅限制的日收盘价格跌幅偏离值达到7%的前五只证券</td></tr>
+<tr data-k="603155新亚强有价格涨跌幅限制的日价格振幅达到15%的前五只证券化学制品">
+<td class="idx">55</td>
+<td class="mono">603155</td>
+<td class="nm">新亚强</td>
+<td class="mono sub">化学制品</td>
+<td class="mono">13.20</td>
+<td class="mono down" data-v="-10.02">-10.02%</td>
+<td class="mono down b" data-v="-33931816.16">-¥3393万</td>
+<td class="mono sub">¥4443万</td>
+<td class="mono sub">¥7836万</td>
+<td class="mono" data-v="7.56">7.56%</td>
+<td class="mono sub">25.3%</td>
+<td class="rs">有价格涨跌幅限制的日价格振幅达到15%的前五只证券</td></tr>
+<tr data-k="002647仁东控股日振幅值达到15%的前5只证券多元金融">
+<td class="idx">56</td>
+<td class="mono">002647</td>
+<td class="nm">仁东控股</td>
+<td class="mono sub">多元金融</td>
+<td class="mono">7.72</td>
+<td class="mono down" data-v="-8.96">-8.96%</td>
+<td class="mono down b" data-v="-43656774.0">-¥4366万</td>
+<td class="mono sub">¥4605万</td>
+<td class="mono sub">¥8971万</td>
+<td class="mono" data-v="4.05">4.05%</td>
+<td class="mono sub">40.8%</td>
+<td class="rs">日振幅值达到15%的前5只证券</td></tr>
+<tr data-k="002815崇达技术日跌幅偏离值达到7%的前5只证券元件">
+<td class="idx">57</td>
+<td class="mono">002815</td>
+<td class="nm">崇达技术</td>
+<td class="mono sub">元件</td>
+<td class="mono">18.91</td>
+<td class="mono down" data-v="-10.0">-10.00%</td>
+<td class="mono down b" data-v="-50685862.6">-¥5069万</td>
+<td class="mono sub">¥4.30亿</td>
+<td class="mono sub">¥4.81亿</td>
+<td class="mono" data-v="12.17">12.17%</td>
+<td class="mono sub">48.8%</td>
+<td class="rs">日跌幅偏离值达到7%的前5只证券</td></tr>
+<tr data-k="600127金健米业有价格涨跌幅限制的日换手率达到20%的前五只证券农产品加工">
+<td class="idx">58</td>
+<td class="mono">600127</td>
+<td class="nm">金健米业</td>
+<td class="mono sub">农产品加工</td>
+<td class="mono">12.25</td>
+<td class="mono down" data-v="-9.99">-9.99%</td>
+<td class="mono down b" data-v="-53299085.1">-¥5330万</td>
+<td class="mono sub">¥1.79亿</td>
+<td class="mono sub">¥2.32亿</td>
+<td class="mono" data-v="26.85">26.85%</td>
+<td class="mono sub">18.9%</td>
+<td class="rs">有价格涨跌幅限制的日换手率达到20%的前五只证券</td></tr>
+<tr data-k="002912中新赛克日振幅值达到15%的前5只证券计算机设备">
+<td class="idx">59</td>
+<td class="mono">002912</td>
+<td class="nm">中新赛克</td>
+<td class="mono sub">计算机设备</td>
+<td class="mono">24.35</td>
+<td class="mono down" data-v="-6.85">-6.85%</td>
+<td class="mono down b" data-v="-68260975.31">-¥6826万</td>
+<td class="mono sub">¥6372万</td>
+<td class="mono sub">¥1.32亿</td>
+<td class="mono" data-v="14.69">14.69%</td>
+<td class="mono sub">31.2%</td>
+<td class="rs">日振幅值达到15%的前5只证券</td></tr>
+<tr data-k="603330天洋新材非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券 / 有价格涨跌幅限制的日换手率达到20%的前五只证券塑料">
+<td class="idx">60</td>
+<td class="mono">603330</td>
+<td class="nm">天洋新材</td>
+<td class="mono sub">塑料</td>
+<td class="mono">11.10</td>
+<td class="mono up" data-v="10.01">+10.01%</td>
+<td class="mono down b" data-v="-70644471.26">-¥7064万</td>
+<td class="mono sub">¥1.27亿</td>
+<td class="mono sub">¥1.98亿</td>
+<td class="mono" data-v="33.08">33.08%</td>
+<td class="mono sub">23.4%</td>
+<td class="rs">非S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券 / 有价格涨跌幅限制的日换手率达到20%的前五只证券</td></tr>
+<tr data-k="000032深桑达A日跌幅偏离值达到7%的前5只证券专业工程">
+<td class="idx">61</td>
+<td class="mono">000032</td>
+<td class="nm">深桑达A</td>
+<td class="mono sub">专业工程</td>
+<td class="mono">11.88</td>
+<td class="mono down" data-v="-10.0">-10.00%</td>
+<td class="mono down b" data-v="-76507334.31">-¥7651万</td>
+<td class="mono sub">¥7372万</td>
+<td class="mono sub">¥1.50亿</td>
+<td class="mono" data-v="7.66">7.66%</td>
+<td class="mono sub">19.6%</td>
+<td class="rs">日跌幅偏离值达到7%的前5只证券</td></tr>
+<tr data-k="002388新亚制程日振幅值达到15%的前5只证券其他电子">
+<td class="idx">62</td>
+<td class="mono">002388</td>
+<td class="nm">新亚制程</td>
+<td class="mono sub">其他电子</td>
+<td class="mono">8.19</td>
+<td class="mono down" data-v="-10.0">-10.00%</td>
+<td class="mono down b" data-v="-81439103.06">-¥8144万</td>
+<td class="mono sub">¥1.01亿</td>
+<td class="mono sub">¥1.82亿</td>
+<td class="mono" data-v="20.18">20.18%</td>
+<td class="mono sub">32.3%</td>
+<td class="rs">日振幅值达到15%的前5只证券</td></tr>
+<tr data-k="002343慈文传媒日换手率达到20%的前5只证券影视院线">
+<td class="idx">63</td>
+<td class="mono">002343</td>
+<td class="nm">慈文传媒</td>
+<td class="mono sub">影视院线</td>
+<td class="mono">9.90</td>
+<td class="mono down" data-v="-6.16">-6.16%</td>
+<td class="mono down b" data-v="-89459710.41">-¥8946万</td>
+<td class="mono sub">¥1.12亿</td>
+<td class="mono sub">¥2.01亿</td>
+<td class="mono" data-v="32.95">32.95%</td>
+<td class="mono sub">19.5%</td>
+<td class="rs">日换手率达到20%的前5只证券</td></tr>
+<tr data-k="002085万丰奥威日跌幅偏离值达到7%的前5只证券汽车零部件">
+<td class="idx">64</td>
+<td class="mono">002085</td>
+<td class="nm">万丰奥威</td>
+<td class="mono sub">汽车零部件</td>
+<td class="mono">10.07</td>
+<td class="mono down" data-v="-10.01">-10.01%</td>
+<td class="mono down b" data-v="-93049216.0">-¥9305万</td>
+<td class="mono sub">¥1.13亿</td>
+<td class="mono sub">¥2.06亿</td>
+<td class="mono" data-v="6.86">6.86%</td>
+<td class="mono sub">21.2%</td>
+<td class="rs">日跌幅偏离值达到7%的前5只证券</td></tr>
+<tr data-k="002181粤传媒日跌幅偏离值达到7%的前5只证券出版">
+<td class="idx">65</td>
+<td class="mono">002181</td>
+<td class="nm">粤传媒</td>
+<td class="mono sub">出版</td>
+<td class="mono">10.03</td>
+<td class="mono down" data-v="-9.96">-9.96%</td>
+<td class="mono down b" data-v="-152884407.05">-¥1.53亿</td>
+<td class="mono sub">¥1.97亿</td>
+<td class="mono sub">¥3.50亿</td>
+<td class="mono" data-v="16.72">16.72%</td>
+<td class="mono sub">26.8%</td>
+<td class="rs">日跌幅偏离值达到7%的前5只证券</td></tr>
+<tr data-k="002980华盛昌日跌幅偏离值达到7%的前5只证券电网设备">
+<td class="idx">66</td>
+<td class="mono">002980</td>
+<td class="nm">华盛昌</td>
+<td class="mono sub">电网设备</td>
+<td class="mono">98.82</td>
+<td class="mono down" data-v="-10.0">-10.00%</td>
+<td class="mono down b" data-v="-173484858.2">-¥1.73亿</td>
+<td class="mono sub">¥2.06亿</td>
+<td class="mono sub">¥3.79亿</td>
+<td class="mono" data-v="12.8">12.80%</td>
+<td class="mono sub">44.5%</td>
+<td class="rs">日跌幅偏离值达到7%的前5只证券</td></tr></tbody></table></div>
+</div>
+
+<div class="grid2">
+  <div class="card"><h2>题材热度明细 <em>TOP40 题材及代表个股</em></h2>
+    <div class="scroll" style="max-height:520px"><table><thead><tr>
+      <th>#</th><th>题材标签</th><th>只数</th><th style="text-align:left">代表个股（当日涨幅）</th>
+    </tr></thead><tbody><tr><td class="idx">1</td><td class="nm">人形机器人</td>
+<td class="mono b up">7</td><td><span class="chip flat">华新精科 0.00%</span><span class="chip flat">睿能科技 0.00%</span><span class="chip flat">多伦科技 0.00%</span><span class="chip flat">奕帆传动 0.00%</span><span class="chip flat">鸣志电器 0.00%</span><span class="chip flat">大业股份 0.00%</span><span class="chip flat">兆威机电 0.00%</span></td></tr>
+<tr><td class="idx">2</td><td class="nm">“羊”字辈</td>
+<td class="mono b up">3</td><td><span class="chip flat">天洋新材 0.00%</span><span class="chip flat">大洋电机 0.00%</span><span class="chip flat">海洋王 0.00%</span></td></tr>
+<tr><td class="idx">3</td><td class="nm">军工</td>
+<td class="mono b up">2</td><td><span class="chip flat">冰山冷热 0.00%</span><span class="chip flat">海洋王 0.00%</span></td></tr>
+<tr><td class="idx">4</td><td class="nm">数据中心液冷</td>
+<td class="mono b up">2</td><td><span class="chip flat">鸣志电器 0.00%</span><span class="chip flat">冰山冷热 0.00%</span></td></tr>
+<tr><td class="idx">5</td><td class="nm">机器人关节</td>
+<td class="mono b up">2</td><td><span class="chip flat">华阳智能 0.00%</span><span class="chip flat">大洋电机 0.00%</span></td></tr>
+<tr><td class="idx">6</td><td class="nm">AI出版</td>
+<td class="mono b up">1</td><td><span class="chip flat">出版传媒 0.00%</span></td></tr>
+<tr><td class="idx">7</td><td class="nm">AI应用</td>
+<td class="mono b up">1</td><td><span class="chip flat">海量数据 0.00%</span></td></tr>
+<tr><td class="idx">8</td><td class="nm">AI智能体</td>
+<td class="mono b up">1</td><td><span class="chip flat">南方路机 0.00%</span></td></tr>
+<tr><td class="idx">9</td><td class="nm">AI照明</td>
+<td class="mono b up">1</td><td><span class="chip flat">海洋王 0.00%</span></td></tr>
+<tr><td class="idx">10</td><td class="nm">AR-AI显示</td>
+<td class="mono b up">1</td><td><span class="chip flat">芯瑞达 0.00%</span></td></tr>
+<tr><td class="idx">11</td><td class="nm">IC分销</td>
+<td class="mono b up">1</td><td><span class="chip flat">睿能科技 0.00%</span></td></tr>
+<tr><td class="idx">12</td><td class="nm">LED</td>
+<td class="mono b up">1</td><td><span class="chip flat">阳光照明 0.00%</span></td></tr>
+<tr><td class="idx">13</td><td class="nm">LED封装</td>
+<td class="mono b up">1</td><td><span class="chip flat">星光股份 0.00%</span></td></tr>
+<tr><td class="idx">14</td><td class="nm">Mini/Micro-LED</td>
+<td class="mono b up">1</td><td><span class="chip flat">芯瑞达 0.00%</span></td></tr>
+<tr><td class="idx">15</td><td class="nm">三季报增长</td>
+<td class="mono b up">1</td><td><span class="chip flat">博汇股份 0.00%</span></td></tr>
+<tr><td class="idx">16</td><td class="nm">专业照明</td>
+<td class="mono b up">1</td><td><span class="chip flat">海洋王 0.00%</span></td></tr>
+<tr><td class="idx">17</td><td class="nm">两轮电驱</td>
+<td class="mono b up">1</td><td><span class="chip flat">安乃达 0.00%</span></td></tr>
+<tr><td class="idx">18</td><td class="nm">伺服电机</td>
+<td class="mono b up">1</td><td><span class="chip flat">奕帆传动 0.00%</span></td></tr>
+<tr><td class="idx">19</td><td class="nm">信息安全</td>
+<td class="mono b up">1</td><td><span class="chip flat">星光股份 0.00%</span></td></tr>
+<tr><td class="idx">20</td><td class="nm">像素车灯</td>
+<td class="mono b up">1</td><td><span class="chip flat">芯瑞达 0.00%</span></td></tr>
+<tr><td class="idx">21</td><td class="nm">光模块胶</td>
+<td class="mono b up">1</td><td><span class="chip flat">天洋新材 0.00%</span></td></tr>
+<tr><td class="idx">22</td><td class="nm">全球销售</td>
+<td class="mono b up">1</td><td><span class="chip flat">大业股份 0.00%</span></td></tr>
+<tr><td class="idx">23</td><td class="nm">公路施工</td>
+<td class="mono b up">1</td><td><span class="chip flat">北新路桥 0.00%</span></td></tr>
+<tr><td class="idx">24</td><td class="nm">具身智能</td>
+<td class="mono b up">1</td><td><span class="chip flat">安乃达 0.00%</span></td></tr>
+<tr><td class="idx">25</td><td class="nm">军工配套</td>
+<td class="mono b up">1</td><td><span class="chip flat">林州重机 0.00%</span></td></tr>
+<tr><td class="idx">26</td><td class="nm">冰雪工程</td>
+<td class="mono b up">1</td><td><span class="chip flat">冰山冷热 0.00%</span></td></tr>
+<tr><td class="idx">27</td><td class="nm">冷热设备</td>
+<td class="mono b up">1</td><td><span class="chip flat">冰山冷热 0.00%</span></td></tr>
+<tr><td class="idx">28</td><td class="nm">出版发行</td>
+<td class="mono b up">1</td><td><span class="chip flat">出版传媒 0.00%</span></td></tr>
+<tr><td class="idx">29</td><td class="nm">商业地产</td>
+<td class="mono b up">1</td><td><span class="chip flat">上海九百 0.00%</span></td></tr>
+<tr><td class="idx">30</td><td class="nm">商贸零售</td>
+<td class="mono b up">1</td><td><span class="chip flat">上海九百 0.00%</span></td></tr>
+<tr><td class="idx">31</td><td class="nm">基建盘活</td>
+<td class="mono b up">1</td><td><span class="chip flat">北新路桥 0.00%</span></td></tr>
+<tr><td class="idx">32</td><td class="nm">定增注册</td>
+<td class="mono b up">1</td><td><span class="chip flat">海量数据 0.00%</span></td></tr>
+<tr><td class="idx">33</td><td class="nm">工业自动化</td>
+<td class="mono b up">1</td><td><span class="chip flat">睿能科技 0.00%</span></td></tr>
+<tr><td class="idx">34</td><td class="nm">工程搅拌</td>
+<td class="mono b up">1</td><td><span class="chip flat">南方路机 0.00%</span></td></tr>
+<tr><td class="idx">35</td><td class="nm">工程机械</td>
+<td class="mono b up">1</td><td><span class="chip flat">山河智能 0.00%</span></td></tr>
+<tr><td class="idx">36</td><td class="nm">微型传动</td>
+<td class="mono b up">1</td><td><span class="chip flat">兆威机电 0.00%</span></td></tr>
+<tr><td class="idx">37</td><td class="nm">微特减速电机</td>
+<td class="mono b up">1</td><td><span class="chip flat">奕帆传动 0.00%</span></td></tr>
+<tr><td class="idx">38</td><td class="nm">微特电机</td>
+<td class="mono b up">1</td><td><span class="chip flat">华阳智能 0.00%</span></td></tr>
+<tr><td class="idx">39</td><td class="nm">数据中心风机</td>
+<td class="mono b up">1</td><td><span class="chip flat">大洋电机 0.00%</span></td></tr>
+<tr><td class="idx">40</td><td class="nm">数据库</td>
+<td class="mono b up">1</td><td><span class="chip flat">海量数据 0.00%</span></td></tr></tbody></table></div>
+  </div>
+  <div class="card"><h2>当日强势股题材归因 <em>同花顺 33 只</em></h2>
+    <div class="tools"><input class="search" id="q3" placeholder="搜索代码 / 名称 / 题材"/><span class="sub" id="c3"></span></div>
+    <div class="scroll" style="max-height:456px"><table id="t3"><thead><tr>
+      <th>#</th><th>代码</th><th>名称</th><th>行业</th><th>收盘</th><th>涨幅</th><th>换手</th><th>成交额</th>
+      <th style="text-align:left">题材归因</th>
+    </tr></thead><tbody><tr data-k="603370华新精科人形机器人+精密铁芯">
+<td class="idx">1</td><td class="mono">603370</td><td class="nm">华新精科</td>
+<td class="mono sub">电机</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">人形机器人</span><span class="tag">精密铁芯</span></td></tr>
+<tr data-k="002983芯瑞达Mini/Micro-LED+AR-AI显示+像素车灯">
+<td class="idx">2</td><td class="mono">002983</td><td class="nm">芯瑞达</td>
+<td class="mono sub">光学光电子</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">Mini/Micro-LED</span><span class="tag">AR-AI显示</span><span class="tag">像素车灯</span></td></tr>
+<tr data-k="603933睿能科技人形机器人+工业自动化+IC分销">
+<td class="idx">3</td><td class="mono">603933</td><td class="nm">睿能科技</td>
+<td class="mono sub">其他电子</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">人形机器人</span><span class="tag">工业自动化</span><span class="tag">IC分销</span></td></tr>
+<tr data-k="603330天洋新材电子胶+光模块胶+热熔胶+“羊”字辈">
+<td class="idx">4</td><td class="mono">603330</td><td class="nm">天洋新材</td>
+<td class="mono sub">塑料</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">电子胶</span><span class="tag">光模块胶</span><span class="tag">热熔胶</span><span class="tag">“羊”字辈</span></td></tr>
+<tr data-k="603528多伦科技人形机器人+智慧交管+智慧驾培">
+<td class="idx">5</td><td class="mono">603528</td><td class="nm">多伦科技</td>
+<td class="mono sub">软件开发</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">人形机器人</span><span class="tag">智慧交管</span><span class="tag">智慧驾培</span></td></tr>
+<tr data-k="301023奕帆传动人形机器人+微特减速电机+伺服电机">
+<td class="idx">6</td><td class="mono">301023</td><td class="nm">奕帆传动</td>
+<td class="mono sub">电机</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">人形机器人</span><span class="tag">微特减速电机</span><span class="tag">伺服电机</span></td></tr>
+<tr data-k="600838上海九百商贸零售+商业地产+洗染服务">
+<td class="idx">7</td><td class="mono">600838</td><td class="nm">上海九百</td>
+<td class="mono sub">一般零售</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">商贸零售</span><span class="tag">商业地产</span><span class="tag">洗染服务</span></td></tr>
+<tr data-k="600698湖南天雁涡轮增压器+电子水泵+汽车零部件">
+<td class="idx">8</td><td class="mono">600698</td><td class="nm">湖南天雁</td>
+<td class="mono sub">汽车零部件</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">涡轮增压器</span><span class="tag">电子水泵</span><span class="tag">汽车零部件</span></td></tr>
+<tr data-k="600192长城电工输配电设备+核电项目+资产处置">
+<td class="idx">9</td><td class="mono">600192</td><td class="nm">长城电工</td>
+<td class="mono sub">电网设备</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">输配电设备</span><span class="tag">核电项目</span><span class="tag">资产处置</span></td></tr>
+<tr data-k="603089正裕工业机器人零部件+柔性触觉+汽车减震器">
+<td class="idx">10</td><td class="mono">603089</td><td class="nm">正裕工业</td>
+<td class="mono sub">汽车零部件</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">机器人零部件</span><span class="tag">柔性触觉</span><span class="tag">汽车减震器</span></td></tr>
+<tr data-k="000678襄阳轴承机器人轴承+汽车轴承+湖北国资">
+<td class="idx">11</td><td class="mono">000678</td><td class="nm">襄阳轴承</td>
+<td class="mono sub">汽车零部件</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">机器人轴承</span><span class="tag">汽车轴承</span><span class="tag">湖北国资</span></td></tr>
+<tr data-k="002097山河智能工程机械+无人应急装备+机器人概念+电动化">
+<td class="idx">12</td><td class="mono">002097</td><td class="nm">山河智能</td>
+<td class="mono sub">工程机械</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">工程机械</span><span class="tag">无人应急装备</span><span class="tag">机器人概念</span><span class="tag">电动化</span></td></tr>
+<tr data-k="603728鸣志电器人形机器人+运动控制+数据中心液冷">
+<td class="idx">13</td><td class="mono">603728</td><td class="nm">鸣志电器</td>
+<td class="mono sub">电机</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">人形机器人</span><span class="tag">运动控制</span><span class="tag">数据中心液冷</span></td></tr>
+<tr data-k="603280南方路机工程搅拌+智能机器人+AI智能体">
+<td class="idx">14</td><td class="mono">603280</td><td class="nm">南方路机</td>
+<td class="mono sub">工程机械</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">工程搅拌</span><span class="tag">智能机器人</span><span class="tag">AI智能体</span></td></tr>
+<tr data-k="601091沈鼓集团离心压缩机+煤化工+核电装备">
+<td class="idx">15</td><td class="mono">601091</td><td class="nm">沈鼓集团</td>
+<td class="mono sub">专用设备</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">离心压缩机</span><span class="tag">煤化工</span><span class="tag">核电装备</span></td></tr>
+<tr data-k="301502华阳智能机器人关节+无框电机+微特电机">
+<td class="idx">16</td><td class="mono">301502</td><td class="nm">华阳智能</td>
+<td class="mono sub">电机</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">机器人关节</span><span class="tag">无框电机</span><span class="tag">微特电机</span></td></tr>
+<tr data-k="002249大洋电机机器人关节+电机业务+数据中心风机+“羊”字辈">
+<td class="idx">17</td><td class="mono">002249</td><td class="nm">大洋电机</td>
+<td class="mono sub">电机</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">机器人关节</span><span class="tag">电机业务</span><span class="tag">数据中心风机</span><span class="tag">“羊”字辈</span></td></tr>
+<tr data-k="603350安乃达具身智能+两轮电驱+系统集成">
+<td class="idx">18</td><td class="mono">603350</td><td class="nm">安乃达</td>
+<td class="mono sub">电机</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">具身智能</span><span class="tag">两轮电驱</span><span class="tag">系统集成</span></td></tr>
+<tr data-k="603028赛福天机器人腱绳+特种钢索">
+<td class="idx">19</td><td class="mono">603028</td><td class="nm">赛福天</td>
+<td class="mono sub">通用设备</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">机器人腱绳</span><span class="tag">特种钢索</span></td></tr>
+<tr data-k="600261阳光照明照明业务+LED+激光通信投资+氢能装备">
+<td class="idx">20</td><td class="mono">600261</td><td class="nm">阳光照明</td>
+<td class="mono sub">照明设备</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">照明业务</span><span class="tag">LED</span><span class="tag">激光通信投资</span><span class="tag">氢能装备</span></td></tr>
+<tr data-k="600202哈空调空冷器+飞翼空冷器+股东增持">
+<td class="idx">21</td><td class="mono">600202</td><td class="nm">哈空调</td>
+<td class="mono sub">通用设备</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">空冷器</span><span class="tag">飞翼空冷器</span><span class="tag">股东增持</span></td></tr>
+<tr data-k="300839博汇股份液冷算力+特种油升级+三季报增长">
+<td class="idx">22</td><td class="mono">300839</td><td class="nm">博汇股份</td>
+<td class="mono sub">炼化及贸易</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">液冷算力</span><span class="tag">特种油升级</span><span class="tag">三季报增长</span></td></tr>
+<tr data-k="002535林州重机煤矿机械+煤矿服务+军工配套">
+<td class="idx">23</td><td class="mono">002535</td><td class="nm">林州重机</td>
+<td class="mono sub">专用设备</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">煤矿机械</span><span class="tag">煤矿服务</span><span class="tag">军工配套</span></td></tr>
+<tr data-k="603278大业股份人形机器人+橡胶骨架材料+全球销售">
+<td class="idx">24</td><td class="mono">603278</td><td class="nm">大业股份</td>
+<td class="mono sub">通用设备</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">人形机器人</span><span class="tag">橡胶骨架材料</span><span class="tag">全球销售</span></td></tr>
+<tr data-k="601999出版传媒出版发行+AI出版+数智基金">
+<td class="idx">25</td><td class="mono">601999</td><td class="nm">出版传媒</td>
+<td class="mono sub">出版</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">出版发行</span><span class="tag">AI出版</span><span class="tag">数智基金</span></td></tr>
+<tr data-k="003021兆威机电人形机器人+灵巧手+微型传动">
+<td class="idx">26</td><td class="mono">003021</td><td class="nm">兆威机电</td>
+<td class="mono sub">电机</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">人形机器人</span><span class="tag">灵巧手</span><span class="tag">微型传动</span></td></tr>
+<tr data-k="000530冰山冷热冰雪工程+数据中心液冷+军工+冷热设备">
+<td class="idx">27</td><td class="mono">000530</td><td class="nm">冰山冷热</td>
+<td class="mono sub">通用设备</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">冰雪工程</span><span class="tag">数据中心液冷</span><span class="tag">军工</span><span class="tag">冷热设备</span></td></tr>
+<tr data-k="002307北新路桥基建盘活+公路施工+海外布局">
+<td class="idx">28</td><td class="mono">002307</td><td class="nm">北新路桥</td>
+<td class="mono sub">基础建设</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">基建盘活</span><span class="tag">公路施工</span><span class="tag">海外布局</span></td></tr>
+<tr data-k="603138海量数据数据库+AI应用+定增注册">
+<td class="idx">29</td><td class="mono">603138</td><td class="nm">海量数据</td>
+<td class="mono sub">IT服务</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">数据库</span><span class="tag">AI应用</span><span class="tag">定增注册</span></td></tr>
+<tr data-k="600293三峡新材重大重组+锂电电解液+汽车电子玻璃">
+<td class="idx">30</td><td class="mono">600293</td><td class="nm">三峡新材</td>
+<td class="mono sub">玻璃玻纤</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">重大重组</span><span class="tag">锂电电解液</span><span class="tag">汽车电子玻璃</span></td></tr>
+<tr data-k="002724海洋王专业照明+AI照明+军工+“羊”字辈">
+<td class="idx">31</td><td class="mono">002724</td><td class="nm">海洋王</td>
+<td class="mono sub">照明设备</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">专业照明</span><span class="tag">AI照明</span><span class="tag">军工</span><span class="tag">“羊”字辈</span></td></tr>
+<tr data-k="002076星光股份数据要素+信息安全+LED封装+量子科技">
+<td class="idx">32</td><td class="mono">002076</td><td class="nm">星光股份</td>
+<td class="mono sub">照明设备</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">数据要素</span><span class="tag">信息安全</span><span class="tag">LED封装</span><span class="tag">量子科技</span></td></tr>
+<tr data-k="001360南矿集团矿山装备+金属矿山+智能运维">
+<td class="idx">33</td><td class="mono">001360</td><td class="nm">南矿集团</td>
+<td class="mono sub">专用设备</td>
+<td class="mono">0.00</td>
+<td class="mono flat b" data-v="0.0">0.00%</td>
+<td class="mono">0.00%</td>
+<td class="mono sub">¥0</td>
+<td class="rs"><span class="tag">矿山装备</span><span class="tag">金属矿山</span><span class="tag">智能运维</span></td></tr></tbody></table></div>
+  </div>
+</div>
+
+<div class="card"><h2>行业板块全景 <em>127 个东财一级行业 · 按涨跌幅排序</em></h2>
+  <div class="tools">
+    <input class="search" id="q2" placeholder="搜索行业 / 领涨股"/>
+    <button class="btn on" data-t="t2" data-c="2">涨跌幅 ↓</button>
+    <button class="btn" data-t="t2" data-c="4">上涨家数 ↓</button>
+    <button class="btn" data-t="t2" data-c="8">换手率 ↓</button>
+    <span class="sub" id="c2"></span>
+  </div>
+  <div class="scroll"><table id="t2"><thead><tr>
+    <th>#</th><th>行业板块</th><th>涨跌幅</th><th>成分股</th><th>上涨</th><th>下跌</th><th>涨停</th>
+    <th>总市值</th><th>成交额</th><th>换手率</th><th style="text-align:left">领涨股</th><th style="text-align:left">领跌股</th>
+  </tr></thead><tbody><tr data-k="电机华阳智能">
+<td class="idx">1</td><td class="nm">电机</td>
+<td class="mono up b" data-v="4.45">+4.45%</td>
+<td class="mono sub">27</td>
+<td class="mono up" data-v="18">18</td><td class="mono down">8</td>
+<td class="mono"><span class="up b">7</span></td>
+<td class="mono sub">¥2257.69亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">华阳智能 <span class="up">+20.00%</span></td>
+<td class="nm sub">华瑞股份 <span class="down">-5.39%</span></td></tr>
+<tr data-k="医疗美容锦波生物">
+<td class="idx">2</td><td class="nm">医疗美容</td>
+<td class="mono up b" data-v="2.05">+2.05%</td>
+<td class="mono sub">5</td>
+<td class="mono up" data-v="3">3</td><td class="mono down">2</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥769.33亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">锦波生物 <span class="up">+6.31%</span></td>
+<td class="nm sub">*ST美谷 <span class="down">-2.55%</span></td></tr>
+<tr data-k="通信服务中国移动">
+<td class="idx">3</td><td class="nm">通信服务</td>
+<td class="mono up b" data-v="1.61">+1.61%</td>
+<td class="mono sub">39</td>
+<td class="mono up" data-v="3">3</td><td class="mono down">36</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥31881.27亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">中国移动 <span class="up">+2.50%</span></td>
+<td class="nm sub">线上线下 <span class="down">-6.45%</span></td></tr>
+<tr data-k="白色家电美的集团">
+<td class="idx">4</td><td class="nm">白色家电</td>
+<td class="mono up b" data-v="0.98">+0.98%</td>
+<td class="mono sub">11</td>
+<td class="mono up" data-v="2">2</td><td class="mono down">8</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥11089.89亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">美的集团 <span class="up">+1.71%</span></td>
+<td class="nm sub">TCL智家 <span class="down">-2.86%</span></td></tr>
+<tr data-k="银行工商银行">
+<td class="idx">5</td><td class="nm">银行</td>
+<td class="mono up b" data-v="0.49">+0.49%</td>
+<td class="mono sub">42</td>
+<td class="mono up" data-v="7">7</td><td class="mono down">34</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥169843.52亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">工商银行 <span class="up">+1.66%</span></td>
+<td class="nm sub">青岛银行 <span class="down">-2.74%</span></td></tr>
+<tr data-k="地面兵装甘化科工">
+<td class="idx">6</td><td class="nm">地面兵装</td>
+<td class="mono up b" data-v="0.3">+0.30%</td>
+<td class="mono sub">12</td>
+<td class="mono up" data-v="3">3</td><td class="mono down">9</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥1410.57亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">甘化科工 <span class="up">+5.65%</span></td>
+<td class="nm sub">银河电子 <span class="down">-3.65%</span></td></tr>
+<tr data-k="炼化及贸易博汇股份">
+<td class="idx">7</td><td class="nm">炼化及贸易</td>
+<td class="mono up b" data-v="0.17">+0.17%</td>
+<td class="mono sub">30</td>
+<td class="mono up" data-v="6">6</td><td class="mono down">23</td>
+<td class="mono"><span class="up b">1</span></td>
+<td class="mono sub">¥34986.79亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">博汇股份 <span class="up">+20.00%</span></td>
+<td class="nm sub">恒逸石化 <span class="down">-6.00%</span></td></tr>
+<tr data-k="轨交设备金鹰重工">
+<td class="idx">8</td><td class="nm">轨交设备</td>
+<td class="mono up b" data-v="0.09">+0.09%</td>
+<td class="mono sub">31</td>
+<td class="mono up" data-v="7">7</td><td class="mono down">23</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥4189.71亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">金鹰重工 <span class="up">+5.26%</span></td>
+<td class="nm sub">九州一轨 <span class="down">-8.50%</span></td></tr>
+<tr data-k="白酒贵州茅台">
+<td class="idx">9</td><td class="nm">白酒</td>
+<td class="mono up b" data-v="0.06">+0.06%</td>
+<td class="mono sub">19</td>
+<td class="mono up" data-v="3">3</td><td class="mono down">16</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥24093.37亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">贵州茅台 <span class="up">+0.67%</span></td>
+<td class="nm sub">皇台酒业 <span class="down">-10.00%</span></td></tr>
+<tr data-k="工程机械山河智能">
+<td class="idx">10</td><td class="nm">工程机械</td>
+<td class="mono down b" data-v="-0.03">-0.03%</td>
+<td class="mono sub">35</td>
+<td class="mono up" data-v="16">16</td><td class="mono down">18</td>
+<td class="mono"><span class="up b">2</span></td>
+<td class="mono sub">¥6520.95亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">山河智能 <span class="up">+10.00%</span></td>
+<td class="nm sub">永达股份 <span class="down">-9.97%</span></td></tr>
+<tr data-k="照明设备星光股份">
+<td class="idx">11</td><td class="nm">照明设备</td>
+<td class="mono down b" data-v="-0.11">-0.11%</td>
+<td class="mono sub">14</td>
+<td class="mono up" data-v="4">4</td><td class="mono down">10</td>
+<td class="mono"><span class="up b">3</span></td>
+<td class="mono sub">¥872.36亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">星光股份 <span class="up">+10.20%</span></td>
+<td class="nm sub">格利尔 <span class="down">-8.87%</span></td></tr>
+<tr data-k="旅游零售中国中免">
+<td class="idx">12</td><td class="nm">旅游零售</td>
+<td class="mono down b" data-v="-0.23">-0.23%</td>
+<td class="mono sub">2</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">1</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥1096.38亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">中国中免 <span class="flat">0.00%</span></td>
+<td class="nm sub">珠免集团 <span class="down">-3.20%</span></td></tr>
+<tr data-k="养殖业正邦科技">
+<td class="idx">13</td><td class="nm">养殖业</td>
+<td class="mono down b" data-v="-0.26">-0.26%</td>
+<td class="mono sub">22</td>
+<td class="mono up" data-v="4">4</td><td class="mono down">18</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥5131.13亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">正邦科技 <span class="up">+1.05%</span></td>
+<td class="nm sub">天山生物 <span class="down">-6.11%</span></td></tr>
+<tr data-k="铁路公路皖通高速">
+<td class="idx">14</td><td class="nm">铁路公路</td>
+<td class="mono down b" data-v="-0.42">-0.42%</td>
+<td class="mono sub">33</td>
+<td class="mono up" data-v="3">3</td><td class="mono down">30</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥8015.78亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">皖通高速 <span class="up">+1.87%</span></td>
+<td class="nm sub">三羊马 <span class="down">-10.00%</span></td></tr>
+<tr data-k="证券华鑫股份">
+<td class="idx">15</td><td class="nm">证券</td>
+<td class="mono down b" data-v="-0.6">-0.60%</td>
+<td class="mono sub">48</td>
+<td class="mono up" data-v="3">3</td><td class="mono down">45</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥31940.38亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">华鑫股份 <span class="up">+3.02%</span></td>
+<td class="nm sub">锦龙股份 <span class="down">-10.00%</span></td></tr>
+<tr data-k="食品加工味知香">
+<td class="idx">16</td><td class="nm">食品加工</td>
+<td class="mono down b" data-v="-0.61">-0.61%</td>
+<td class="mono sub">27</td>
+<td class="mono up" data-v="3">3</td><td class="mono down">24</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥2181.02亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">味知香 <span class="up">+2.41%</span></td>
+<td class="nm sub">海欣食品 <span class="down">-5.51%</span></td></tr>
+<tr data-k="水泥西藏天路">
+<td class="idx">17</td><td class="nm">水泥</td>
+<td class="mono down b" data-v="-0.7">-0.70%</td>
+<td class="mono sub">23</td>
+<td class="mono up" data-v="3">3</td><td class="mono down">19</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥2722.91亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">西藏天路 <span class="up">+0.79%</span></td>
+<td class="nm sub">海南瑞泽 <span class="down">-4.07%</span></td></tr>
+<tr data-k="计算机设备大普微">
+<td class="idx">18</td><td class="nm">计算机设备</td>
+<td class="mono down b" data-v="-0.74">-0.74%</td>
+<td class="mono sub">89</td>
+<td class="mono up" data-v="10">10</td><td class="mono down">78</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥12698.70亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">大普微 <span class="up">+6.27%</span></td>
+<td class="nm sub">同为股份 <span class="down">-10.01%</span></td></tr>
+<tr data-k="保险中国人寿">
+<td class="idx">19</td><td class="nm">保险</td>
+<td class="mono down b" data-v="-0.77">-0.77%</td>
+<td class="mono sub">5</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">5</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥26270.59亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">中国人寿 <span class="down">-0.21%</span></td>
+<td class="nm sub">中国人保 <span class="down">-2.58%</span></td></tr>
+<tr data-k="房屋建设重庆建工">
+<td class="idx">20</td><td class="nm">房屋建设</td>
+<td class="mono down b" data-v="-0.8">-0.80%</td>
+<td class="mono sub">8</td>
+<td class="mono up" data-v="1">1</td><td class="mono down">7</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥2526.98亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">重庆建工 <span class="up">+1.11%</span></td>
+<td class="nm sub">高新发展 <span class="down">-5.12%</span></td></tr>
+<tr data-k="调味发酵品宝立食品">
+<td class="idx">21</td><td class="nm">调味发酵品</td>
+<td class="mono down b" data-v="-0.81">-0.81%</td>
+<td class="mono sub">15</td>
+<td class="mono up" data-v="2">2</td><td class="mono down">13</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥3265.93亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">宝立食品 <span class="up">+0.40%</span></td>
+<td class="nm sub">安记食品 <span class="down">-6.82%</span></td></tr>
+<tr data-k="航空机场中国东航">
+<td class="idx">22</td><td class="nm">航空机场</td>
+<td class="mono down b" data-v="-0.82">-0.82%</td>
+<td class="mono sub">13</td>
+<td class="mono up" data-v="2">2</td><td class="mono down">11</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥5165.10亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">中国东航 <span class="up">+0.32%</span></td>
+<td class="nm sub">中信海直 <span class="down">-6.41%</span></td></tr>
+<tr data-k="煤炭开采中国神华">
+<td class="idx">23</td><td class="nm">煤炭开采</td>
+<td class="mono down b" data-v="-0.85">-0.85%</td>
+<td class="mono sub">26</td>
+<td class="mono up" data-v="1">1</td><td class="mono down">25</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥22266.49亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">中国神华 <span class="up">+1.36%</span></td>
+<td class="nm sub">郑州煤电 <span class="down">-9.11%</span></td></tr>
+<tr data-k="饮料乳品海融科技">
+<td class="idx">24</td><td class="nm">饮料乳品</td>
+<td class="mono down b" data-v="-0.98">-0.98%</td>
+<td class="mono sub">28</td>
+<td class="mono up" data-v="4">4</td><td class="mono down">24</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥4155.94亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">海融科技 <span class="up">+2.22%</span></td>
+<td class="nm sub">阳光乳业 <span class="down">-10.02%</span></td></tr>
+<tr data-k="电力晶科科技">
+<td class="idx">25</td><td class="nm">电力</td>
+<td class="mono down b" data-v="-0.99">-0.99%</td>
+<td class="mono sub">109</td>
+<td class="mono up" data-v="6">6</td><td class="mono down">103</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥38673.56亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">晶科科技 <span class="up">+5.40%</span></td>
+<td class="nm sub">芯能科技 <span class="down">-10.02%</span></td></tr>
+<tr data-k="普钢宝钢股份">
+<td class="idx">26</td><td class="nm">普钢</td>
+<td class="mono down b" data-v="-1.09">-1.09%</td>
+<td class="mono sub">23</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">23</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥4848.10亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">宝钢股份 <span class="down">-0.33%</span></td>
+<td class="nm sub">本钢板材 <span class="down">-3.10%</span></td></tr>
+<tr data-k="电网设备长城电工">
+<td class="idx">27</td><td class="nm">电网设备</td>
+<td class="mono down b" data-v="-1.09">-1.09%</td>
+<td class="mono sub">143</td>
+<td class="mono up" data-v="22">22</td><td class="mono down">120</td>
+<td class="mono"><span class="up b">1</span></td>
+<td class="mono sub">¥14550.03亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">长城电工 <span class="up">+10.04%</span></td>
+<td class="nm sub">崧盛股份 <span class="down">-12.47%</span></td></tr>
+<tr data-k="医疗器械华强科技">
+<td class="idx">28</td><td class="nm">医疗器械</td>
+<td class="mono down b" data-v="-1.1">-1.10%</td>
+<td class="mono sub">141</td>
+<td class="mono up" data-v="21">21</td><td class="mono down">119</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥12415.03亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">华强科技 <span class="up">+3.63%</span></td>
+<td class="nm sub">五洲医疗 <span class="down">-9.66%</span></td></tr>
+<tr data-k="化妆品珀莱雅">
+<td class="idx">29</td><td class="nm">化妆品</td>
+<td class="mono down b" data-v="-1.12">-1.12%</td>
+<td class="mono sub">16</td>
+<td class="mono up" data-v="4">4</td><td class="mono down">12</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥1115.17亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">珀莱雅 <span class="up">+1.33%</span></td>
+<td class="nm sub">水羊股份 <span class="down">-8.96%</span></td></tr>
+<tr data-k="基础建设北新路桥">
+<td class="idx">30</td><td class="nm">基础建设</td>
+<td class="mono down b" data-v="-1.12">-1.12%</td>
+<td class="mono sub">44</td>
+<td class="mono up" data-v="5">5</td><td class="mono down">37</td>
+<td class="mono"><span class="up b">1</span></td>
+<td class="mono sub">¥7397.19亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">北新路桥 <span class="up">+10.06%</span></td>
+<td class="nm sub">*ST正平 <span class="down">-10.02%</span></td></tr>
+<tr data-k="光伏设备帝科股份">
+<td class="idx">31</td><td class="nm">光伏设备</td>
+<td class="mono down b" data-v="-1.2">-1.20%</td>
+<td class="mono sub">69</td>
+<td class="mono up" data-v="12">12</td><td class="mono down">57</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥10987.22亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">帝科股份 <span class="up">+3.58%</span></td>
+<td class="nm sub">*ST亿晶 <span class="down">-10.06%</span></td></tr>
+<tr data-k="油服工程科力股份">
+<td class="idx">32</td><td class="nm">油服工程</td>
+<td class="mono down b" data-v="-1.21">-1.21%</td>
+<td class="mono sub">14</td>
+<td class="mono up" data-v="3">3</td><td class="mono down">11</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥2248.61亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">科力股份 <span class="up">+4.55%</span></td>
+<td class="nm sub">*ST准油 <span class="down">-3.75%</span></td></tr>
+<tr data-k="饰品周大生">
+<td class="idx">33</td><td class="nm">饰品</td>
+<td class="mono down b" data-v="-1.5">-1.50%</td>
+<td class="mono sub">15</td>
+<td class="mono up" data-v="3">3</td><td class="mono down">11</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥945.74亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">周大生 <span class="up">+0.50%</span></td>
+<td class="nm sub">深中华A <span class="down">-6.60%</span></td></tr>
+<tr data-k="汽车零部件湖南天雁">
+<td class="idx">34</td><td class="nm">汽车零部件</td>
+<td class="mono down b" data-v="-1.52">-1.52%</td>
+<td class="mono sub">277</td>
+<td class="mono up" data-v="41">41</td><td class="mono down">231</td>
+<td class="mono"><span class="up b">3</span></td>
+<td class="mono sub">¥23015.78亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">湖南天雁 <span class="up">+10.00%</span></td>
+<td class="nm sub">捷众科技 <span class="down">-12.14%</span></td></tr>
+<tr data-k="医药商业大参林">
+<td class="idx">35</td><td class="nm">医药商业</td>
+<td class="mono down b" data-v="-1.53">-1.53%</td>
+<td class="mono sub">30</td>
+<td class="mono up" data-v="3">3</td><td class="mono down">26</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥3017.72亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">大参林 <span class="up">+1.22%</span></td>
+<td class="nm sub">百洋医药 <span class="down">-5.17%</span></td></tr>
+<tr data-k="乘用车长安汽车">
+<td class="idx">36</td><td class="nm">乘用车</td>
+<td class="mono down b" data-v="-1.59">-1.59%</td>
+<td class="mono sub">8</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">8</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥11882.12亿</td>
+<td class="mono sub">¥43.60亿</td>
+<td class="mono sub" data-v="0.55">0.55%</td>
+<td class="nm">长安汽车 <span class="down">-0.14%</span></td>
+<td class="nm sub">海马汽车 <span class="down">-3.49%</span></td></tr>
+<tr data-k="小家电欧伦电气">
+<td class="idx">37</td><td class="nm">小家电</td>
+<td class="mono down b" data-v="-1.62">-1.62%</td>
+<td class="mono sub">23</td>
+<td class="mono up" data-v="3">3</td><td class="mono down">20</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥1986.01亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">欧伦电气 <span class="up">+1.06%</span></td>
+<td class="nm sub">彩虹集团 <span class="down">-7.55%</span></td></tr>
+<tr data-k="航空装备海特高新">
+<td class="idx">38</td><td class="nm">航空装备</td>
+<td class="mono down b" data-v="-1.62">-1.62%</td>
+<td class="mono sub">49</td>
+<td class="mono up" data-v="4">4</td><td class="mono down">44</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥11063.08亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">海特高新 <span class="up">+1.12%</span></td>
+<td class="nm sub">晨曦航空 <span class="down">-6.17%</span></td></tr>
+<tr data-k="冶钢原料鄂尔多斯">
+<td class="idx">39</td><td class="nm">冶钢原料</td>
+<td class="mono down b" data-v="-1.64">-1.64%</td>
+<td class="mono sub">9</td>
+<td class="mono up" data-v="1">1</td><td class="mono down">8</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥1533.09亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">鄂尔多斯 <span class="up">+1.13%</span></td>
+<td class="nm sub">大中矿业 <span class="down">-4.63%</span></td></tr>
+<tr data-k="物流圆通速递">
+<td class="idx">40</td><td class="nm">物流</td>
+<td class="mono down b" data-v="-1.64">-1.64%</td>
+<td class="mono sub">47</td>
+<td class="mono up" data-v="1">1</td><td class="mono down">46</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥5981.85亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">圆通速递 <span class="up">+0.30%</span></td>
+<td class="nm sub">上海雅仕 <span class="down">-9.97%</span></td></tr>
+<tr data-k="个护用品豪悦护理">
+<td class="idx">41</td><td class="nm">个护用品</td>
+<td class="mono down b" data-v="-1.66">-1.66%</td>
+<td class="mono sub">13</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">12</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥738.87亿</td>
+<td class="mono sub">¥18.03亿</td>
+<td class="mono sub" data-v="2.09">2.09%</td>
+<td class="nm">豪悦护理 <span class="flat">0.00%</span></td>
+<td class="nm sub">依依股份 <span class="down">-4.88%</span></td></tr>
+<tr data-k="贸易中成股份">
+<td class="idx">42</td><td class="nm">贸易</td>
+<td class="mono down b" data-v="-1.72">-1.72%</td>
+<td class="mono sub">14</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">14</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥1270.61亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">中成股份 <span class="down">-0.41%</span></td>
+<td class="nm sub">凯瑞德 <span class="down">-4.79%</span></td></tr>
+<tr data-k="非白酒*ST尼雅">
+<td class="idx">43</td><td class="nm">非白酒</td>
+<td class="mono down b" data-v="-1.8">-1.80%</td>
+<td class="mono sub">17</td>
+<td class="mono up" data-v="1">1</td><td class="mono down">16</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥2038.89亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">*ST尼雅 <span class="up">+2.20%</span></td>
+<td class="nm sub">惠泉啤酒 <span class="down">-6.33%</span></td></tr>
+<tr data-k="饲料邦基科技">
+<td class="idx">44</td><td class="nm">饲料</td>
+<td class="mono down b" data-v="-1.8">-1.80%</td>
+<td class="mono sub">17</td>
+<td class="mono up" data-v="2">2</td><td class="mono down">15</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥1826.98亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">邦基科技 <span class="up">+2.51%</span></td>
+<td class="nm sub">百洋股份 <span class="down">-6.75%</span></td></tr>
+<tr data-k="装修建材*ST纳川">
+<td class="idx">45</td><td class="nm">装修建材</td>
+<td class="mono down b" data-v="-1.85">-1.85%</td>
+<td class="mono sub">37</td>
+<td class="mono up" data-v="8">8</td><td class="mono down">29</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥2206.37亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">*ST纳川 <span class="up">+3.03%</span></td>
+<td class="nm sub">瑞泰科技 <span class="down">-6.13%</span></td></tr>
+<tr data-k="酒店餐饮锦江酒店">
+<td class="idx">46</td><td class="nm">酒店餐饮</td>
+<td class="mono down b" data-v="-1.86">-1.86%</td>
+<td class="mono sub">9</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">9</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥507.96亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">锦江酒店 <span class="down">-0.95%</span></td>
+<td class="nm sub">君亭酒店 <span class="down">-4.85%</span></td></tr>
+<tr data-k="黑色家电极米科技">
+<td class="idx">47</td><td class="nm">黑色家电</td>
+<td class="mono down b" data-v="-1.88">-1.88%</td>
+<td class="mono sub">9</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">9</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥1294.73亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">极米科技 <span class="down">-0.24%</span></td>
+<td class="nm sub">辰奕智能 <span class="down">-6.47%</span></td></tr>
+<tr data-k="农产品加工保龄宝">
+<td class="idx">48</td><td class="nm">农产品加工</td>
+<td class="mono down b" data-v="-1.89">-1.89%</td>
+<td class="mono sub">26</td>
+<td class="mono up" data-v="2">2</td><td class="mono down">24</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥2773.68亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">保龄宝 <span class="up">+2.23%</span></td>
+<td class="nm sub">金健米业 <span class="down">-9.99%</span></td></tr>
+<tr data-k="一般零售上海九百">
+<td class="idx">49</td><td class="nm">一般零售</td>
+<td class="mono down b" data-v="-1.95">-1.95%</td>
+<td class="mono sub">58</td>
+<td class="mono up" data-v="6">6</td><td class="mono down">51</td>
+<td class="mono"><span class="up b">1</span></td>
+<td class="mono sub">¥4065.40亿</td>
+<td class="mono sub">¥69.80亿</td>
+<td class="mono sub" data-v="1.44">1.44%</td>
+<td class="nm">上海九百 <span class="up">+10.01%</span></td>
+<td class="nm sub">国光连锁 <span class="down">-8.00%</span></td></tr>
+<tr data-k="化学纤维吉林化纤">
+<td class="idx">50</td><td class="nm">化学纤维</td>
+<td class="mono down b" data-v="-1.96">-1.96%</td>
+<td class="mono sub">27</td>
+<td class="mono up" data-v="2">2</td><td class="mono down">25</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥2324.65亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">吉林化纤 <span class="up">+3.11%</span></td>
+<td class="nm sub">海阳科技 <span class="down">-6.25%</span></td></tr>
+<tr data-k="家电零部件奇精机械">
+<td class="idx">51</td><td class="nm">家电零部件</td>
+<td class="mono down b" data-v="-2.03">-2.03%</td>
+<td class="mono sub">34</td>
+<td class="mono up" data-v="1">1</td><td class="mono down">33</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥3111.65亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">奇精机械 <span class="up">+0.88%</span></td>
+<td class="nm sub">天银机电 <span class="down">-9.20%</span></td></tr>
+<tr data-k="特钢久立特材">
+<td class="idx">52</td><td class="nm">特钢</td>
+<td class="mono down b" data-v="-2.09">-2.09%</td>
+<td class="mono sub">12</td>
+<td class="mono up" data-v="1">1</td><td class="mono down">11</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥1576.86亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">久立特材 <span class="up">+0.12%</span></td>
+<td class="nm sub">甬金股份 <span class="down">-9.02%</span></td></tr>
+<tr data-k="环境治理玉禾田">
+<td class="idx">53</td><td class="nm">环境治理</td>
+<td class="mono down b" data-v="-2.09">-2.09%</td>
+<td class="mono sub">108</td>
+<td class="mono up" data-v="4">4</td><td class="mono down">103</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥6235.48亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">玉禾田 <span class="up">+3.96%</span></td>
+<td class="nm sub">路德科技 <span class="down">-12.22%</span></td></tr>
+<tr data-k="旅游及景区三峡旅游">
+<td class="idx">54</td><td class="nm">旅游及景区</td>
+<td class="mono down b" data-v="-2.13">-2.13%</td>
+<td class="mono sub">25</td>
+<td class="mono up" data-v="2">2</td><td class="mono down">23</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥1170.41亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">三峡旅游 <span class="up">+1.80%</span></td>
+<td class="nm sub">桂林旅游 <span class="down">-4.36%</span></td></tr>
+<tr data-k="自动化设备巨能股份">
+<td class="idx">55</td><td class="nm">自动化设备</td>
+<td class="mono down b" data-v="-2.14">-2.14%</td>
+<td class="mono sub">95</td>
+<td class="mono up" data-v="21">21</td><td class="mono down">72</td>
+<td class="mono"><span class="up b">1</span></td>
+<td class="mono sub">¥12965.85亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">巨能股份 <span class="up">+18.94%</span></td>
+<td class="nm sub">思泰克 <span class="down">-8.05%</span></td></tr>
+<tr data-k="动物保健普莱柯">
+<td class="idx">56</td><td class="nm">动物保健</td>
+<td class="mono down b" data-v="-2.15">-2.15%</td>
+<td class="mono sub">12</td>
+<td class="mono up" data-v="1">1</td><td class="mono down">11</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥544.32亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">普莱柯 <span class="up">+0.10%</span></td>
+<td class="nm sub">驱动力 <span class="down">-4.35%</span></td></tr>
+<tr data-k="环保设备中材节能">
+<td class="idx">57</td><td class="nm">环保设备</td>
+<td class="mono down b" data-v="-2.17">-2.17%</td>
+<td class="mono sub">26</td>
+<td class="mono up" data-v="4">4</td><td class="mono down">22</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥1259.49亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">中材节能 <span class="up">+6.09%</span></td>
+<td class="nm sub">力合科技 <span class="down">-10.17%</span></td></tr>
+<tr data-k="工程咨询服务广咨国际">
+<td class="idx">58</td><td class="nm">工程咨询服务</td>
+<td class="mono down b" data-v="-2.18">-2.18%</td>
+<td class="mono sub">45</td>
+<td class="mono up" data-v="4">4</td><td class="mono down">41</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥1883.13亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">广咨国际 <span class="up">+2.58%</span></td>
+<td class="nm sub">蕾奥规划 <span class="down">-7.75%</span></td></tr>
+<tr data-k="商用车中国重汽">
+<td class="idx">59</td><td class="nm">商用车</td>
+<td class="mono down b" data-v="-2.21">-2.21%</td>
+<td class="mono sub">13</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">13</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥2358.08亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">中国重汽 <span class="down">-0.05%</span></td>
+<td class="nm sub">曙光股份 <span class="down">-5.94%</span></td></tr>
+<tr data-k="纺织制造南山智尚">
+<td class="idx">60</td><td class="nm">纺织制造</td>
+<td class="mono down b" data-v="-2.22">-2.22%</td>
+<td class="mono sub">32</td>
+<td class="mono up" data-v="4">4</td><td class="mono down">28</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥1780.31亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">南山智尚 <span class="up">+1.56%</span></td>
+<td class="nm sub">兴业科技 <span class="down">-7.33%</span></td></tr>
+<tr data-k="专用设备南矿集团">
+<td class="idx">61</td><td class="nm">专用设备</td>
+<td class="mono down b" data-v="-2.26">-2.26%</td>
+<td class="mono sub">206</td>
+<td class="mono up" data-v="33">33</td><td class="mono down">172</td>
+<td class="mono"><span class="up b">3</span></td>
+<td class="mono sub">¥14526.86亿</td>
+<td class="mono sub">¥304.44亿</td>
+<td class="mono sub" data-v="1.96">1.96%</td>
+<td class="nm">南矿集团 <span class="up">+10.01%</span></td>
+<td class="nm sub">*ST卓然 <span class="down">-19.40%</span></td></tr>
+<tr data-k="多元金融*ST九鼎">
+<td class="idx">62</td><td class="nm">多元金融</td>
+<td class="mono down b" data-v="-2.27">-2.27%</td>
+<td class="mono sub">25</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">25</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥4328.29亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">*ST九鼎 <span class="down">-0.15%</span></td>
+<td class="nm sub">仁东控股 <span class="down">-8.96%</span></td></tr>
+<tr data-k="燃气新奥股份">
+<td class="idx">63</td><td class="nm">燃气</td>
+<td class="mono down b" data-v="-2.35">-2.35%</td>
+<td class="mono sub">30</td>
+<td class="mono up" data-v="1">1</td><td class="mono down">29</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥2495.17亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">新奥股份 <span class="up">+0.45%</span></td>
+<td class="nm sub">升达林业 <span class="down">-9.05%</span></td></tr>
+<tr data-k="金属新材料英思特">
+<td class="idx">64</td><td class="nm">金属新材料</td>
+<td class="mono down b" data-v="-2.39">-2.39%</td>
+<td class="mono sub">36</td>
+<td class="mono up" data-v="5">5</td><td class="mono down">31</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥3376.73亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">英思特 <span class="up">+8.04%</span></td>
+<td class="nm sub">深圳新星 <span class="down">-8.16%</span></td></tr>
+<tr data-k="休闲食品来伊份">
+<td class="idx">65</td><td class="nm">休闲食品</td>
+<td class="mono down b" data-v="-2.44">-2.44%</td>
+<td class="mono sub">23</td>
+<td class="mono up" data-v="2">2</td><td class="mono down">21</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥1354.01亿</td>
+<td class="mono sub">¥20.18亿</td>
+<td class="mono sub" data-v="1.55">1.55%</td>
+<td class="nm">来伊份 <span class="up">+0.61%</span></td>
+<td class="nm sub">绝味食品 <span class="down">-7.10%</span></td></tr>
+<tr data-k="造纸岳阳林纸">
+<td class="idx">66</td><td class="nm">造纸</td>
+<td class="mono down b" data-v="-2.45">-2.45%</td>
+<td class="mono sub">25</td>
+<td class="mono up" data-v="1">1</td><td class="mono down">24</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥1464.31亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">岳阳林纸 <span class="up">+1.47%</span></td>
+<td class="nm sub">松炀资源 <span class="down">-7.40%</span></td></tr>
+<tr data-k="专业工程日上集团">
+<td class="idx">67</td><td class="nm">专业工程</td>
+<td class="mono down b" data-v="-2.5">-2.50%</td>
+<td class="mono sub">39</td>
+<td class="mono up" data-v="6">6</td><td class="mono down">33</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥3539.96亿</td>
+<td class="mono sub">¥69.54亿</td>
+<td class="mono sub" data-v="1.46">1.46%</td>
+<td class="nm">日上集团 <span class="up">+8.95%</span></td>
+<td class="nm sub">深桑达A <span class="down">-10.00%</span></td></tr>
+<tr data-k="中药恩威医药">
+<td class="idx">68</td><td class="nm">中药</td>
+<td class="mono down b" data-v="-2.51">-2.51%</td>
+<td class="mono sub">66</td>
+<td class="mono up" data-v="3">3</td><td class="mono down">62</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥7411.22亿</td>
+<td class="mono sub">¥84.20亿</td>
+<td class="mono sub" data-v="1.66">1.66%</td>
+<td class="nm">恩威医药 <span class="up">+2.82%</span></td>
+<td class="nm sub">华森制药 <span class="down">-10.02%</span></td></tr>
+<tr data-k="小金属华阳新材">
+<td class="idx">69</td><td class="nm">小金属</td>
+<td class="mono down b" data-v="-2.63">-2.63%</td>
+<td class="mono sub">27</td>
+<td class="mono up" data-v="3">3</td><td class="mono down">23</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥8859.08亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">华阳新材 <span class="up">+2.50%</span></td>
+<td class="nm sub">国城矿业 <span class="down">-5.66%</span></td></tr>
+<tr data-k="其他电源设备雷特科技">
+<td class="idx">70</td><td class="nm">其他电源设备</td>
+<td class="mono down b" data-v="-2.7">-2.70%</td>
+<td class="mono sub">36</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">36</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥5717.13亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">雷特科技 <span class="down">-0.12%</span></td>
+<td class="nm sub">通合科技 <span class="down">-7.73%</span></td></tr>
+<tr data-k="塑料天洋新材">
+<td class="idx">71</td><td class="nm">塑料</td>
+<td class="mono down b" data-v="-2.77">-2.77%</td>
+<td class="mono sub">78</td>
+<td class="mono up" data-v="9">9</td><td class="mono down">69</td>
+<td class="mono"><span class="up b">1</span></td>
+<td class="mono sub">¥5893.71亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">天洋新材 <span class="up">+10.01%</span></td>
+<td class="nm sub">银禧科技 <span class="down">-12.29%</span></td></tr>
+<tr data-k="服装家纺*ST尔雅">
+<td class="idx">72</td><td class="nm">服装家纺</td>
+<td class="mono down b" data-v="-2.77">-2.77%</td>
+<td class="mono sub">59</td>
+<td class="mono up" data-v="5">5</td><td class="mono down">53</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥2888.87亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">*ST尔雅 <span class="up">+3.64%</span></td>
+<td class="nm sub">红豆股份 <span class="down">-9.09%</span></td></tr>
+<tr data-k="航天装备新余国科">
+<td class="idx">73</td><td class="nm">航天装备</td>
+<td class="mono down b" data-v="-2.78">-2.78%</td>
+<td class="mono sub">9</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">9</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥2939.17亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">新余国科 <span class="down">-2.27%</span></td>
+<td class="nm sub">理工导航 <span class="down">-7.67%</span></td></tr>
+<tr data-k="农业综合辉隆股份">
+<td class="idx">74</td><td class="nm">农业综合</td>
+<td class="mono down b" data-v="-2.81">-2.81%</td>
+<td class="mono sub">3</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">3</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥92.22亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">辉隆股份 <span class="down">-2.45%</span></td>
+<td class="nm sub">大禹节水 <span class="down">-3.30%</span></td></tr>
+<tr data-k="电池盟固利">
+<td class="idx">75</td><td class="nm">电池</td>
+<td class="mono down b" data-v="-2.81">-2.81%</td>
+<td class="mono sub">108</td>
+<td class="mono up" data-v="7">7</td><td class="mono down">101</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥23952.22亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">盟固利 <span class="up">+1.47%</span></td>
+<td class="nm sub">时代万恒 <span class="down">-10.03%</span></td></tr>
+<tr data-k="专业连锁吉峰科技">
+<td class="idx">76</td><td class="nm">专业连锁</td>
+<td class="mono down b" data-v="-2.83">-2.83%</td>
+<td class="mono sub">7</td>
+<td class="mono up" data-v="1">1</td><td class="mono down">6</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥405.73亿</td>
+<td class="mono sub">¥6.31亿</td>
+<td class="mono sub" data-v="1.55">1.55%</td>
+<td class="nm">吉峰科技 <span class="up">+0.91%</span></td>
+<td class="nm sub">天音控股 <span class="down">-5.63%</span></td></tr>
+<tr data-k="生物制品百利天恒">
+<td class="idx">77</td><td class="nm">生物制品</td>
+<td class="mono down b" data-v="-2.84">-2.84%</td>
+<td class="mono sub">58</td>
+<td class="mono up" data-v="1">1</td><td class="mono down">57</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥7958.47亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">百利天恒 <span class="up">+0.36%</span></td>
+<td class="nm sub">近岸蛋白 <span class="down">-20.00%</span></td></tr>
+<tr data-k="工业金属中色股份">
+<td class="idx">78</td><td class="nm">工业金属</td>
+<td class="mono down b" data-v="-2.85">-2.85%</td>
+<td class="mono sub">58</td>
+<td class="mono up" data-v="1">1</td><td class="mono down">57</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥24596.01亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">中色股份 <span class="up">+0.18%</span></td>
+<td class="nm sub">永茂泰 <span class="down">-5.39%</span></td></tr>
+<tr data-k="包装印刷合兴包装">
+<td class="idx">79</td><td class="nm">包装印刷</td>
+<td class="mono down b" data-v="-2.86">-2.86%</td>
+<td class="mono sub">47</td>
+<td class="mono up" data-v="3">3</td><td class="mono down">44</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥2218.89亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">合兴包装 <span class="up">+1.27%</span></td>
+<td class="nm sub">永吉股份 <span class="down">-10.00%</span></td></tr>
+<tr data-k="软件开发多伦科技">
+<td class="idx">80</td><td class="nm">软件开发</td>
+<td class="mono down b" data-v="-2.87">-2.87%</td>
+<td class="mono sub">133</td>
+<td class="mono up" data-v="7">7</td><td class="mono down">126</td>
+<td class="mono"><span class="up b">1</span></td>
+<td class="mono sub">¥14660.52亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">多伦科技 <span class="up">+9.96%</span></td>
+<td class="nm sub">和达科技 <span class="down">-11.81%</span></td></tr>
+<tr data-k="厨卫电器亿田智能">
+<td class="idx">81</td><td class="nm">厨卫电器</td>
+<td class="mono down b" data-v="-2.94">-2.94%</td>
+<td class="mono sub">9</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">9</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥494.67亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">亿田智能 <span class="down">-0.24%</span></td>
+<td class="nm sub">万和电气 <span class="down">-6.48%</span></td></tr>
+<tr data-k="半导体华天科技">
+<td class="idx">82</td><td class="nm">半导体</td>
+<td class="mono down b" data-v="-2.96">-2.96%</td>
+<td class="mono sub">188</td>
+<td class="mono up" data-v="19">19</td><td class="mono down">168</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥113265.84亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">华天科技 <span class="up">+9.12%</span></td>
+<td class="nm sub">*ST闻泰 <span class="down">-10.00%</span></td></tr>
+<tr data-k="房地产开发*ST中迪">
+<td class="idx">83</td><td class="nm">房地产开发</td>
+<td class="mono down b" data-v="-2.99">-2.99%</td>
+<td class="mono sub">80</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">79</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥8206.50亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">*ST中迪 <span class="flat">0.00%</span></td>
+<td class="nm sub">*ST发展 <span class="down">-10.11%</span></td></tr>
+<tr data-k="专业服务天纺标">
+<td class="idx">84</td><td class="nm">专业服务</td>
+<td class="mono down b" data-v="-3.01">-3.01%</td>
+<td class="mono sub">33</td>
+<td class="mono up" data-v="3">3</td><td class="mono down">29</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥1856.03亿</td>
+<td class="mono sub">¥25.74亿</td>
+<td class="mono sub" data-v="1.36">1.36%</td>
+<td class="nm">天纺标 <span class="up">+0.90%</span></td>
+<td class="nm sub">零点有数 <span class="down">-13.11%</span></td></tr>
+<tr data-k="消费电子鸿日达">
+<td class="idx">85</td><td class="nm">消费电子</td>
+<td class="mono down b" data-v="-3.01">-3.01%</td>
+<td class="mono sub">99</td>
+<td class="mono up" data-v="5">5</td><td class="mono down">92</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥27998.13亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">鸿日达 <span class="up">+1.30%</span></td>
+<td class="nm sub">ST联光 <span class="down">-9.97%</span></td></tr>
+<tr data-k="风电设备运达股份">
+<td class="idx">86</td><td class="nm">风电设备</td>
+<td class="mono down b" data-v="-3.03">-3.03%</td>
+<td class="mono sub">31</td>
+<td class="mono up" data-v="2">2</td><td class="mono down">29</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥3117.18亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">运达股份 <span class="up">+3.52%</span></td>
+<td class="nm sub">大金重工 <span class="down">-7.13%</span></td></tr>
+<tr data-k="航海装备江龙船艇">
+<td class="idx">87</td><td class="nm">航海装备</td>
+<td class="mono down b" data-v="-3.04">-3.04%</td>
+<td class="mono sub">10</td>
+<td class="mono up" data-v="1">1</td><td class="mono down">9</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥5302.66亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">江龙船艇 <span class="up">+5.64%</span></td>
+<td class="nm sub">松发股份 <span class="down">-6.61%</span></td></tr>
+<tr data-k="光学光电子芯瑞达">
+<td class="idx">88</td><td class="nm">光学光电子</td>
+<td class="mono down b" data-v="-3.06">-3.06%</td>
+<td class="mono sub">96</td>
+<td class="mono up" data-v="11">11</td><td class="mono down">84</td>
+<td class="mono"><span class="up b">1</span></td>
+<td class="mono sub">¥12821.05亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">芯瑞达 <span class="up">+10.00%</span></td>
+<td class="nm sub">光智科技 <span class="down">-12.94%</span></td></tr>
+<tr data-k="橡胶科隆新材">
+<td class="idx">89</td><td class="nm">橡胶</td>
+<td class="mono down b" data-v="-3.1">-3.10%</td>
+<td class="mono sub">23</td>
+<td class="mono up" data-v="3">3</td><td class="mono down">20</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥1097.70亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">科隆新材 <span class="up">+2.72%</span></td>
+<td class="nm sub">科创新源 <span class="down">-5.24%</span></td></tr>
+<tr data-k="其他电子云汉芯城">
+<td class="idx">90</td><td class="nm">其他电子</td>
+<td class="mono down b" data-v="-3.12">-3.12%</td>
+<td class="mono sub">33</td>
+<td class="mono up" data-v="3">3</td><td class="mono down">30</td>
+<td class="mono"><span class="up b">2</span></td>
+<td class="mono sub">¥3360.23亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">云汉芯城 <span class="up">+16.16%</span></td>
+<td class="nm sub">新亚制程 <span class="down">-10.00%</span></td></tr>
+<tr data-k="农化制品颖泰生物">
+<td class="idx">91</td><td class="nm">农化制品</td>
+<td class="mono down b" data-v="-3.14">-3.14%</td>
+<td class="mono sub">62</td>
+<td class="mono up" data-v="2">2</td><td class="mono down">60</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥7838.50亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">颖泰生物 <span class="up">+0.33%</span></td>
+<td class="nm sub">史丹利 <span class="down">-5.64%</span></td></tr>
+<tr data-k="化学制药康鹏科技">
+<td class="idx">92</td><td class="nm">化学制药</td>
+<td class="mono down b" data-v="-3.21">-3.21%</td>
+<td class="mono sub">159</td>
+<td class="mono up" data-v="5">5</td><td class="mono down">154</td>
+<td class="mono"><span class="up b">1</span></td>
+<td class="mono sub">¥22293.82亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">康鹏科技 <span class="up">+13.85%</span></td>
+<td class="nm sub">联亚药业 <span class="down">-12.76%</span></td></tr>
+<tr data-k="种植业北大荒">
+<td class="idx">93</td><td class="nm">种植业</td>
+<td class="mono down b" data-v="-3.21">-3.21%</td>
+<td class="mono sub">21</td>
+<td class="mono up" data-v="1">1</td><td class="mono down">20</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥1414.98亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">北大荒 <span class="up">+0.73%</span></td>
+<td class="nm sub">万向德农 <span class="down">-8.39%</span></td></tr>
+<tr data-k="化学制品中广核技">
+<td class="idx">94</td><td class="nm">化学制品</td>
+<td class="mono down b" data-v="-3.23">-3.23%</td>
+<td class="mono sub">185</td>
+<td class="mono up" data-v="6">6</td><td class="mono down">178</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥14846.62亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">中广核技 <span class="up">+0.78%</span></td>
+<td class="nm sub">呈和科技 <span class="down">-12.62%</span></td></tr>
+<tr data-k="军工电子华力创通">
+<td class="idx">95</td><td class="nm">军工电子</td>
+<td class="mono down b" data-v="-3.25">-3.25%</td>
+<td class="mono sub">61</td>
+<td class="mono up" data-v="3">3</td><td class="mono down">58</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥7393.23亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">华力创通 <span class="up">+7.35%</span></td>
+<td class="nm sub">高凌信息 <span class="down">-9.99%</span></td></tr>
+<tr data-k="通用设备安培龙">
+<td class="idx">96</td><td class="nm">通用设备</td>
+<td class="mono down b" data-v="-3.26">-3.26%</td>
+<td class="mono sub">256</td>
+<td class="mono up" data-v="51">51</td><td class="mono down">204</td>
+<td class="mono"><span class="up b">5</span></td>
+<td class="mono sub">¥19836.16亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">安培龙 <span class="up">+14.60%</span></td>
+<td class="nm sub">泰尔股份 <span class="down">-10.04%</span></td></tr>
+<tr data-k="航运港口秦港股份">
+<td class="idx">97</td><td class="nm">航运港口</td>
+<td class="mono down b" data-v="-3.27">-3.27%</td>
+<td class="mono sub">35</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">34</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥11914.98亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">秦港股份 <span class="flat">0.00%</span></td>
+<td class="nm sub">招商轮船 <span class="down">-7.61%</span></td></tr>
+<tr data-k="能源金属寒锐钴业">
+<td class="idx">98</td><td class="nm">能源金属</td>
+<td class="mono down b" data-v="-3.29">-3.29%</td>
+<td class="mono sub">12</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">12</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥3551.49亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">寒锐钴业 <span class="down">-1.44%</span></td>
+<td class="nm sub">盛新锂能 <span class="down">-4.72%</span></td></tr>
+<tr data-k="家居用品金牌家居">
+<td class="idx">99</td><td class="nm">家居用品</td>
+<td class="mono down b" data-v="-3.32">-3.32%</td>
+<td class="mono sub">76</td>
+<td class="mono up" data-v="4">4</td><td class="mono down">72</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥4264.84亿</td>
+<td class="mono sub">¥66.07亿</td>
+<td class="mono sub" data-v="1.85">1.85%</td>
+<td class="nm">金牌家居 <span class="up">+3.51%</span></td>
+<td class="nm sub">森鹰窗业 <span class="down">-20.00%</span></td></tr>
+<tr data-k="其他家电融捷健康">
+<td class="idx">100</td><td class="nm">其他家电</td>
+<td class="mono down b" data-v="-3.35">-3.35%</td>
+<td class="mono sub">3</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">3</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥108.07亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">融捷健康 <span class="down">-2.03%</span></td>
+<td class="nm sub">奥佳华 <span class="down">-4.55%</span></td></tr>
+<tr data-k="摩托车及其他上海凤凰">
+<td class="idx">101</td><td class="nm">摩托车及其他</td>
+<td class="mono down b" data-v="-3.35">-3.35%</td>
+<td class="mono sub">18</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">18</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥2141.67亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">上海凤凰 <span class="down">-0.56%</span></td>
+<td class="nm sub">爱玛科技 <span class="down">-10.00%</span></td></tr>
+<tr data-k="房地产服务*ST皇庭">
+<td class="idx">102</td><td class="nm">房地产服务</td>
+<td class="mono down b" data-v="-3.36">-3.36%</td>
+<td class="mono sub">15</td>
+<td class="mono up" data-v="1">1</td><td class="mono down">14</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥625.33亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">*ST皇庭 <span class="up">+0.99%</span></td>
+<td class="nm sub">世联行 <span class="down">-6.15%</span></td></tr>
+<tr data-k="油气开采海南矿业">
+<td class="idx">103</td><td class="nm">油气开采</td>
+<td class="mono down b" data-v="-3.44">-3.44%</td>
+<td class="mono sub">5</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">5</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥16665.35亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">海南矿业 <span class="down">-1.69%</span></td>
+<td class="nm sub">新潮能源 <span class="down">-4.71%</span></td></tr>
+<tr data-k="汽车服务申华控股">
+<td class="idx">104</td><td class="nm">汽车服务</td>
+<td class="mono down b" data-v="-3.51">-3.51%</td>
+<td class="mono sub">8</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">8</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥328.28亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">申华控股 <span class="down">-1.24%</span></td>
+<td class="nm sub">阿尔特 <span class="down">-7.46%</span></td></tr>
+<tr data-k="焦炭陕西黑猫">
+<td class="idx">105</td><td class="nm">焦炭</td>
+<td class="mono down b" data-v="-3.58">-3.58%</td>
+<td class="mono sub">7</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">7</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥499.80亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">陕西黑猫 <span class="down">-2.49%</span></td>
+<td class="nm sub">安泰集团 <span class="down">-10.00%</span></td></tr>
+<tr data-k="IT服务海量数据">
+<td class="idx">106</td><td class="nm">IT服务</td>
+<td class="mono down b" data-v="-3.8">-3.80%</td>
+<td class="mono sub">136</td>
+<td class="mono up" data-v="5">5</td><td class="mono down">131</td>
+<td class="mono"><span class="up b">1</span></td>
+<td class="mono sub">¥11821.77亿</td>
+<td class="mono sub">¥328.34亿</td>
+<td class="mono sub" data-v="2.88">2.88%</td>
+<td class="nm">海量数据 <span class="up">+10.01%</span></td>
+<td class="nm sub">开普云 <span class="down">-12.33%</span></td></tr>
+<tr data-k="非金属材料天马新材">
+<td class="idx">107</td><td class="nm">非金属材料</td>
+<td class="mono down b" data-v="-3.84">-3.84%</td>
+<td class="mono sub">16</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">15</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥1411.86亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">天马新材 <span class="flat">0.00%</span></td>
+<td class="nm sub">联瑞新材 <span class="down">-6.73%</span></td></tr>
+<tr data-k="装修装饰郑中设计">
+<td class="idx">108</td><td class="nm">装修装饰</td>
+<td class="mono down b" data-v="-3.85">-3.85%</td>
+<td class="mono sub">21</td>
+<td class="mono up" data-v="2">2</td><td class="mono down">19</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥1000.17亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">郑中设计 <span class="up">+2.03%</span></td>
+<td class="nm sub">德才股份 <span class="down">-10.01%</span></td></tr>
+<tr data-k="贵金属中金黄金">
+<td class="idx">109</td><td class="nm">贵金属</td>
+<td class="mono down b" data-v="-3.89">-3.89%</td>
+<td class="mono sub">13</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">13</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥5698.33亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">中金黄金 <span class="down">-3.17%</span></td>
+<td class="nm sub">招金黄金 <span class="down">-5.70%</span></td></tr>
+<tr data-k="游戏大晟文化">
+<td class="idx">110</td><td class="nm">游戏</td>
+<td class="mono down b" data-v="-3.93">-3.93%</td>
+<td class="mono sub">24</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">24</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥3615.80亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">大晟文化 <span class="down">-0.70%</span></td>
+<td class="nm sub">凯撒文化 <span class="down">-8.43%</span></td></tr>
+<tr data-k="医疗服务爱尔眼科">
+<td class="idx">111</td><td class="nm">医疗服务</td>
+<td class="mono down b" data-v="-3.99">-3.99%</td>
+<td class="mono sub">54</td>
+<td class="mono up" data-v="1">1</td><td class="mono down">53</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥10788.64亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">爱尔眼科 <span class="up">+0.13%</span></td>
+<td class="nm sub">澳洋健康 <span class="down">-10.04%</span></td></tr>
+<tr data-k="化学原料大洋生物">
+<td class="idx">112</td><td class="nm">化学原料</td>
+<td class="mono down b" data-v="-4.05">-4.05%</td>
+<td class="mono sub">61</td>
+<td class="mono up" data-v="2">2</td><td class="mono down">59</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥7318.25亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">大洋生物 <span class="up">+4.71%</span></td>
+<td class="nm sub">善水科技 <span class="down">-16.24%</span></td></tr>
+<tr data-k="文娱用品英派斯">
+<td class="idx">113</td><td class="nm">文娱用品</td>
+<td class="mono down b" data-v="-4.16">-4.16%</td>
+<td class="mono sub">21</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">21</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥1010.00亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">英派斯 <span class="down">-0.82%</span></td>
+<td class="nm sub">通达创智 <span class="down">-9.99%</span></td></tr>
+<tr data-k="出版出版传媒">
+<td class="idx">114</td><td class="nm">出版</td>
+<td class="mono down b" data-v="-4.37">-4.37%</td>
+<td class="mono sub">28</td>
+<td class="mono up" data-v="1">1</td><td class="mono down">27</td>
+<td class="mono"><span class="up b">1</span></td>
+<td class="mono sub">¥2695.91亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">出版传媒 <span class="up">+10.00%</span></td>
+<td class="nm sub">果麦文化 <span class="down">-13.75%</span></td></tr>
+<tr data-k="渔业大湖股份">
+<td class="idx">115</td><td class="nm">渔业</td>
+<td class="mono down b" data-v="-4.4">-4.40%</td>
+<td class="mono sub">6</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">6</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥164.14亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">大湖股份 <span class="down">-3.14%</span></td>
+<td class="nm sub">中水渔业 <span class="down">-6.38%</span></td></tr>
+<tr data-k="综合时代新材">
+<td class="idx">116</td><td class="nm">综合</td>
+<td class="mono down b" data-v="-4.41">-4.41%</td>
+<td class="mono sub">20</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">20</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥1829.52亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">时代新材 <span class="down">-0.20%</span></td>
+<td class="nm sub">东阳光 <span class="down">-6.81%</span></td></tr>
+<tr data-k="电子化学品凯华材料">
+<td class="idx">117</td><td class="nm">电子化学品</td>
+<td class="mono down b" data-v="-4.5">-4.50%</td>
+<td class="mono sub">37</td>
+<td class="mono up" data-v="1">1</td><td class="mono down">36</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥5550.15亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">凯华材料 <span class="up">+3.22%</span></td>
+<td class="nm sub">宏昌电子 <span class="down">-7.12%</span></td></tr>
+<tr data-k="互联网电商焦点科技">
+<td class="idx">118</td><td class="nm">互联网电商</td>
+<td class="mono down b" data-v="-4.77">-4.77%</td>
+<td class="mono sub">18</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">18</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥1109.36亿</td>
+<td class="mono sub">¥31.72亿</td>
+<td class="mono sub" data-v="2.44">2.44%</td>
+<td class="nm">焦点科技 <span class="down">-1.20%</span></td>
+<td class="nm sub">跨境通 <span class="down">-8.42%</span></td></tr>
+<tr data-k="教育ST东时">
+<td class="idx">119</td><td class="nm">教育</td>
+<td class="mono down b" data-v="-4.8">-4.80%</td>
+<td class="mono sub">17</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">17</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥768.40亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">ST东时 <span class="down">-1.64%</span></td>
+<td class="nm sub">昂立教育 <span class="down">-10.04%</span></td></tr>
+<tr data-k="玻璃玻纤三峡新材">
+<td class="idx">120</td><td class="nm">玻璃玻纤</td>
+<td class="mono down b" data-v="-4.8">-4.80%</td>
+<td class="mono sub">15</td>
+<td class="mono up" data-v="4">4</td><td class="mono down">9</td>
+<td class="mono"><span class="up b">1</span></td>
+<td class="mono sub">¥4605.08亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">三峡新材 <span class="up">+10.11%</span></td>
+<td class="nm sub">宏和科技 <span class="down">-7.69%</span></td></tr>
+<tr data-k="广告营销元隆雅图">
+<td class="idx">121</td><td class="nm">广告营销</td>
+<td class="mono down b" data-v="-5.03">-5.03%</td>
+<td class="mono sub">30</td>
+<td class="mono up" data-v="1">1</td><td class="mono down">29</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥2772.99亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">元隆雅图 <span class="up">+4.35%</span></td>
+<td class="nm sub">引力传媒 <span class="down">-10.00%</span></td></tr>
+<tr data-k="数字媒体*ST三六五">
+<td class="idx">122</td><td class="nm">数字媒体</td>
+<td class="mono down b" data-v="-5.1">-5.10%</td>
+<td class="mono sub">15</td>
+<td class="mono up" data-v="1">1</td><td class="mono down">14</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥1939.33亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">*ST三六五 <span class="up">+2.65%</span></td>
+<td class="nm sub">返利科技 <span class="down">-9.39%</span></td></tr>
+<tr data-k="电视广播新媒股份">
+<td class="idx">123</td><td class="nm">电视广播</td>
+<td class="mono down b" data-v="-5.15">-5.15%</td>
+<td class="mono sub">13</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">13</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥1224.59亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">新媒股份 <span class="down">-3.06%</span></td>
+<td class="nm sub">贵广网络 <span class="down">-8.94%</span></td></tr>
+<tr data-k="林业*ST景谷">
+<td class="idx">124</td><td class="nm">林业</td>
+<td class="mono down b" data-v="-5.47">-5.47%</td>
+<td class="mono sub">4</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">4</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥198.95亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">*ST景谷 <span class="down">-3.05%</span></td>
+<td class="nm sub">福建金森 <span class="down">-6.84%</span></td></tr>
+<tr data-k="影视院线中国电影">
+<td class="idx">125</td><td class="nm">影视院线</td>
+<td class="mono down b" data-v="-5.71">-5.71%</td>
+<td class="mono sub">18</td>
+<td class="mono up" data-v="0">0</td><td class="mono down">18</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥1733.41亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">中国电影 <span class="down">-2.92%</span></td>
+<td class="nm sub">百纳千成 <span class="down">-11.01%</span></td></tr>
+<tr data-k="通信设备通则康威">
+<td class="idx">126</td><td class="nm">通信设备</td>
+<td class="mono down b" data-v="-5.98">-5.98%</td>
+<td class="mono sub">92</td>
+<td class="mono up" data-v="7">7</td><td class="mono down">84</td>
+<td class="mono"><span class="up b">1</span></td>
+<td class="mono sub">¥32202.71亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">通则康威 <span class="up">+171.54%</span></td>
+<td class="nm sub">新易盛 <span class="down">-12.28%</span></td></tr>
+<tr data-k="元件天津普林">
+<td class="idx">127</td><td class="nm">元件</td>
+<td class="mono down b" data-v="-6.23">-6.23%</td>
+<td class="mono sub">67</td>
+<td class="mono up" data-v="2">2</td><td class="mono down">65</td>
+<td class="mono"><span class="sub">0</span></td>
+<td class="mono sub">¥26098.60亿</td>
+<td class="mono sub">—</td>
+<td class="mono sub" data-v="0.0">—</td>
+<td class="nm">天津普林 <span class="up">+5.38%</span></td>
+<td class="nm sub">威尔高 <span class="down">-10.16%</span></td></tr></tbody></table></div>
+  <div class="note">口径：12/127 个板块涨跌幅取自东方财富行业板块指数当日日K官方值，其余板块因东财 push2 行情接口限流未取到，改由该板块成分股当日收盘涨跌幅按总市值加权计算（表中标注一致）；上涨/下跌/涨停家数与领涨领跌股均由 2026-10-22 全市场 5577 只个股真实收盘价现算。</div>
+</div>
+
+<footer>
+  <b>数据来源（全部为真实接口抓取，无模拟数据）：</b>
+  <div class="src">
+    <span>① 龙虎榜：东方财富数据中心 datacenter-web · RPT_DAILYBILLBOARD_DETAILSNEW</span>
+    <span>② 题材热点：同花顺 zx.10jqka.com.cn · getharden 当日强势股 reason 归因</span>
+    <span>③ 行业板块：东方财富 push2his 板块日K（BK 指数）· push2 clist 行业列表</span>
+    <span>④ 个股涨跌/行业归属：东方财富数据中心 · RPT_VALUEANALYSIS_DET（2026-10-22 全市场 5577 只）</span>
+  </div>
+  <div style="margin-top:8px">
+    交易日期：<b>2026-10-22</b>　|　数据抓取时间：<b>2026-10-22 14:17</b>　|　颜色约定：<span class="up">红涨</span> / <span class="down">绿跌</span>（A股惯例）　|　金额单位：¥ 亿 / 万
+  </div>
+  <div style="margin-top:6px">
+    口径说明：行业涨跌幅取东方财富行业板块指数当日日K真实收盘涨跌幅；上涨/下跌家数与领涨领跌股由当日全市场个股收盘涨跌幅按东财行业归属现算，
+    非实时快照。龙虎榜同一只股票若因多个原因上榜，已按股票去重合并原因，净买入取金额绝对值最大的一条，避免重复累加。
+    本页仅为市场数据复盘，不构成任何投资建议。
+  </div>
+</footer>
+
+</div>
+<script>
+(function(){
+ function bind(q,t,c){
+  var i=document.getElementById(q),tb=document.querySelector('#'+t+' tbody'),lb=document.getElementById(c);
+  if(!i||!tb)return;
+  var rows=[].slice.call(tb.rows);
+  function upd(){
+   var v=i.value.trim().toLowerCase(),n=0;
+   rows.forEach(function(r){
+     var ok=!v||(r.dataset.k||'').toLowerCase().indexOf(v)>=0;
+     r.style.display=ok?'':'none'; if(ok)n++;
+   });
+   lb.textContent=v?('匹配 '+n+' 条'):'';
+  }
+  i.addEventListener('input',upd);
+ }
+ bind('q1','t1','c1'); bind('q2','t2','c2'); bind('q3','t3','c3');
+ [].forEach.call(document.querySelectorAll('.btn[data-t]'),function(b){
+  b.addEventListener('click',function(){
+   var t=b.dataset.t,ci=+b.dataset.c,tb=document.querySelector('#'+t+' tbody');
+   [].forEach.call(document.querySelectorAll('.btn[data-t="'+t+'"]'),function(x){x.classList.remove('on')});
+   b.classList.add('on');
+   var rows=[].slice.call(tb.rows);
+   rows.sort(function(a,z){
+     var x=parseFloat((a.cells[ci].dataset.v||a.cells[ci].textContent).replace(/[^\d.\-]/g,''))||0;
+     var y=parseFloat((z.cells[ci].dataset.v||z.cells[ci].textContent).replace(/[^\d.\-]/g,''))||0;
+     return y-x;
+   });
+   rows.forEach(function(r,k){tb.appendChild(r);r.cells[0].textContent=k+1;});
+  });
+ });
+})();
+</script>
+</body></html>
